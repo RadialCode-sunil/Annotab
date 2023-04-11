@@ -7,10 +7,10 @@ const Resources = () => {
             <Container className=''>
                 <div>
                     <div>
-                        <h2>
+                        <h2 className=' ff_Medium fw_400 fs_3xl white'>
                             Resources
                         </h2>
-                        <p>
+                        <p className=' ff_Book fw_400 fs_sm white'>
                             Magna scelerisque amet adipiscing diam ac justo. Elementum mattis aenean malesuada mauris eget platea id. Ullamcorper.
                         </p>
                     </div>
