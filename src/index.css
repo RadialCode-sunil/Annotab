@@ -26,12 +26,13 @@
 }
 
 .Team_slider_box {
-  
-  mix-blend-mode: normal;
   border-radius: 16px;
-  height: 630px;
-  width: 470px;
-  left: 0px;
-  top: 0px;
-  border-radius: 16px;
+}
+
+.Team_slider_img_box {
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.58);
+  backdrop-filter: blur(9.5px);
+  padding: 30px 40px 53px 30px ;
+   border-radius:0 0 16px 16px;
 }

@@ -9,16 +9,16 @@ const Team = () => {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 4.26,
+        slidesToShow: 2.18,
         slidesToScroll: 1,
         arrows: false,
-        nextArrow: ".next",
-        prevArrow: ".back",
+        centerMode: true,
+        centerPadding: "100px",
         responsive: [
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3.25,
+                    slidesToShow: 2.25,
                     slidesToScroll: 3,
                     infinite: true,
                     dots: false
@@ -27,15 +27,17 @@ const Team = () => {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2.25,
+                    slidesToShow: 1.25,
                     slidesToScroll: 2
                 }
             },
             {
-                breakpoint: 670,
+                breakpoint: 768,
                 settings: {
-                    slidesToShow: 1.03,
-                    slidesToScroll: 1
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                    centerPadding: "0px",
                 }
             }]
     };
@@ -43,30 +45,45 @@ const Team = () => {
         <section className='py-5'>
             <Container>
                 <h2 className=' ff_Medium fw_500 fs_3xl white text-center'>Team</h2>
-                <p className=' ff_Book fw_300 fs_sm white text-center Team_p_w mx-auto'>
+                <p className=' ff_Book fw_300 fs_sm white text-center Team_p_w mx-auto pt-3'>
                     Risus suspendisse mauris sit placerat et interdum. Mauris tellus et visssg. Urna diam massa varius orci porta.
                 </p>
-                <Slider {...Team_slider}>
+                <Slider {...Team_slider} className='pt-5'>
                     <div>
-                        <div className='Team_slider_box'>
-                            
-                       </div>
+                        <div className='Team_slider_box position-relative mx-3'>
+                            <img className=' w-100' src={Team_boy_img_2} alt="Boy" />
+                            <div className='Team_slider_img_box position-absolute'>
+                                <p className=' ff_Medium fw_500 fs_lg white'>Et urna nisi lorem</p>
+                                <p className=' ff_Book fw_300 fs_sm white opacity_7'>
+                                    Libero et fames egestas felis proin in posuere consectetur. Velit turpis etiam quis risus auctor.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                     <div>
-                        <h3>2</h3>
+                        <div className='Team_slider_box position-relative mx-3'>
+                            <img className=' w-100' src={Team_boy_img_3} alt="Boy" />
+                            <div className='Team_slider_img_box position-absolute'>
+                                <p className=' ff_Medium fw_500 fs_lg white'>Et urna nisi lorem</p>
+                                <p className=' ff_Book fw_300 fs_sm white opacity_7'>
+                                    Libero et fames egestas felis proin in posuere consectetur. Velit turpis etiam quis risus auctor.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                     <div>
-                        <h3>3</h3>
+                        <div className='Team_slider_box position-relative mx-3'>
+                            <img className=' w-100' src={Team_boy_img_1} alt="Boy" />
+                            <div className='Team_slider_img_box position-absolute'>
+                                <p className=' ff_Medium fw_500 fs_lg white'>Et urna nisi lorem</p>
+                                <p className=' ff_Book fw_300 fs_sm white opacity_7'>
+                                    Libero et fames egestas felis proin in posuere consectetur. Velit turpis etiam quis risus auctor.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <h3>4</h3>
-                    </div>
-                    <div>
-                        <h3>5</h3>
-                    </div>
-                    <div>
-                        <h3>6</h3>
-                    </div>
+
+
                 </Slider>
 
             </Container>
