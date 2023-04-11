@@ -3,6 +3,19 @@
 .Resources_Blogs {
   border-bottom: 1px solid var(--color-white);
 }
+
 .Resources_Documentation {
   border-bottom: 1px solid #ffffff7c;
+}
+
+.Resources_slider_box {
+  background: rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0px 2px 27px rgba(0, 0, 0, 0.08);
+  padding: 40px;
+}
+
+.Resources_slider_box_btn {
+  padding: 18px 32px;
+  border: 1px solid var(--color-sky);
 }
