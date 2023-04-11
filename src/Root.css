@@ -9,18 +9,18 @@
 }
 
 @font-face {
-    font-family: 'AllRoundGothic-Bold', sans-serif;
-    src: url(../src/assets/Font-family/FontsFree-Net-All-Round-Gothic-W01-Bold.ttf);
+    font-family: 'AllRoundGothic-Bold';
+    src: url(../src/assets/Font-family/Fontspring-DEMO-allroundgothic-bold.otf);
 }
 
 @font-face {
-    font-family: 'AllRoundGothic-Medium', sans-serif;
-    src: url(../src/assets/Font-family/FontsFree-Net-All-Round-Gothic-Medium.ttf);
+    font-family: 'AllRoundGothic-Medium';
+    src: url(../src/assets/Font-family/Fontspring-DEMO-allroundgothic-medium.otf);
 }
 
 @font-face {
-    font-family: 'AllRoundGothic-Book', sans-serif;
-    src: url(../src/assets/Font-family/FontsFree-Net-All-Round-Gothic-W01-Book.ttf);
+    font-family: 'AllRoundGothic-Book';
+    src: url(../src/assets/Font-family/Fontspring-DEMO-allroundgothic-book.otf);
 }
 
 /* font-family */
