@@ -1,0 +1,14 @@
+.turpis_img {
+    background: url(../src/assets/img/png/turpis_bg_img.png) center no-repeat;
+    background-size: cover;
+ 
+}
+
+.sign_up_btn {
+    background: #00FFCC;
+    padding: 18px 32px;
+}
+
+.feauth_wdth {
+    max-width: 731px;
+}
