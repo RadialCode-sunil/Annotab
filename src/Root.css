@@ -8,19 +8,23 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: 'AllRoundGothic-Bold', sans-serif;
-    src: url(../src/assets/Font-family/FontsFree-Net-All-Round-Gothic-W01-Bold.ttf);
+.opacity_7 {
+    opacity: 0.7;
 }
 
 @font-face {
-    font-family: 'AllRoundGothic-Medium', sans-serif;
-    src: url(../src/assets/Font-family/FontsFree-Net-All-Round-Gothic-Medium.ttf);
+    font-family: 'AllRoundGothic-Bold';
+    src: url(../src/assets/Font-family/Fontspring-DEMO-allroundgothic-bold.otf);
 }
 
 @font-face {
-    font-family: 'AllRoundGothic-Book', sans-serif;
-    src: url(../src/assets/Font-family/FontsFree-Net-All-Round-Gothic-W01-Book.ttf);
+    font-family: 'AllRoundGothic-Medium';
+    src: url(../src/assets/Font-family/Fontspring-DEMO-allroundgothic-medium.otf);
+}
+
+@font-face {
+    font-family: 'AllRoundGothic-Book';
+    src: url(../src/assets/Font-family/Fontspring-DEMO-allroundgothic-book.otf);
 }
 
 /* font-family */
@@ -148,4 +152,33 @@
 
 .fw_400 {
     font-weight: 400;
+}
+.fw_300 {
+    font-weight: 300;
+}
+
+@media (max-width:992px) {
+
+    :root {
+        /* font_size */
+        --fs-4xl: 55px;
+        --fs-3xl: 43px;
+        --fs-2xl: 37px;
+        --fs-xl: 28px;
+    }
+}
+
+@media (max-width:576px) {
+
+    :root {
+        /* font_size */
+        --fs-4xl: 36px;
+        --fs-3xl: 27px;
+        --fs-2xl: 22px;
+        --fs-xl: 20px;
+        --fs-lg: 19px;
+        --fs-md: 18px;
+        --fs-sm: 15px;
+        --fs-ss: 13px;
+    }
 }

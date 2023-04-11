@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Resources */
+
+.Resources_Blogs {
+  border-bottom: 1px solid var(--color-white);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Resources_Documentation {
+  border-bottom: 1px solid #ffffff7c;
+}
+
+.Resources_slider_box {
+  background: rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0px 2px 27px rgba(0, 0, 0, 0.08);
+  padding: 40px;
+}
+
+.Resources_slider_box_btn {
+  padding: 18px 32px;
+  border: 1px solid var(--color-sky);
+}
+
+/* Team */
+.Team_p_w {
+  max-width: 514px;
+}
+
+.Team_slider_box {
+  border-radius: 16px;
+}
+
+.Team_slider_img_box {
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.58);
+  backdrop-filter: blur(9.5px);
+  padding: 30px 40px 53px 30px ;
+   border-radius:0 0 16px 16px;
 }
