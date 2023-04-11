@@ -1,13 +1,12 @@
 import React from 'react'
-import NavBar from './NavBar'
 import Resources from './Resources'
 import Team from './Team'
-import Process from './Process'
+import Hero from './Hero'
 
 const Home = () => {
     return (
         <div className='bg_darkblue'>
-            <NavBar />
+            <Hero/>
             <Resources />
             <Team />
             <Process />
