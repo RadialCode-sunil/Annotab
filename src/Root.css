@@ -1,0 +1,151 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'AllRoundGothic-Bold', sans-serif;
+    src: url(../src/assets/Font-family/FontsFree-Net-All-Round-Gothic-W01-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'AllRoundGothic-Medium', sans-serif;
+    src: url(../src/assets/Font-family/FontsFree-Net-All-Round-Gothic-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'AllRoundGothic-Book', sans-serif;
+    src: url(../src/assets/Font-family/FontsFree-Net-All-Round-Gothic-W01-Book.ttf);
+}
+
+/* font-family */
+.ff_Book {
+    font-family: 'AllRoundGothic-Book', sans-serif;
+}
+
+.ff_Bold {
+    font-family: 'AllRoundGothic-Bold', sans-serif;
+}
+
+.ff_Medium {
+    font-family: 'AllRoundGothic-Medium', sans-serif;
+}
+
+/* root */
+:root {
+    /* font_size */
+    --fs-4xl: 64px;
+    --fs-3xl: 48px;
+    --fs-2xl: 40px;
+    --fs-xl: 32px;
+    --fs-lg: 24px;
+    --fs-md: 20px;
+    --fs-sm: 16px;
+    --fs-ss: 14px;
+
+    /* color */
+    --color-white: #FFFFFF;
+    --color-sky: #00FFCC;
+    --color-grey: #FCFCFF;
+    --color-darkblue: #1C1F26;
+    --color-lightblue: #1C1F26;
+    --color-black: #000000;
+
+}
+
+/* color */
+.white {
+    color: var(--color-white) !important;
+}
+
+.sky {
+    color: var(--color-sky) !important;
+}
+
+.grey {
+    color: var(--color-grey) !important;
+}
+
+.darkblue {
+    color: var(--color-darkblue) !important;
+}
+
+.lightblue {
+    color: var(--color-lightblue) !important;
+}
+
+.black {
+    color: var(--color-black) !important;
+}
+
+/* Bg-color */
+
+.bg_white {
+    background: var(--color-white);
+}
+
+.bg_sky {
+    background: var(--color-sky);
+}
+
+.bg_darkblue {
+    background: var(--color-darkblue);
+}
+
+
+/* font_size */
+
+.fs_4xl {
+    font-size: var(--fs-4xl);
+}
+
+.fs_3xl {
+    font-size: var(--fs-3xl);
+}
+
+.fs_2xl {
+    font-size: var(--fs-2xl);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_ss {
+    font-size: var(--fs-ss);
+}
+
+
+/* font-weight */
+.fw_700 {
+    font-weight: 700;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
