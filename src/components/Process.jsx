@@ -1,11 +1,11 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import threedisplay from '../assets/img/png/threedisplay.png';
-import greenboll from '../assets/img/png/green_light.png'
+import greenboll from '../assets/img/png/green_light.png';
 const Process = () => {
     return (
         <div className='darkblue pt-5 position-relative'>
-            <img className=' position-absolute ' src={greenboll} alt="" />
+            <img className=' position-absolute Team_green_light' src={greenboll} alt="" />
             <Container>
                 <Row className=' align-items-center'>
                     <Col xs={12} md={6}>
