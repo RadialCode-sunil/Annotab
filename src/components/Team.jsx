@@ -43,13 +43,14 @@ const Team = () => {
             }]
     };
     return (
-        <section className='py-5 position-relative'>
+        <section className='py-5 position-relative overflow-hidden'>
+            <img className=' position-absolute Team_green_light' src={green_light} alt="green_light" />
             <Container>
                 <h2 className=' ff_Medium fw_500 fs_3xl white text-center'>Team</h2>
                 <p className=' ff_Book fw_300 fs_sm white text-center Team_p_w mx-auto pt-3'>
                     Risus suspendisse mauris sit placerat et interdum. Mauris tellus et visssg. Urna diam massa varius orci porta.
                 </p>
-                <img className=' position-absolute' src={green_light} alt="green_light" />
+
                 <Slider {...Team_slider} className='pt-5'>
                     <div>
                         <div className='Team_slider_box position-relative mx-3'>

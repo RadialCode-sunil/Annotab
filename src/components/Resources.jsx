@@ -10,8 +10,6 @@ const Resources = () => {
         slidesToShow: 4.26,
         slidesToScroll: 1,
         arrows: false,
-        nextArrow: ".next",
-        prevArrow: ".back",
         responsive: [
             {
                 breakpoint: 1200,
@@ -38,7 +36,7 @@ const Resources = () => {
             }]
     };
     return (
-        <section className='py-5'>
+        <section className='py-5 overflow-hidden'>
             <Container className=''>
                 <div className=' d-flex flex-column flex-lg-row align-items-lg-center'>
                     <div>

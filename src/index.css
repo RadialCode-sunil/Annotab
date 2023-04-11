@@ -33,6 +33,11 @@
   bottom: 0;
   background: rgba(0, 0, 0, 0.58);
   backdrop-filter: blur(9.5px);
-  padding: 30px 40px 53px 30px ;
-   border-radius:0 0 16px 16px;
+  padding: 30px 40px 53px 30px;
+  border-radius: 0 0 16px 16px;
+}
+
+.Team_green_light {
+  left: -470px;
+  top: 0;
 }
