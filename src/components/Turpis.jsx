@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 export const Turpis = () => {
     return (
-        <section>
+        <section className='py-5'>
             <Container>
                 <div className='turpis_img text-center py-5 my-5'>
                     <h3 className=' ff_Medium fs_3xl fw_400 white'>Turpis id consectetur</h3>

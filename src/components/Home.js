@@ -12,6 +12,7 @@ const Home = () => {
             <Resources />
             <Team />
             <Process />
+            <Turpis/>
         </div>
     )
 }
