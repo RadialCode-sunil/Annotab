@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box !important;
+  list-style-type: none !important;
+  text-decoration: none !important;
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: "AllRoundGothic", sans-serif;
+  src: url(../src/assets/Font-family/AllRoundGothic-Bold.ttf);
+}
+.ff_all_round {
+  font-family: "AllRoundGothic", sans-serif;
+}
+.outline_none {
+  outline: none;
+}
+.padding_18_32 {
+  padding: 16px 32px !important;
+}
+.sign_up {
+  font-size: 20px !important;
+  font-family: "AllRoundGothic-Bold", sans-serif !important;
+  background-color: #00ffcc !important;
+  border-radius: 0 !important;
+}
+.bg_black_blue {
+  background-color: #020202;
+}
+.opacity_70 {
+  opacity: 70%;
+}
+.z_index_0 {
+  z-index: 0;
+}
+.bg_blur {
+  background: rgba(123, 123, 123, 0.08);
+  backdrop-filter: blur(50px) !important;
+  -webkit-backdrop-filter: blur(50px) !important;
+}
+.dotted_bg {
+  background-image: url(./assets/img/png/dotted-background.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
+}
+.curly_line_bg {
+  background-image: url(./assets/img/png/curly_line.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+/* .circle_bg {
+  background-image: url(./assets/img/png/bg_circle.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+} */
+.gap_87 {
+  gap: 87px;
+}
