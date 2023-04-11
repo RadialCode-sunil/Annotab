@@ -149,3 +149,29 @@
 .fw_400 {
     font-weight: 400;
 }
+
+@media (max-width:992px) {
+
+    :root {
+        /* font_size */
+        --fs-4xl: 55px;
+        --fs-3xl: 43px;
+        --fs-2xl: 37px;
+        --fs-xl: 28px;
+    }
+}
+
+@media (max-width:576px) {
+
+    :root {
+        /* font_size */
+        --fs-4xl: 36px;
+        --fs-3xl: 27px;
+        --fs-2xl: 22px;
+        --fs-xl: 20px;
+        --fs-lg: 19px;
+        --fs-md: 18px;
+        --fs-sm: 15px;
+        --fs-ss: 13px;
+    }
+}
