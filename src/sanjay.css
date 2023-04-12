@@ -19,7 +19,7 @@
   border-radius: 0 !important;
 }
 .bg_black_blue {
-  background-color: #020202;
+  background-color: #000001;
 }
 .opacity_70 {
   opacity: 70%;
@@ -89,6 +89,9 @@ select option {
   .px_md_100 {
     padding-left: 100px !important;
     padding-right: 100px !important;
+  }
+  .end_sm_n70{
+    right: -70px;
   }
 }
 @media (min-width: 1200px) {
@@ -198,4 +201,11 @@ input[type="checkbox"]:checked ~.Menuicon .icon_span{
 }
 .Menuicon>span{
   transition: all linear .5s;
+}
+
+.bg_annotab_dots{
+  background-image: url(./assets/img/png/annotab_bg_dots.png);
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
 }
