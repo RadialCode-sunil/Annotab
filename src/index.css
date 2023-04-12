@@ -213,6 +213,12 @@
   z-index: 1;
 }
 
+/* Lorem_Epsum */
+.Lorem_Epsum_p_w{
+  max-width: 341px;
+}
+
+
 @media (max-width:1200px) {
   .Team_slider_img_box {
     padding: 22px 25px 30px 22px;
