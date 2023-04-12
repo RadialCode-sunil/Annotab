@@ -16,7 +16,7 @@ const Home = () => {
             <NavBar />
             <Resources />
             <Pricing />
-
+            <Classes />
             {/* <NavBar />
             <Resources />
             <Team /> */}
@@ -27,7 +27,7 @@ const Home = () => {
             <Team />
             <Process />
             <Turpis />
-            <Classes />
+
         </div>
     )
 }
