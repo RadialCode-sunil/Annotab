@@ -4,6 +4,7 @@ const Testimonials = () => {
     return (
         <div>Testimonials
             <p>hghv</p>
+            <p>ldkfiusf</p>
         </div>
     )
 }
