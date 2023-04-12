@@ -9,6 +9,7 @@ import Hero from './Hero'
 import Process from './Process'
 import NavBar from './NavBar'
 import { Classes } from './Classes'
+import MyNew from './MyNew'
 
 const Home = () => {
     return (
@@ -27,7 +28,7 @@ const Home = () => {
             <Team />
             <Process />
             <Turpis />
-
+            <MyNew />
         </div>
     )
 }
