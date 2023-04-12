@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from "react-slick";
 import { Container, Row, Col } from 'react-bootstrap';
 import bigcrowed from '../assets/img/png/bigcrowed.png'
+import Green_btn from './Green_btn';
 const Challenges = (props) => {
     var Team_slider = {
         dots: false,
@@ -23,14 +24,14 @@ const Challenges = (props) => {
                 }
             },
             {
-                breakpoint: 992,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2
                 }
             },
             {
-                breakpoint: 670,
+                breakpoint: 567,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -45,29 +46,29 @@ const Challenges = (props) => {
                 <p className='grey fs_sm fw_300 grey'>{props.para}</p>
 
                 <div >
-                    <Slider className='h-100' {...Team_slider}>
-                        <div className='d-flex justify-content-between flex-column p-3 h-auto'>
-                            <div className=' h-100 bg-danger'>
+                    <Slider {...Team_slider}>
+                        <div className='  p-3'>
+                            <div className=' h-100  d-flex justify-between flex-column'>
                                 <div>
-                                    <img className=' w-100' src={bigcrowed} alt="" />
+                                    <img className=' w-100' src={props.sliderimg} alt="" />
                                     <p className=' ff_Medium fs_lg text-white pt-3'>Sit donec</p>
-                                    <ul className=''>
+                                    <ul className='pb-3'>
                                         <li className='list_style grey ff_Book fs_sm min_w_324'>Volutpat ipsum nunc non e molestie  swssa volutpat mauris.</li>
                                         <li className='list_style grey ff_Book fs_sm min_w_324 pt-2'>Volutpat ipsum nunc non e molestie  swssa.</li>
                                         <li className='list_style grey ff_Book fs_sm min_w_324 pt-2'>Ut lacinia quam nascetur vestibulum dui.</li>
                                     </ul>
                                 </div>
-                                <a className='bg-info' href="#">Learn More</a>
+                                <Green_btn any_text="Learn More" btn_id="learn_style" />
                             </div>
 
                         </div>
 
-                        <div className='d-flex justify-content-between flex-column p-3 h-auto'>
-                            <div className=' h-100 bg-danger'>
+                        <div className=' p-3 '>
+                            <div className=' h-100 d-flex justify-content-between flex-column'>
                                 <div>
-                                    <img className=' w-100' src={bigcrowed} alt="" />
+                                    <img className=' w-100' src={props.sliderimg2} alt="" />
                                     <p className=' ff_Medium fs_lg text-white pt-3'>Commodo</p>
-                                    <ul>
+                                    <ul className='pb-3'>
                                         <li className='list_style grey ff_Book fs_sm min_w_324'>Rutrum velit erat nulla dolor amet tellus</li>
                                         <li className='list_style grey ff_Book fs_sm min_w_324 pt-2'>Rutrum velit erat nulla dolor amet tellus</li>
                                         <li className='list_style grey ff_Book fs_sm min_w_324 pt-2'>Viverra lacus imperdiet sed ut est. Neque venenati.</li>
@@ -75,23 +76,23 @@ const Challenges = (props) => {
                                     </ul>
                                 </div>
 
-                                <a className='bg-info' href="#">Learn More</a>
+                                <Green_btn any_text="Learn More" btn_id="learn_style" />
                             </div>
                         </div>
 
-                        <div className=' d-flex justify-content-between flex-column p-3 h-auto'>
-                            <div className=' h-100 bg-danger'>
+                        <div className=' p-3 '>
+                            <div className=' h-100  d-flex justify-content-between flex-column'>
                                 <div>
-                                    <img className=' w-100' src={bigcrowed} alt="" />
+                                    <img className=' w-100' src={props.sliderimg3} alt="" />
                                     <p className=' ff_Medium fs_lg text-white pt-3'>Tellus turpis</p>
-                                    <ul>
+                                    <ul className='pb-3'>
                                         <li className='list_style grey ff_Book fs_sm min_w_324 '>Risus hendrerit risus</li>
                                         <li className='list_style grey ff_Book fs_sm min_w_324 pt-2'>Risus hendrerit risus</li>
                                         <li className='list_style grey ff_Book fs_sm min_w_324 pt-2'>Laoreet vulputate amet semper lectus est sagittis ac. Ultrices enim volutpat </li>
 
                                     </ul>
                                 </div>
-                                <a className='bg-info' href="#">Learn More</a>
+                                <Green_btn any_text="Learn More" btn_id="learn_style" />
                             </div>
                         </div>
 

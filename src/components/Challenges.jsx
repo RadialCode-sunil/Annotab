@@ -1,6 +1,11 @@
 import React from 'react'
 import Slider from "react-slick";
+import Sliderprops from './Sliderprops'
+import bigcrowed from '../assets/img/png/bigcrowed.png'
+import crowedcar from '../assets/img/png/crowedcar.png'
+import cyclecar from '../assets/img/png/cyclecar.png'
 import { Container, Row, Col } from 'react-bootstrap';
+
 const Challenges = () => {
     var Team_slider = {
         dots: false,
@@ -38,7 +43,7 @@ const Challenges = () => {
     };
     return (
         <div>
-            <Sliderprops />
+            <Sliderprops sliderimg={bigcrowed} sliderimg2={crowedcar} sliderimg3={cyclecar} />
         </div>
     )
 }

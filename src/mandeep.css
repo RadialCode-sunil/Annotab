@@ -21,6 +21,23 @@
     list-style: circle !important;
 }
 
+.slick-track {
+    display: flex !important;
+}
+
+.slick-slide {
+    height: inherit !important;
+    display: flex !important;
+}
+
+.slick-slide>div {
+    display: flex;
+}
+#learn_style{
+    background-color: #1C1F26;
+    color: #00FFCC;
+    border: 1px solid #00FFCC;
+}
 @media (min-width:1200px) {
 
     .min_w_524 {

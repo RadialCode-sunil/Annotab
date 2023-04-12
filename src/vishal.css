@@ -21,11 +21,105 @@
 
     }
 
+    .learn_more_btn {
+        background: #00FFCC;
+        padding: 18px 32px;
+    }
+
+    .accordion-body {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 180%;
+        color: red !important;
+    }
+
+    .accordion-button:focus {
+        z-index: 3;
+        border-color: var(--bs-accordion-btn-focus-border-color);
+        outline: 0;
+        box-shadow: unset !important;
+    }
+
+    .accordion {
+        --bs-accordion-border-width: 0 !important;
+    }
+
+    .accordion-button {
+        background: rgba(0, 0, 0, 0.08) !important;
+        border-bottom: 0px solid rgba(255, 255, 255, 0.08) !important;
+        backdrop-filter: blur(123.5px) !important;
+        /* border: none;
+        font-weight: 600 !important;
+        font-size: 18px !important;
+        font-family: 'Poppins';
+        font-style: normal; */
+    }
+
+
+    .accordion-item {
+        background: rgba(0, 0, 0, 0.08) !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+        backdrop-filter: blur(123.5px) !important;
+    }
+
+    .accordion-flush .accordion-collapse {
+        background: rgba(0, 0, 0, 0.09) !important;
+    }
+
+
+    .accordion-button:not(.collapsed) {
+        background: rgba(0, 0, 0, 0.08) !important;
+        border-bottom: 0px solid rgba(255, 255, 255, 0.08) !important;
+        backdrop-filter: blur(123.5px) !important;
+        /* color:   #000; */
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600 !important;
+        font-size: 18px !important;
+    }
+
+
+    .accordion-button::after {
+        flex-shrink: 0;
+        width: 45px !important;
+        height: 31px !important;
+        margin-left: auto;
+        content: "";
+        background-image: url(./assets/img/png/arrow.png) !important;
+        background-repeat: no-repeat;
+        background-size: cover !important;
+        transition: var(--bs-accordion-btn-icon-transition);
+    }
+
+    .accordion-button:not(.collapsed)::after {
+        background-image: url(./assets/img/png/arrow.png) !important;
+        transform: var(--bs-accordion-btn-icon-transform);
+        opacity: 0;
+    }
+
+    .blue_img {
+        top: 22px;
+        left: -331px;
+    }
+
+    @media (max-width:1200px) {
+        .w_100 {
+            width: 100%;
+        }
+    }
+
     @media (min-width:1200px) {
         .max_width_876 {
             max-width: 876px;
         }
-        .max_width_459{
+
+        .max_width_459 {
             max-width: 459px;
+        }
+
+        .max_width_438 {
+            max-width: 438px;
         }
     }
