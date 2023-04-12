@@ -1,7 +1,12 @@
 import React from 'react'
-import NavBar from './NavBar'
 import Resources from './Resources'
 import { Pricing } from './Pricing'
+import Team from './Team'
+import Tortor from './Tortor'
+import Product from './Product'
+import { Turpis } from './Turpis'
+import Hero from './Hero'
+import Process from './Process'
 
 const Home = () => {
     return (
@@ -9,6 +14,16 @@ const Home = () => {
             <NavBar />
             <Resources />
             <Pricing />
+            {/* <NavBar />
+            <Resources />
+            <Team /> */}
+            <Tortor />
+            <Product></Product>
+            <Hero />
+            <Resources />
+            <Team />
+            <Process />
+            <Turpis/>
         </div>
     )
 }

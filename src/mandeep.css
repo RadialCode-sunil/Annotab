@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    box-sizing: border-box !important;
+}
+.bg_darkgreen {
+    background: #1E1E1E;
+}
+
+.inter_style {
+    padding: 18px 32px;
+    background: #00FFCC;
+}
+
+
+
+@media (min-width:1200px) {
+
+    .min_w_524 {
+        max-width: 524px;
+    }
+}
