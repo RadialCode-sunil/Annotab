@@ -22,14 +22,15 @@ const Team = () => {
                     slidesToShow: 2.25,
                     slidesToScroll: 3,
                     infinite: true,
-                    dots: false
+                    dots: false,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
                     slidesToShow: 1.25,
-                    slidesToScroll: 2
+                    slidesToScroll: 2,
+                    dots: false,
                 }
             },
             {
@@ -37,6 +38,7 @@ const Team = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
+                    dots: true,
                     centerMode: false,
                     centerPadding: "0px",
                 }
@@ -54,7 +56,7 @@ const Team = () => {
                 <Slider {...Team_slider} className='pt-5'>
                     <div>
                         <div className='Team_slider_box position-relative mx-3'>
-                            <img className=' w-100' src={Team_boy_img_2} alt="Boy" />
+                            <img className=' w-100 Team_slider_box_img' src={Team_boy_img_2} alt="Boy" />
                             <div className='Team_slider_img_box position-absolute'>
                                 <p className=' ff_Medium fw_500 fs_lg white'>Et urna nisi lorem</p>
                                 <p className=' ff_Book fw_300 fs_sm white opacity_7'>
@@ -65,7 +67,7 @@ const Team = () => {
                     </div>
                     <div>
                         <div className='Team_slider_box position-relative mx-3'>
-                            <img className=' w-100' src={Team_boy_img_3} alt="Boy" />
+                            <img className=' w-100 Team_slider_box_img' src={Team_boy_img_3} alt="Boy" />
                             <div className='Team_slider_img_box position-absolute'>
                                 <p className=' ff_Medium fw_500 fs_lg white'>Et urna nisi lorem</p>
                                 <p className=' ff_Book fw_300 fs_sm white opacity_7'>
@@ -76,7 +78,7 @@ const Team = () => {
                     </div>
                     <div>
                         <div className='Team_slider_box position-relative mx-3'>
-                            <img className=' w-100' src={Team_boy_img_1} alt="Boy" />
+                            <img className=' w-100 Team_slider_box_img' src={Team_boy_img_1} alt="Boy" />
                             <div className='Team_slider_img_box position-absolute'>
                                 <p className=' ff_Medium fw_500 fs_lg white'>Et urna nisi lorem</p>
                                 <p className=' ff_Book fw_300 fs_sm white opacity_7'>
