@@ -62,6 +62,12 @@
   opacity: 0.6;
 }
 
+/* Green_btn_2 */
+
+.Green_btn_2 {
+  padding: 18px 32px;
+  border: 1px solid var(--color-sky);
+}
 
 /* Resources */
 
@@ -96,6 +102,11 @@
 
 .Team_slider_box_img {
   border-radius: 16px;
+  transition: all 0.7s linear;
+}
+
+.Team_slider_box:hover img {
+  transform: scale(1.1);
 }
 
 .Team_slider_box::after {
@@ -125,8 +136,8 @@
   background: #00FFCC;
   filter: blur(249.5px);
   left: -150px;
-  top: -390px;
-  z-index: 1;
+  top: 390px;
+  z-index: 10;
 }
 
 .slick-dots li button:before {
@@ -183,9 +194,10 @@
 .Team_slider_visible .slick-list::after {
   content: ' ';
   position: absolute;
-  top: 0px;
+  top: -5px;
   bottom: 0px;
   width: 4000px;
+  padding: 20px;
   right: 100%;
   background-color: var(--color-darkblue);
 }
@@ -195,8 +207,20 @@
   position: absolute;
   top: 0px;
   bottom: 0px;
-  width: 400px;
+  width: 4000px;
   left: 105%;
   background-color: var(--color-darkblue);
   z-index: 1;
+}
+
+@media (max-width:1200px) {
+  .Team_slider_img_box {
+    padding: 22px 25px 30px 22px;
+  }
+}
+
+@media (max-width:576px) {
+  .Team_slider_img_box {
+    padding: 10px 15px 15px 10px;
+  }
 }
