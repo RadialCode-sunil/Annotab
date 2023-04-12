@@ -22,6 +22,10 @@
     opacity: 0.6;
 }
 
+.bg_dots {
+    background-image: url(../src/assets/img/png/bg_dots.png);
+}
+
 .intersted_btn {
     border: 1px solid #00FFCC;
     padding: 14px 32px;
@@ -37,6 +41,33 @@
     width: 180px;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
+.border_bottom_latest {
+    border-bottom: 0.6px solid #FFFFFF;
+}
+
+.border_bottom_1 {
+    border-bottom: 1.5px solid transparent;
+}
+
+
+.border_bottom_1:hover {
+    border-bottom: 1.5px solid #FFFFFF;
+}
+
+.border_bootom_1::after {
+    opacity: 0.6;
+}
+
+.latest_box {
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0px 0px 40px rgba(0, 255, 204, 0.04);
+    backdrop-filter: blur(10px);
+}
+
 .shadow_back {
     background: #00FFCC;
     filter: blur(249.5px);
@@ -47,6 +78,76 @@
     opacity: 0.5;
 }
 
+.d_grid {
+    display: grid;
+    grid-column: auto;
+    grid-gap: 40px;
+}
+
+.blog_1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.blog_2 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.blog_3 {
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+.blog_4 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.blog_5 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.blog_6 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+.blog_7 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.blog_8 {
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+.blog_9 {
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+
+.blog_10 {
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+.blog_11 {
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+
+.blog_12 {
+    grid-row: 4/5;
+    grid-column: 3/4;
+}
+
+.mx_600 {
+    max-width: 600px;
+}
+
 @media (min-width:1200px) {
     .mx_300_xl {
         max-width: 300px;
@@ -55,6 +156,84 @@
     .mx_470_xl {
         max-width: 470px;
     }
+
+    .mx_480_xl {
+        max-width: 480px;
+    }
+}
+
+@media (max-width:992px) {
+    .d_grid {
+        display: grid;
+        grid-column: auto;
+        grid-gap: 20px;
+    }
+
+    .blog_1 {
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+
+    .blog_2 {
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+
+    .blog_3 {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .blog_4 {
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+
+    .blog_5 {
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+
+    .blog_6 {
+        grid-row: 3/4;
+        grid-column: 2/3;
+    }
+
+    .blog_7 {
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+
+    .blog_8 {
+        grid-row: 4/5;
+        grid-column: 2/3;
+    }
+
+    .blog_9 {
+        grid-row: 5/6;
+        grid-column: 1/2;
+    }
+
+    .blog_10 {
+        grid-row: 5/6;
+        grid-column: 2/3;
+    }
+
+    .blog_11 {
+        grid-row: 6/7;
+        grid-column: 1/2;
+    }
+
+    .blog_12 {
+        grid-row: 6/7;
+        grid-column: 2/3;
+    }
+}
+
+@media (max-width:768px) {
+    .w-100-md-m {
+        width: 100%;
+    }
 }
 
 @media (min-width:768px) {
@@ -62,7 +241,77 @@
         max-width: 300px;
     }
 
+    .mx_700_md {
+        max-width: 700px;
+    }
+
     .mx_280_md {
         max-width: 280px;
+    }
+
+    .w-md-75 {
+        width: 75% !important;
+    }
+}
+
+@media (max-width:576px) {
+    .blog_1 {
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+
+    .blog_2 {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .blog_3 {
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+
+    .blog_4 {
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+
+    .blog_5 {
+        grid-row: 5/6;
+        grid-column: 1/2;
+    }
+
+    .blog_6 {
+        grid-row: 6/7;
+        grid-column: 1/2;
+    }
+
+    .blog_7 {
+        grid-row: 7/8;
+        grid-column: 1/2;
+    }
+
+    .blog_8 {
+        grid-row: 8/9;
+        grid-column:  1/2;
+    }
+
+    .blog_9 {
+        grid-row: 9/10;
+        grid-column: 1/2;
+    }
+
+    .blog_10 {
+        grid-row: 10/11;
+        grid-column: 1/2;
+    }
+
+    .blog_11 {
+        grid-row: 11/12;
+        grid-column: 1/2;
+    }
+
+    .blog_12 {
+        grid-row: 12/13;
+        grid-column: 1/2;
     }
 }
