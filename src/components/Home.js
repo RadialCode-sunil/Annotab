@@ -11,12 +11,10 @@ import Process from './Process'
 const Home = () => {
     return (
         <div className='bg_darkblue'>
-            <NavBar />
             <Resources />
             <Pricing />
-            {/* <NavBar />
             <Resources />
-            <Team /> */}
+            <Team />
             <Tortor />
             <Product></Product>
             <Hero />
