@@ -9,6 +9,10 @@ import Hero from './Hero'
 import Process from './Process'
 import NavBar from './NavBar'
 import { Classes } from './Classes'
+import { CustomApplication } from '../components/CustomApplications'
+import AiAnnotation from './AiAnnotation'
+import { Latest } from './Latest'
+
 
 const Home = () => {
     return (
@@ -27,7 +31,9 @@ const Home = () => {
             <Team />
             <Process />
             <Turpis />
-
+            <CustomApplication />
+            <AiAnnotation />
+            <Latest />
         </div>
     )
 }
