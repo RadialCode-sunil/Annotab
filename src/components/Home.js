@@ -7,7 +7,6 @@ import Product from './Product'
 import { Turpis } from './Turpis'
 import Hero from './Hero'
 import Process from './Process'
-import NavBar from './NavBar'
 import { Classes } from './Classes'
 import Footer from './Footer'
 
