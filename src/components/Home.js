@@ -7,12 +7,13 @@ import Product from './Product'
 import { Turpis } from './Turpis'
 import Hero from './Hero'
 import Process from './Process'
-import { Classes } from './Classes'
+
 import Footer from './Footer'
 
 const Home = () => {
     return (
         <div className='bg_darkblue'>
+            
             <Resources />
             <Pricing />
             <Resources />
