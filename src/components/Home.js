@@ -17,11 +17,12 @@ import { Accordion } from 'react-bootstrap-accordion'
 
 import Footer from './Footer'
 import Testimonials from './Testimonials'
+import { Blog } from './Blog'
 
 const Home = () => {
     return (
         <div className='bg_darkblue'>
-            
+
             <Resources />
             <Pricing />
             <Resources />
@@ -36,8 +37,9 @@ const Home = () => {
             <CustomApplication />
             <AiAnnotation />
             <Latest />
-            <Process />gi 
-            <Turpis/>
+            <Process />
+            <Turpis />
+            <Blog />
         </div>
     )
 }
