@@ -6,7 +6,6 @@
     list-style-type: none !important;
     text-decoration: none !important;
     box-sizing: border-box;
-outline: 2px solid red;
 }
 
 .opacity_7 {
@@ -154,6 +153,7 @@ outline: 2px solid red;
 .fw_400 {
     font-weight: 400;
 }
+
 .fw_300 {
     font-weight: 300;
 }

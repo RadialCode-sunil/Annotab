@@ -15,7 +15,6 @@ import { Classes } from './Classes'
 import { CustomApplication } from '../components/CustomApplications'
 import AiAnnotation from './AiAnnotation'
 import { Latest } from './Latest'
-
 import { Accordion } from 'react-bootstrap-accordion'
 
 // import Footer from './Footer'
@@ -23,7 +22,7 @@ import Testimonials from './Testimonials'
 
 const Home = () => {
     return (
-        <div className='bg_darkblue'>
+        <div className='bg_darkblue overflow-hidden'>
 
             <Resources />
             <Pricing />
