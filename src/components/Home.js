@@ -13,17 +13,19 @@ import { CustomApplication } from '../components/CustomApplications'
 import AiAnnotation from './AiAnnotation'
 import { Latest } from './Latest'
 
+import { Accordion } from 'react-bootstrap-accordion'
+
+import Footer from './Footer'
+import Testimonials from './Testimonials'
 
 const Home = () => {
     return (
         <div className='bg_darkblue'>
-            <NavBar />
+            
             <Resources />
             <Pricing />
-            <Classes />
-            {/* <NavBar />
             <Resources />
-            <Team /> */}
+            <Team />
             <Tortor />
             <Product></Product>
             <Hero />
@@ -34,6 +36,8 @@ const Home = () => {
             <CustomApplication />
             <AiAnnotation />
             <Latest />
+            <Process />gi 
+            <Turpis/>
         </div>
     )
 }
