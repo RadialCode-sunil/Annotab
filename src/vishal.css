@@ -1,0 +1,31 @@
+    *,
+    *::after,
+    *::before {
+        padding: 0;
+        margin: 0;
+        list-style-type: none !important;
+        text-decoration: none !important;
+        box-sizing: border-box;
+    }
+
+    .know_more_btn {
+        background: #00FFCC;
+        padding: 18px 32px;
+        display: inline-block;
+    }
+
+    .bg_tortor {
+        background-image: url(./assets/img/png/bg_tortor.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    @media (min-width:1200px) {
+        .max_width_876 {
+            max-width: 876px;
+        }
+        .max_width_459{
+            max-width: 459px;
+        }
+    }
