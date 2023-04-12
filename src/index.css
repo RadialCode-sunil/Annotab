@@ -120,8 +120,13 @@
 }
 
 .Team_green_light {
-  left: -470px;
-  top: 0;
+  height: 180px;
+  width: 160px;
+  background: #00FFCC;
+  filter: blur(249.5px);
+  left: -150px;
+  top: -390px;
+  z-index: 1;
 }
 
 .slick-dots li button:before {
@@ -133,10 +138,6 @@
 
 .Other_Products_p_w {
   max-width: 438px;
-}
-
-.Tabs {
-  overflow-x: auto !important;
 }
 
 .active {
@@ -172,4 +173,30 @@
   border: none !important;
   border-bottom: 1px solid #fff !important;
 
+}
+
+.Team_slider_visible .slick-list {
+  overflow: visible;
+  position: relative;
+}
+
+.Team_slider_visible .slick-list::after {
+  content: ' ';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 4000px;
+  right: 100%;
+  background-color: var(--color-darkblue);
+}
+
+.Team_slider_visible .slick-list::before {
+  content: ' ';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 400px;
+  left: 105%;
+  background-color: var(--color-darkblue);
+  z-index: 1;
 }

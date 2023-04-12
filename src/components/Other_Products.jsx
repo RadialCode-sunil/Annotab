@@ -9,7 +9,7 @@ const Other_Products = () => {
     return (
 
         <section className='py-5'>
-            <Container>
+            <Container className='scroll-w'>
                 <Tabs
                     defaultActiveKey="profile"
                     id="uncontrolled-tab-example"
