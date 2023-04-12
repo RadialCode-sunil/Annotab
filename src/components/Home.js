@@ -6,6 +6,7 @@ import Product from './Product'
 import { Turpis } from './Turpis'
 import Hero from './Hero'
 import Process from './Process'
+import { Accordion } from 'react-bootstrap-accordion'
 
 const Home = () => {
     return (
@@ -15,11 +16,11 @@ const Home = () => {
             <Team /> */}
             <Tortor />
             <Product></Product>
-            <Hero />
+            {/* <Hero />
             <Resources />
             <Team />
             <Process />
-            <Turpis/>
+            <Turpis/> */}
         </div>
     )
 }
