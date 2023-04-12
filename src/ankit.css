@@ -1,0 +1,40 @@
+.learn_more_btn {
+    padding: 10px 29px;
+    background: none;
+    border: none;
+    border: 1px solid #00FFCC;
+}
+
+.line {
+    border: 1px solid white;
+    opacity: 0.7;
+    width: 81px;
+}
+
+.solutions .slick-list {
+    overflow: visible;
+    position: relative;
+}
+
+.solutions .slick-list::after {
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 4000px;
+    right: 100%;
+    background-color: #1C1F26;
+}
+
+.solutions .slick-track {
+    display: flex !important;
+}
+
+.solutions .slick-slide {
+    height: inherit !important;
+    display: flex !important;
+}
+
+.solutions .slick-slide>div {
+    display: flex;
+}

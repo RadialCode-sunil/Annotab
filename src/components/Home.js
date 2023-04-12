@@ -7,6 +7,7 @@ import Product from './Product'
 import { Turpis } from './Turpis'
 import Hero from './Hero'
 import Process from './Process'
+import Solutions from './Solutions'
 import Footer from './Footer'
 import Other_Products from './Other_Products'
 import Section_2_slider from './Section_2_slider'
@@ -25,28 +26,27 @@ const Home = () => {
         return (
                 <div className='bg_darkblue overflow-hidden'>
 
-                        <Resources />
-                        <Pricing />
-                        <Resources />
-                        <Team />
-                        <Tortor />
-                        <Product></Product>
-                        <Hero />
-                        <Resources />
-                        <Team />
-                        <Process />
-                        <Turpis />
-                        <Footer />
-                        <Other_Products />
-                        <Section_2_slider />
-                        <CustomApplication />
-                        <AiAnnotation />
-                        <Latest />
-                        <Process />
-                        <Turpis />
-                        <Blog />
-                </div>
-        )
+            <Resources />
+            <Pricing />
+            <Resources />
+            <Team />
+            <Tortor />
+            <Product></Product>
+            <Hero />
+            <Resources />
+            <Team />
+            <Process />
+            <Turpis />
+            <Footer />
+            <Other_Products />
+            <Section_2_slider />
+            <CustomApplication />
+            <AiAnnotation />
+            <Latest />
+            <Process />
+            <Turpis />
+        </div>
+    )
 }
 
 export default Home
