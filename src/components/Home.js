@@ -9,6 +9,7 @@ import Hero from './Hero'
 import Process from './Process'
 import { Classes } from './Classes'
 import Footer from './Footer'
+import Other_Products from './Other_Products'
 
 const Home = () => {
     return (
@@ -25,6 +26,7 @@ const Home = () => {
             <Process />
             <Turpis />
             <Footer />
+            <Other_Products/>
         </div>
     )
 }
