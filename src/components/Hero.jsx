@@ -12,7 +12,7 @@ import Green_btn from "./Green_btn";
 const Hero = () => {
   return (
     <div>
-      <header className="bg_black_blue d-flex min-vh-100 flex-column dotted_bg">
+      <header className="bg_black_blue d-flex min-vh-100 flex-column dotted_bg position-relative linear_background">
         <NavBar />
         <section className="d-flex flex-column flex-grow-1 justify-content-center position-relative z-0">
           <Container>
@@ -29,7 +29,7 @@ const Hero = () => {
               <div className="pb-5">
                 <Green_btn any_text="Explore" />
               </div>
-              <div className="d-flex flex-sm-row flex-column w-100 justify-content-center pt-3 curly_line_bg gap_87 position-relative">
+              <div className="d-flex flex-sm-row flex-column w-100 justify-content-center pt-3 curly_line_bg gap_87 position-relative ">
                 <div className="max_width270 position-relative index_1">
                   <img className="w-100 px-5 px-sm-0" src={pcImg1} alt="img" />
                 </div>

@@ -12,10 +12,13 @@ const NavBar = () => {
           <div className="d-flex justify-content-lg-around justify-content-between align-items-center py-1">
             <img src={annotab} alt="annotab logo" />
             <input type="checkbox" id="check" className="d-none" />
-            <label htmlFor="check" className="Menuicon d-lg-none position-relative">
+            <label
+              htmlFor="check"
+              className="Menuicon d-lg-none position-relative"
+            >
               <span></span>
               <span></span>
-              <span></span>
+              <span className="icon_span"></span>
             </label>
             <div className="d-lg-flex d-none align-items-center gap_106  flex-row ">
               <ul className="d-flex mb-0 gap-xl-4 gap-3 p-0 flex-lg-row flex-column">
@@ -194,8 +197,8 @@ const NavBar = () => {
               </ul>
               <Green_btn any_text="Sign up" />
             </div>
-            <div className="d-flex align-items-start  d-lg-none sm_view nav_left0">
-              <div className="ps_20">
+            <div className="d-flex align-items-start  d-lg-none sm_view nav_left0 px_md_100 px-sm-5 ">
+              <div className="ps_20 ">
                 <a className="fs_sm text-white ff_Book" href="#">
                   Pricing
                 </a>
