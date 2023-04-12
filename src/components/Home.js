@@ -7,13 +7,12 @@ import Product from './Product'
 import { Turpis } from './Turpis'
 import Hero from './Hero'
 import Process from './Process'
-
 import Footer from './Footer'
-
+import Section_2_slider from './Section_2_slider'
 const Home = () => {
     return (
         <div className='bg_darkblue'>
-            
+
             <Resources />
             <Pricing />
             <Resources />
@@ -26,6 +25,7 @@ const Home = () => {
             <Process />
             <Turpis />
             <Footer />
+            <Section_2_slider/>
         </div>
     )
 }
