@@ -6,20 +6,23 @@ import Product from './Product'
 import { Turpis } from './Turpis'
 import Hero from './Hero'
 import Process from './Process'
+import Sliderprops from './Sliderprops'
+
 
 const Home = () => {
     return (
         <div className='bg_darkblue'>
-            {/* <NavBar />
+            {/* <NavBar /> */}
             <Resources />
-            <Team /> */}
+            <Team />
             <Tortor />
             <Product></Product>
             <Hero />
             <Resources />
             <Team />
             <Process />
-            <Turpis/>
+            <Turpis />
+            <Sliderprops />
         </div>
     )
 }

@@ -4,7 +4,7 @@ import threedisplay from '../assets/img/png/threedisplay.png';
 import greenboll from '../assets/img/png/green_light.png';
 const Process = () => {
     return (
-        <div className='darkblue pt-5 position-relative'>
+        <div className='darkblue pt-5 position-relative pt-5 pb-5 d-none d-md-block'>
             <img className=' position-absolute Team_green_light' src={greenboll} alt="" />
             <Container>
                 <Row className=' align-items-center'>
