@@ -10,6 +10,7 @@ import Process from './Process'
 import NavBar from './NavBar'
 import { Classes } from './Classes'
 import Footer from './Footer'
+import Testimonials from './Testimonials'
 
 const Home = () => {
     return (
@@ -29,6 +30,7 @@ const Home = () => {
             <Process />
             <Turpis />
             <Footer />
+            <Testimonials />
         </div>
     )
 }
