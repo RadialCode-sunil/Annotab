@@ -14,10 +14,8 @@ import { Classes } from './Classes'
 import { CustomApplication } from '../components/CustomApplications'
 import AiAnnotation from './AiAnnotation'
 import { Latest } from './Latest'
-
 import { Accordion } from 'react-bootstrap-accordion'
-
-import Footer from './Footer'
+// import Footer from './Footer'
 import Testimonials from './Testimonials'
 
 const Home = () => {
@@ -36,12 +34,12 @@ const Home = () => {
             <Process />
             <Turpis />
             <Footer />
-            <Section_2_slider/>
+            <Section_2_slider />
             <CustomApplication />
             <AiAnnotation />
             <Latest />
             <Process />
-            <Turpis/>
+            <Turpis />
         </div>
     )
 }
