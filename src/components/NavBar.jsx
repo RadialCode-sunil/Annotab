@@ -3,6 +3,7 @@ import { Container, Nav } from "react-bootstrap";
 import annotab from "../assets/img/png/logo.png";
 import Green_btn from "./Green_btn";
 import Accordion from "react-bootstrap/Accordion";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -23,9 +24,11 @@ const NavBar = () => {
             <div className="d-lg-flex d-none align-items-center gap_106  flex-row ">
               <ul className="d-flex mb-0 gap-xl-4 gap-3 p-0 flex-lg-row flex-column">
                 <li>
-                  <a className="fs_sm text-white ff_Book" href="#">
-                    Home
-                  </a>
+                  <Link to="/">
+                    <a className="fs_sm text-white ff_Book" href="#">
+                      Home
+                    </a>
+                  </Link>
                 </li>
                 <li className="dropdown">
                   <a
@@ -88,45 +91,75 @@ const NavBar = () => {
                     <a className="fs_sm text-white ff_Book" href="#">
                       Healthcare & Medicine{" "}
                     </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Manufacturing{" "}
-                    </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Agriculture{" "}
-                    </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Aerospace & Defense{" "}
-                    </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Automotive{" "}
-                    </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Banking & Finance{" "}
-                    </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Transportation{" "}
-                    </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Oil & Gas{" "}
-                    </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Retail & Ecommerce{" "}
-                    </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Safety & Security{" "}
-                    </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Telecommunications{" "}
-                    </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Utilities{" "}
-                    </a>
+                    <Link to="/Manufacturing">
+                      <a className="fs_sm text-white ff_Book" href="#">
+                        Manufacturing{" "}
+                      </a>
+                    </Link>
+                    <Link to="/Agriculture">
+                      <a className="fs_sm text-white ff_Book" href="#">
+                        Agriculture{" "}
+                      </a>
+                    </Link>
+                    <Link to="/Aerospace">
+                      <a className="fs_sm text-white ff_Book" href="#">
+                        Aerospace & Defense{" "}
+                      </a></Link>
+                    <Link to="/Automotive">
+                      <a className="fs_sm text-white ff_Book" href="#">
+                        Automotive{" "}
+                      </a>
+                    </Link>
+
+                    <Link to="/Banking">
+                      <a className="fs_sm text-white ff_Book" href="#">
+                        Banking & Finance{" "}
+                      </a></Link>
+
+                    <Link to="/Transportation">
+                      <a className="fs_sm text-white ff_Book" href="#">
+                        Transportation{" "}
+                      </a>
+                    </Link>
+
+                    <Link to="/Oil">
+                      <a className="fs_sm text-white ff_Book" href="#">
+                        Oil & Gas{" "}
+                      </a>
+                    </Link>
+
+                    <Link to="/Retail">
+                      <a className="fs_sm text-white ff_Book" href="#">
+                        Retail & Ecommerce{" "}
+                      </a>
+                    </Link>
+
+                    <Link to="/Safety">
+                      <a className="fs_sm text-white ff_Book" href="#">
+                        Safety & Security{" "}
+                      </a>
+                    </Link>
+
+                    <Link to="/Telecommunications">
+                      <a className="fs_sm text-white ff_Book" href="#">
+                        Telecommunications{" "}
+                      </a>
+                    </Link>
+
+                    <Link to="/Utilities">
+                      <a className="fs_sm text-white ff_Book" href="#">
+                        Utilities{" "}
+                      </a>
+                    </Link>
+
                   </div>
                 </li>
                 <li>
-                  <a className="fs_sm text-white ff_Book" href="#">
-                    Pricing
-                  </a>
+                  <Link to="/Pricingnav">
+                    <a className="fs_sm text-white ff_Book" href="#">
+                      Pricing
+                    </a>
+                  </Link>
                 </li>
                 <li className="dropdown">
                   <a
@@ -150,9 +183,11 @@ const NavBar = () => {
                     </span>
                   </a>
                   <div className="dropdown-content">
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Blogs
-                    </a>
+                    <Link to="/Blogs">
+                      <a className="fs_sm text-white ff_Book" href="#">
+                        Blogs
+                      </a>
+                    </Link>
                     <a className="fs_sm text-white ff_Book" href="#">
                       Documentation{" "}
                     </a>

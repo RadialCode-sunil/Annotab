@@ -8,6 +8,7 @@ import { Container } from "react-bootstrap";
 import purplelight from "../assets/img/png/purple_light.png";
 import herogreenLight from "../assets/img/png/hero_green_light.png";
 import Green_btn from "./Green_btn";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -27,7 +28,9 @@ const Hero = () => {
                 Join our beta program for your Annotation solutions
               </p>
               <div className="pb-5">
-                <Green_btn any_text="Explore" />
+                <Link to="/annotab">
+                  < Green_btn any_text="Explore" />
+                </Link>
               </div>
               <div className="d-flex flex-sm-row flex-column w-100 justify-content-center pt-3 curly_line_bg gap_87 position-relative ">
                 <div className="max_width270 position-relative index_1">
@@ -53,7 +56,7 @@ const Hero = () => {
           </div>
         </section>
       </header>
-    </div>
+    </div >
   );
 };
 

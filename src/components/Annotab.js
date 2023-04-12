@@ -1,3 +1,5 @@
+
+
 import React from 'react'
 import Resources from './Resources'
 import { Pricing } from './Pricing'
@@ -22,19 +24,17 @@ import { Latest } from './Latest'
 // import { Accordion } from 'react-bootstrap-accordion'
 // import Footer from './Footer'
 import Testimonials from './Testimonials'
+import Other_Products from './Other_Products'
 
-const Home = () => {
+const Annotab = () => {
     return (
         <div className='bg_darkblue overflow-hidden'>
             <Hero />
-
-            <Solutions />
-            <Tortor />
-            <Product />
-            <Pricing />
-            <Classes />
-            <Process />
-            <Resources />
+            <Section_2_slider />
+            <AiAnnotation />
+            <Challenges />
+            <CustomApplication />
+            <Other_Products />
             <Team />
             <Turpis />
             <Footer />
@@ -43,4 +43,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Annotab
