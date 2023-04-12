@@ -36,6 +36,7 @@ const Home = () => {
             <Team />
             <Process />
             <Turpis />
+
             <CustomApplication />
             <AiAnnotation />
             <Latest />
