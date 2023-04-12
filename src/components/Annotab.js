@@ -25,11 +25,13 @@ import { Latest } from './Latest'
 // import Footer from './Footer'
 import Testimonials from './Testimonials'
 import Other_Products from './Other_Products'
+import AnnotabHero from './AnnotabHero'
 
 const Annotab = () => {
     return (
         <div className='bg_darkblue overflow-hidden'>
-            <Hero />
+            <AnnotabHero/>
+            {/* <Hero /> */}
             <Section_2_slider />
             <AiAnnotation />
             <Challenges />
