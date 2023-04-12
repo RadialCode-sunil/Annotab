@@ -19,7 +19,7 @@
   border-radius: 0 !important;
 }
 .bg_black_blue {
-  background-color: #020202;
+  background-color: #000001;
 }
 .opacity_70 {
   opacity: 70%;
@@ -89,6 +89,14 @@ select option {
   .px_md_100 {
     padding-left: 100px !important;
     padding-right: 100px !important;
+  }
+  .end_sm_n70 {
+    right: -250px;
+  }
+}
+@media (min-width: 992px) {
+  .end_sm_n70 {
+    right: -70px;
   }
 }
 @media (min-width: 1200px) {
@@ -193,9 +201,16 @@ input[type="checkbox"]:checked ~ .Menuicon > span:nth-child(2) {
   transform: rotatez(45deg);
 }
 
-input[type="checkbox"]:checked ~.Menuicon .icon_span{
+input[type="checkbox"]:checked ~ .Menuicon .icon_span {
   opacity: 0;
 }
-.Menuicon>span{
-  transition: all linear .5s;
+.Menuicon > span {
+  transition: all linear 0.5s;
+}
+
+.bg_annotab_dots {
+  background-image: url(./assets/img/png/annotab_bg_dots.png);
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
 }
