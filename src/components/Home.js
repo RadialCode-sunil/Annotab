@@ -11,22 +11,24 @@ import { Accordion } from 'react-bootstrap-accordion'
 
 import Footer from './Footer'
 import Testimonials from './Testimonials'
+import Exploreagriculture from './Exploreagriculture'
 
 const Home = () => {
     return (
         <div className='bg_darkblue'>
-            
+
             <Resources />
             <Pricing />
             <Resources />
             <Team />
             <Tortor />
-            <Product></Product>
+            <Product/>
             <Hero />
             <Resources />
             <Team />
-            <Process />gi 
-            <Turpis/>
+            <Process />
+            <Turpis />
+            <Exploreagriculture />
         </div>
     )
 }
