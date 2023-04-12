@@ -1,5 +1,5 @@
 .butn:link,
-.butn:visited { 
+.butn:visited {
   text-decoration: none;
   background-color: var(--color-sky);
 
@@ -127,4 +127,49 @@
 .slick-dots li button:before {
   opacity: .25;
   color: var(--color-sky) !important;
+}
+
+/* Other_Products */
+
+.Other_Products_p_w {
+  max-width: 438px;
+}
+
+.Tabs {
+  overflow-x: auto !important;
+}
+
+.active {
+  border-color: var(--bs-nav-tabs-link-active-border-color);
+  border: none !important;
+
+}
+
+.nav-tabs {
+  border: none !important;
+  border-bottom: 1px solid #ffffff37 !important;
+
+}
+
+.nav-tabs .nav-link {
+  font-family: 'AllRoundGothic-Medium', sans-serif;
+  font-size: var(--fs-xl) !important;
+  color: var(--color-white) !important;
+  background-color: transparent !important;
+
+  margin-bottom: 0;
+  background: 0 0;
+  border: none !important;
+  border-bottom: 1px !important;
+  border-top-left-radius: none !important;
+  border-top-right-radius: none !important;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  isolation: isolate;
+  border-color: var(--bs-nav-tabs-link-hover-border-color);
+  border: none !important;
+  border-bottom: 1px solid #fff !important;
+
 }
