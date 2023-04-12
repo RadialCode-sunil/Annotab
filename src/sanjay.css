@@ -5,13 +5,7 @@
   padding: 0;
   margin: 0;
 }
-@font-face {
-  font-family: "AllRoundGothic", sans-serif;
-  src: url(../src/assets/Font-family/AllRoundGothic-Bold.ttf);
-}
-.ff_all_round {
-  font-family: "AllRoundGothic", sans-serif;
-}
+
 .outline_none {
   outline: none;
 }
@@ -35,8 +29,8 @@
 }
 .bg_blur {
   background: rgba(123, 123, 123, 0.08);
-  backdrop-filter: blur(50px) !important;
-  -webkit-backdrop-filter: blur(50px) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
 }
 .dotted_bg {
   background-image: url(./assets/img/png/dotted-background.png);
@@ -44,17 +38,181 @@
   background-position-x: center;
   background-position-y: top;
 }
-.curly_line_bg {
+/* .curly_line_bg {
   background-image: url(./assets/img/png/curly_line.png);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
-}
+} */
 /* .circle_bg {
   background-image: url(./assets/img/png/bg_circle.png);
   background-repeat: no-repeat;
   background-position-x: center;
 } */
+
+select option {
+  margin: 40px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+.top_n105 {
+  top: -105px;
+}
+.top_n180 {
+  top: -180px;
+}
+.gap_106 {
+  gap: 20px;
+}
+.Menuicon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 25px;
+  z-index: 3;
+}
+
+.Menuicon > span {
+  background-color: white;
+  width: 100%;
+  height: 5px;
+}
 .gap_87 {
-  gap: 87px;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  .gap_87 {
+    gap: 87px;
+  }
+}
+@media (min-width: 1200px) {
+  .gap_106 {
+    gap: 106px;
+  }
+}
+
+.top_37p {
+  top: 37%;
+  z-index: 0;
+}
+.index_1 {
+  z-index: 1;
+}
+.z_index_5 {
+  z-index: 5;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #110721;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  transform: translateX(-21%);
+  min-width: 115px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+@media (max-width: 992px) {
+  .sm_view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color:#110721;
+  }
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+  box-shadow: none !important;
+  background: none !important;
+}
+.ps_20 {
+  padding-left: 20px;
+}
+#check:checked ~ .nav_left0 {
+  left: 0 !important;
+}
+.accordion-button{
+  background-color: #110721 !important;
+}
+
+
+
+
+
+/* 
+input[type="checkbox"]:checked ~ .Menuicon>span:nth-child(1) {
+  transform-origin: bottom;
+  transform: rotatez(131deg) translate(8px, 0);
+}
+input[type="checkbox"]:checked ~ .Menuicon>span:nth-child(2) {
+  transform-origin: top;
+  transform: rotatez(45deg);
+}
+.input[type="checkbox"]:checked ~ .Menuicon>span:nth-last-child() {
+    transform-origin: top;
+  transform: rotatez(45deg);
+} */
+
+.Menuicon span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+.Menuicon span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#check:checked .Menuicon ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+.Menuicon input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+.Menuicon input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
 }
