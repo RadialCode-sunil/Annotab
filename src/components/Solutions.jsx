@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
 import Slider from "react-slick";
+import Green_btn from './Green_btn';
 
 const Solutions = () => {
     var Team_slider = {
@@ -60,7 +61,7 @@ const Solutions = () => {
                 <div className='px-2 h-100 d-flex flex-column justify-content-between'>
                     <div><p className='ff_Medium fs_lg white'>Healthcare & Medicine</p>
                     <p className='ff_Book fs_sm white opacity_7'>Tristique fames neque facilisis bibendum pretium elementum non. commodo. Cursus suspendisse vel quis ridiculus id. Volutpat vulputate mollis at sit.</p></div>
-                    <button className='learn_more_btn ff_Bold fs_md sky d-inline'>Learn More</button>
+                    <Green_btn any_text='Learn More'/>
                 </div>
                 <div className='px-2 h-100 d-flex flex-column justify-content-between'>
                     <div>
@@ -86,7 +87,6 @@ const Solutions = () => {
                 </Slider>
             </div>
             </Container>
-            
         </section>
     </div>
   )
