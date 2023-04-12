@@ -40,7 +40,7 @@ const Home = () => {
             <CustomApplication />
             <AiAnnotation />
             <Latest />
-            <Process />gi 
+            <Process />
             <Turpis/>
         </div>
     )
