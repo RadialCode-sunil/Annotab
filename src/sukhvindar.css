@@ -25,4 +25,44 @@
 .intersted_btn {
     border: 1px solid #00FFCC;
     padding: 14px 32px;
+
+}
+
+.lh_140p {
+    line-height: 140%;
+}
+
+.learn_btn {
+    padding: 18px 32px;
+    width: 180px;
+}
+
+.shadow_back {
+    background: #00FFCC;
+    filter: blur(249.5px);
+    transform: rotate(-90deg);
+    width: 59px;
+    height: 110px;
+    transform: translate(-50% -50%);
+    opacity: 0.5;
+}
+
+@media (min-width:1200px) {
+    .mx_300_xl {
+        max-width: 300px;
+    }
+
+    .mx_470_xl {
+        max-width: 470px;
+    }
+}
+
+@media (min-width:768px) {
+    .mx_300_md {
+        max-width: 300px;
+    }
+
+    .mx_280_md {
+        max-width: 280px;
+    }
 }

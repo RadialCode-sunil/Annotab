@@ -4,14 +4,17 @@ import tick from '../assets/img/svg/tick.svg'
 export const Pricing = () => {
     return (
         <Container>
-            <p className=' ff_Medium text-center fs_3xl grey mb-0'>Pricing</p>
-            <p className=' ff_Book fs_sm grey text-center'>Ultricies in integer semper pharetra. vestibulum.Ultricies in integer <br className=' d-none d-md-block'></br> semper pharetra. vestibulum.</p>
-            <Row className=' pb-5'>
+            <div className=' d-flex flex-column align-items-center'>
+                <p className=' ff_Medium text-center fs_3xl grey '>Pricing</p>
+                <p className=' ff_Book fs_sm grey text-center min_w_524 pb-5'>Ultricies in integer semper pharetra. vestibulum.Ultricies in integer semper pharetra. vestibulum.</p>
+            </div>
+            <Row className=' pb-5 position-relative '>
+                <div className=' position-absolute shadow_back'></div>
                 <Col lg={4} md={6} xs={12}>
                     <div className='normal_box p-3'>
                         <p className=' ff_Medium mb-0 fs_md text-white'>Normal</p>
-                        <p className='mb-0 ff_Medium fs_2xl text-white'>$50</p>
-                        <p className=' ff_Medium fs_md text-white'>Quis commodo viverra <br className=' d-none d-md-block' /> elementum duis.</p>
+                        <p className='mb-0 ff_Medium fs_2xl text-white'><span>&#x24;</span>50</p>
+                        <p className=' ff_Medium fs_md text-white mx_280_md'>Quis commodo viverra elementum duis.</p>
                         <hr className='normal_line' />
                         <div className=' d-flex align-items-center pt-3'>
                             <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
@@ -31,10 +34,10 @@ export const Pricing = () => {
                 </Col>
                 {/* ///////////////////////// */}
                 <Col lg={4} md={6} xs={12} className='pt-4 pt-md-0'>
-                    <div className='normal_box p-3'>
+                    <div className='normal_box p-3 z-3'>
                         <p className=' ff_Medium mb-0 fs_md text-white'>Normal</p>
                         <p className='mb-0 ff_Medium fs_2xl text-white'>$90</p>
-                        <p className=' ff_Medium fs_md text-white'>Vitae sollicitudin arcu <br className=' d-none d-md-block' /> pretium nec cras.</p>
+                        <p className=' ff_Medium fs_md text-white mx_280_md'>Vitae sollicitudin arcu pretium nec cras.</p>
                         <hr className='normal_line' />
                         <div className=' d-flex align-items-center pt-3'>
                             <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
@@ -56,7 +59,7 @@ export const Pricing = () => {
                     <div className='normal_box p-3'>
                         <p className=' ff_Medium mb-0 fs_md text-white'>Normal</p>
                         <p className='mb-0 ff_Medium fs_2xl text-white'>$150</p>
-                        <p className=' ff_Medium fs_md text-white'>Interdum rhoncus nisl et <br className=' d-none d-md-block' /> rutrum tortor lectus.</p>
+                        <p className=' ff_Medium fs_md text-white mx_300_md'>Interdum rhoncus nisl et rutrum tortor lectus.</p>
                         <hr className='normal_line' />
                         <div className=' d-flex align-items-center pt-3'>
                             <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
