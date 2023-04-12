@@ -7,6 +7,8 @@ import Product from './Product'
 import { Turpis } from './Turpis'
 import Hero from './Hero'
 import Process from './Process'
+import Sliderprops from './Sliderprops'
+
 import Solutions from './Solutions'
 import Footer from './Footer'
 import Other_Products from './Other_Products'
@@ -23,8 +25,8 @@ import Testimonials from './Testimonials'
 import { Blog } from './Blog'
 
 const Home = () => {
-        return (
-                <div className='bg_darkblue overflow-hidden'>
+    return (
+        <div className='bg_darkblue overflow-hidden'>
 
             <Resources />
             <Pricing />
@@ -38,6 +40,11 @@ const Home = () => {
             <Process />
             <Turpis />
             <Exploreagriculture />
+
+            <CustomApplication />
+            <AiAnnotation />
+            <Latest />
+            <Challenges />
             <Footer />
             <Other_Products />
             <Section_2_slider />
