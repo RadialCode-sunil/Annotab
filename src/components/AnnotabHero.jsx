@@ -14,7 +14,7 @@ const AnnotabHero = () => {
         <section className="d-flex flex-column flex-grow-1 justify-content-center position-relative z-0">
           <Container>
             <Row className="position-relative index_1">
-              <Col lg={6}>
+              <Col lg={6} md={8}>
                 <h2 className="fs_4xl ff_Bold white pb-3">
                   Welcome to Annotab <span className="sky">Studio</span>
                 </h2>

@@ -90,7 +90,12 @@ select option {
     padding-left: 100px !important;
     padding-right: 100px !important;
   }
-  .end_sm_n70{
+  .end_sm_n70 {
+    right: -250px;
+  }
+}
+@media (min-width: 992px) {
+  .end_sm_n70 {
     right: -70px;
   }
 }
@@ -196,14 +201,14 @@ input[type="checkbox"]:checked ~ .Menuicon > span:nth-child(2) {
   transform: rotatez(45deg);
 }
 
-input[type="checkbox"]:checked ~.Menuicon .icon_span{
+input[type="checkbox"]:checked ~ .Menuicon .icon_span {
   opacity: 0;
 }
-.Menuicon>span{
-  transition: all linear .5s;
+.Menuicon > span {
+  transition: all linear 0.5s;
 }
 
-.bg_annotab_dots{
+.bg_annotab_dots {
   background-image: url(./assets/img/png/annotab_bg_dots.png);
   background-position-x: left;
   background-position-y: top;
