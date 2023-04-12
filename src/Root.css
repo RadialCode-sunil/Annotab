@@ -6,6 +6,7 @@
     list-style-type: none !important;
     text-decoration: none !important;
     box-sizing: border-box;
+outline: 2px solid red;
 }
 
 .opacity_7 {

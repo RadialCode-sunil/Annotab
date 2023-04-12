@@ -16,3 +16,11 @@
 .footer_hover:hover {
     opacity: 0.3;
 }
+/*  */
+.max_w{
+    max-width: 856px;
+}
+.Learn_btn{
+    border: 1px solid #00FFCC;
+    padding: 11px 20px;
+}
