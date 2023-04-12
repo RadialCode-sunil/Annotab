@@ -68,21 +68,21 @@ const Solutions = () => {
                         <p className='ff_Medium fs_lg white'>Manufacturing</p>
                         <p className='ff_Book fs_sm white opacity_7'>Felis nunc senectus integer nisi eget nunc. Convallis semper eget metus ullamcorper adipiscing proin ultrices massa convallis tortor aliquet.</p>
                     </div>                       
-                    <button className='learn_more_btn ff_Bold fs_md sky'>Learn More</button>
+                    <Green_btn any_text='Learn More'/>
                 </div>
                 <div className='px-2 h-100 d-flex flex-column justify-content-between'>
                     <div>
                         <p className='ff_Medium fs_lg white'>Agriculture</p>
                     <p className='ff_Book fs_sm white opacity_7'>Pellentesque massa eu at adipiscing quam viverra ut lectus. Bibendum dis donec a diam. Dui lacus tortor dignissim vel est vestibulum augue sagittis in egestas.</p>
                     </div>
-                    <button className='learn_more_btn ff_Bold fs_md sky'>Learn More</button>
+                    <Green_btn any_text='Learn More'/>
                 </div>
                 <div className='px-2 h-100 d-flex flex-column justify-content-between'>
                     <div>
                         <p className='ff_Medium fs_lg white'>Aerospace & Defense</p>
                     <p className='ff_Book fs_sm white opacity_7'>Pellentesque massa eu at adipiscing quam viverra ut lectus. Bibendum dis donec a diam. Dui lacus tortor dignissim vel est vestibulum augue sagittis in egestas.</p>
                     </div>
-                    <button className='learn_more_btn ff_Bold fs_md sky'>Learn More</button>
+                    <Green_btn any_text='Learn More'/>
                 </div>
                 </Slider>
             </div>
