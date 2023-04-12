@@ -7,16 +7,17 @@ import Product from './Product'
 import { Turpis } from './Turpis'
 import Hero from './Hero'
 import Process from './Process'
+import Sliderprops from './Sliderprops'
+
+import Solutions from './Solutions'
 import Footer from './Footer'
-import Other_Products from './Other_Products'
 import Section_2_slider from './Section_2_slider'
 import NavBar from './NavBar'
 import { Classes } from './Classes'
 import { CustomApplication } from '../components/CustomApplications'
 import AiAnnotation from './AiAnnotation'
 import { Latest } from './Latest'
-import { Accordion } from 'react-bootstrap-accordion'
-
+// import { Accordion } from 'react-bootstrap-accordion'
 // import Footer from './Footer'
 import Testimonials from './Testimonials'
 
@@ -29,14 +30,19 @@ const Home = () => {
             <Resources />
             <Team />
             <Tortor />
-            <Product></Product>
+            <Product/>
             <Hero />
             <Resources />
             <Team />
             <Process />
             <Turpis />
+            <Exploreagriculture />
+ 
+            <CustomApplication />
+            <AiAnnotation />
+            <Latest />
+            <Challenges />
             <Footer />
-            <Other_Products />
             <Section_2_slider />
             <CustomApplication />
             <AiAnnotation />
