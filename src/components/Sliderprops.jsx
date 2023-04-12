@@ -53,7 +53,7 @@ const Challenges = (props) => {
                                     <img className=' w-100' src={props.sliderimg} alt="" />
                                     <p className=' ff_Medium fs_lg text-white pt-3'>Sit donec</p>
                                     <ul className='pb-3'>
-                                        <li className='list_style grey ff_Book fs_sm min_w_324'>Volutpat ipsum nunc non e molestie  swssa volutpat mauris.</li>
+                                        <li className='list_style grey ff_Book fs_sm min_w_324 '>Volutpat ipsum nunc non e molestie  swssa volutpat mauris.</li>
                                         <li className='list_style grey ff_Book fs_sm min_w_324 pt-2'>Volutpat ipsum nunc non e molestie  swssa.</li>
                                         <li className='list_style grey ff_Book fs_sm min_w_324 pt-2'>Ut lacinia quam nascetur vestibulum dui.</li>
                                     </ul>
