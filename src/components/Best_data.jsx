@@ -1,22 +1,19 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import Green_btn from './Green_btn';
-import green_lght from '../assets/img/png/green_light.png';
-import blue_lght from '../assets/img/png/blue_light.png';
 
-const Best_data = () => {
+const Best_data = (props) => {
     return (
-        <section className=' position-relative'>
+        <section className=' position-relative py-5 overflow-hidden'>
+            <div className=' position-absolute blue_lght'></div>
+            <div className=' position-absolute green_lght'></div>
             <Container>
-                <img className=' position-absolute green_lght' src={green_lght} alt="" />
                 <div className=' text-center'>
-                    <h1 className=' ff_Bold fs_4xl fw_500'>Best Data Platform for <span className=' sky'> Manufacturing AI</span></h1>
-                    <p className=' ff_Book fs_sm'>Achieve a new level of data accuracy. Automate your video and
+                    <h1 id={props.txt_id} className=' ff_Bold fs_4xl fw_500 white best_wdth mx-auto'> <span className=' sky'> {props.any_text}</span></h1>
+                    <p className=' ff_Book fs_sm achieve_wdth mx-auto grey opacity_7 '>Achieve a new level of data accuracy. Automate your video and
                         image classification with unprecedented speed and efficiency. </p>
-                    <Green_btn any_text='Explore' />
+                    <div className=' pt-4'><Green_btn any_text='Explore' /></div>
                 </div>
-                <img className=' position-absolute blue_lght' src={blue_lght} alt="" />
-
             </Container>
         </section>
     )

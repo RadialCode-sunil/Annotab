@@ -27,7 +27,6 @@ const Home = () => {
     return (
         <div className='bg_darkblue overflow-hidden'>
             <Hero />
-
             <Solutions />
             <Tortor />
             <Product />
