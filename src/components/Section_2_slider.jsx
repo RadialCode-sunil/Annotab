@@ -8,7 +8,7 @@ const Section_2_slider = () => {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 7.35,
+        slidesToShow: 7.90,
         slidesToScroll: 1,
         arrows: false,
         cssEase: 'linear',
