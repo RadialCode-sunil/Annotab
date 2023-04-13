@@ -1,10 +1,15 @@
+/* footer */
 .footer_hr {
     opacity: 0.54;
     border: 2px solid #FFFFFF;
     box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.25);
 }
 
-/* hover */
+.footer_img {
+    transition: 0.5s ease-in-out !important;
+
+}
+
 .footer_img:hover svg {
     transform: translateY(-10%) !important;
 }
@@ -46,16 +51,6 @@
     list-style-type: circle !important;
 }
 
-
-/* Aerospaces2 */
-/* .max_w_284 {
-    max-width: 284px;
-}
-
-.max_w_273 {
-    max-width: 273px;
-} */
-
 @media (min-width: 1200px) {
     .max_w_284 {
         max-width: 284px;
@@ -64,11 +59,48 @@
     .max_w_273 {
         max-width: 273px;
     }
-    .max_w_260{
-    max-width: 260px;
+
+    .max_w_260 {
+        max-width: 260px;
     }
-    .max_w_300{
-    max-width: 300px;
+
+    .max_w_300 {
+        max-width: 300px;
     }
-   
+
+}
+
+@media (max-width: 768px) {
+    #ul_1 {
+        order: 1;
+    }
+
+    #ul_2 {
+        order: 3;
+    }
+
+    #ul_3 {
+        order: 2;
+    }
+
+    #ul_4 {
+        order: 4;
+    }
+}
+@media (max-width: 576px) {
+    #ul_1 {
+        order: 1;
+    }
+
+    #ul_2 {
+        order: 2;
+    }
+
+    #ul_3 {
+        order: 3;
+    }
+
+    #ul_4 {
+        order: 4;
+    }
 }

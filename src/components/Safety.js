@@ -10,7 +10,8 @@ import Testimonials from './Testimonials'
 import { Exploresafety } from './Exploresafety'
 const Safety = () => {
   return (
-    <div><Hero />
+    <div>
+      <Hero />
       <Testimonials />
       <Exploresafety />
       <Turpis />

@@ -6,15 +6,16 @@ import Sliderprops from './Sliderprops'
 import Solutions from './Solutions'
 import Footer from './Footer'
 import Testimonials from './Testimonials'
-import Agricultures2 from './Agricultures2'
+import { Agriculturecases } from './Agriculturecases'
 const Agriculture = () => {
     return (
         <div>
             <Hero />
             <Testimonials />
-            <Agricultures2 />
+            <Agriculturecases />
             <Turpis />
             <Footer />
+            <Agriculturecases />
         </div>)
 }
 

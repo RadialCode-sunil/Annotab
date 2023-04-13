@@ -7,9 +7,11 @@ import Sliderprops from './Sliderprops'
 import Solutions from './Solutions'
 import Footer from './Footer'
 import { Explorebanking } from './Explorebanking'
+import Testimonials from './Testimonials'
 const Banking = () => {
     return (
         <div> <Hero />
+            <Testimonials />
             <Turpis />
             <Footer />
             <Explorebanking />

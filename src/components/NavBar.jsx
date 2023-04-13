@@ -92,71 +92,72 @@ const NavBar = () => {
                       Healthcare & Medicine{" "}
                     </a>
                     <Link to="/Manufacturing">
-                      <a className="fs_sm text-white ff_Book" href="#">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
                         Manufacturing{" "}
                       </a>
                     </Link>
                     <Link to="/Agriculture">
-                      <a className="fs_sm text-white ff_Book" href="#">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
                         Agriculture{" "}
                       </a>
                     </Link>
                     <Link to="/Aerospace">
-                      <a className="fs_sm text-white ff_Book" href="#">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
                         Aerospace & Defense{" "}
-                      </a></Link>
+                      </a>
+                    </Link>
                     <Link to="/Automotive">
-                      <a className="fs_sm text-white ff_Book" href="#">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
                         Automotive{" "}
                       </a>
                     </Link>
 
                     <Link to="/Banking">
-                      <a className="fs_sm text-white ff_Book" href="#">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
                         Banking & Finance{" "}
-                      </a></Link>
+                      </a>
+                    </Link>
 
                     <Link to="/Transportation">
-                      <a className="fs_sm text-white ff_Book" href="#">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
                         Transportation{" "}
                       </a>
                     </Link>
 
                     <Link to="/Oil">
-                      <a className="fs_sm text-white ff_Book" href="#">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
                         Oil & Gas{" "}
                       </a>
                     </Link>
 
                     <Link to="/Retail">
-                      <a className="fs_sm text-white ff_Book" href="#">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
                         Retail & Ecommerce{" "}
                       </a>
                     </Link>
 
                     <Link to="/Safety">
-                      <a className="fs_sm text-white ff_Book" href="#">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
                         Safety & Security{" "}
                       </a>
                     </Link>
 
                     <Link to="/Telecommunications">
-                      <a className="fs_sm text-white ff_Book" href="#">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
                         Telecommunications{" "}
                       </a>
                     </Link>
 
                     <Link to="/Utilities">
-                      <a className="fs_sm text-white ff_Book" href="#">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
                         Utilities{" "}
                       </a>
                     </Link>
-
                   </div>
                 </li>
                 <li>
                   <Link to="/Pricingnav">
-                    <a className="fs_sm text-white ff_Book" href="#">
+                    <a className="fs_sm text-white ff_Book p-0" href="#">
                       Pricing
                     </a>
                   </Link>
@@ -184,11 +185,11 @@ const NavBar = () => {
                   </a>
                   <div className="dropdown-content">
                     <Link to="/Blogs">
-                      <a className="fs_sm text-white ff_Book" href="#">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
                         Blogs
                       </a>
                     </Link>
-                    <a className="fs_sm text-white ff_Book" href="#">
+                    <a className="fs_sm text-white ff_Book " href="#">
                       Documentation{" "}
                     </a>
                   </div>
@@ -234,7 +235,7 @@ const NavBar = () => {
             </div>
             <div className="d-flex align-items-start  d-lg-none sm_view nav_left0 px_md_100 px-sm-5 ">
               <div className="ps_20 ">
-                <a className="fs_sm text-white ff_Book" href="#">
+                <a className="fs_sm text-white ff_Book py-3" href="#">
                   Home
                 </a>
               </div>
@@ -262,49 +263,76 @@ const NavBar = () => {
                     <a className="fs_sm text-white ff_Book" href="#">
                       Healthcare & Medicine{" "}
                     </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Manufacturing{" "}
-                    </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Agriculture{" "}
-                    </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Aerospace & Defense{" "}
-                    </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Automotive{" "}
-                    </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Banking & Finance{" "}
-                    </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Transportation{" "}
-                    </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Oil & Gas{" "}
-                    </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Retail & Ecommerce{" "}
-                    </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Safety & Security{" "}
-                    </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Telecommunications{" "}
-                    </a>
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Utilities{" "}
-                    </a>
+                    <Link to="/Manufacturing">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
+                        Manufacturing{" "}
+                      </a>
+                    </Link>
+                    <Link to="/Agriculture">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
+                        Agriculture{" "}
+                      </a>
+                    </Link>
+                    <Link to="/Aerospace">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
+                        Aerospace & Defense{" "}
+                      </a>
+                    </Link>
+                    <Link to="/Automotive">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
+                        Automotive{" "}
+                      </a>
+                    </Link>
+
+                    <Link to="/Banking">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
+                        Banking & Finance{" "}
+                      </a>
+                    </Link>
+
+                    <Link to="/Transportation">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
+                        Transportation{" "}
+                      </a>
+                    </Link>
+
+                    <Link to="/Oil">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
+                        Oil & Gas{" "}
+                      </a>
+                    </Link>
+
+                    <Link to="/Retail">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
+                        Retail & Ecommerce{" "}
+                      </a>
+                    </Link>
+
+                    <Link to="/Safety">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
+                        Safety & Security{" "}
+                      </a>
+                    </Link>
+
+                    <Link to="/Telecommunications">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
+                        Telecommunications{" "}
+                      </a>
+                    </Link>
+
+                    <Link to="/Utilities">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
+                        Utilities{" "}
+                      </a>
+                    </Link>
                   </Accordion.Body>
                 </Accordion.Item>
-              </Accordion>
-              <div className="ps_20">
-                <a className="fs_sm text-white ff_Book" href="#">
-                  Pricing
-                </a>
-              </div>
-              <Accordion className="w-100">
-                <Accordion.Item eventKey="0" className="border-0">
+                <div className="ps_20">
+                  <a className="fs_sm text-white ff_Book" href="#">
+                    Pricing
+                  </a>
+                </div>
+                <Accordion.Item eventKey="3" className="border-0">
                   <Accordion.Header>Resources</Accordion.Header>
                   <Accordion.Body className="d-flex flex-column">
                     <a className="fs_sm text-white ff_Book" href="#">
@@ -315,7 +343,7 @@ const NavBar = () => {
                     </a>
                   </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="1" className="border-0">
+                <Accordion.Item eventKey="4" className="border-0">
                   <Accordion.Header>Company</Accordion.Header>
                   <Accordion.Body className="d-flex flex-column">
                     <a className="fs_sm text-white ff_Book" href="#">
