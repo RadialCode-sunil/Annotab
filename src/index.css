@@ -1,3 +1,7 @@
+.list_dot {
+  list-style-type: circle !important;
+}
+
 .butn:link,
 .butn:visited {
   text-decoration: none;
@@ -223,29 +227,136 @@
   max-width: 284px;
 }
 
-.Lorem_Epsum_Amet::after {
-  content: '';
+.Lorem_Epsum_Data_img::after {
+  content: 'Data engine';
   position: absolute;
-  right: -190px;
-  height: 364px;
-  width: 207px;
-  border-right: 1px solid #FFFFFF;
-  border-bottom: 1px solid #FFFFFF;
+  background: #1C1F26;
+  border: 1px solid #FFFFFF;
+  padding: 10px;
+  top: -130px;
+  right: 50px;
+  /* text */
+  color: var(--color-white);
+  font-family: 'AllRoundGothic-Book', sans-serif;
+  font-size: var(--fs-sm);
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.Lorem_Epsum_Amet::before {
+
+.Lorem_Epsum_Data_img::before {
+  content: 'Data engine';
+  position: absolute;
+  background: #1C1F26;
+  border: 1px solid #FFFFFF;
+  padding: 10px;
+  top: -50px;
+  left: -50px;
+  /* text */
+  color: var(--color-white);
+  font-family: 'AllRoundGothic-Book', sans-serif;
+  font-size: var(--fs-sm);
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Lorem_Epsum_Automotive */
+
+.Lorem_Epsum_Automotive_img_2 {
+  margin-top: -40px;
+}
+
+.Volutpat_ul {
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, 100%);
+}
+
+.Lorem_Epsum_Automotive_img_1::after {
   content: '';
   position: absolute;
-  right: -190px;
-  top: 22px;
-  height: 364px;
-  width: 150px;
+  left: -452px;
+  top: 0;
+  height: 503px;
+  width: 474.5px;
   border-top: 1px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
 
+}
+
+
+
+
+
+@media (min-width:992px) {
+  .Lorem_Epsum_Amet::after {
+    content: '';
+    position: absolute;
+    right: -120px;
+    height: 364px;
+    width: 150px;
+    border-right: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+  }
+
+  .Lorem_Epsum_Amet::before {
+    content: '';
+    position: absolute;
+    right: -120px;
+    top: 22px;
+    height: 364px;
+    width: 100px;
+    border-top: 1px solid #FFFFFF;
+  }
+}
+
+@media (min-width:1200px) {
+  .Lorem_Epsum_Amet::after {
+    right: -190px;
+    height: 364px;
+    width: 207px;
+  }
+
+  .Lorem_Epsum_Amet::before {
+    right: -190px;
+    height: 364px;
+    width: 150px;
+  }
+}
+
+@media (min-width:1300px) {
+  .Lorem_Epsum_Amet::after {
+    right: -250px;
+    height: 364px;
+    width: 207px;
+  }
+
+  .Lorem_Epsum_Amet::before {
+    right: -250px;
+    height: 364px;
+    width: 150px;
+  }
 }
 
 @media (max-width:1200px) {
   .Team_slider_img_box {
     padding: 22px 25px 30px 22px;
+  }
+}
+
+@media (max-width:992px) {
+  .Lorem_Epsum_Maecenas::after {
+    content: '';
+    position: absolute;
+    left: 50px;
+    bottom: -114px;
+    height: 100px;
+    width: 1px;
+    border: 1px solid #FFFFFF;
   }
 }
 
