@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../assets/img/png/logo.png'
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 const MyNew = () => {
     return (
@@ -40,23 +41,71 @@ const MyNew = () => {
                                     <p className='ff_Book fs_sm white pt-5 pt-lg-0'>Solutions</p>
                                 </li>
                                 <li className='pt-lg-3 pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Healthcare & Medicine</a></li>
-                                <li className='pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Manufacturing</a></li>
-                                <li className='pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Agriculture</a></li>
-                                <li className='pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Aerospace & Defense</a></li>
-                                <li className='pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Automotive</a></li>
-                                <li className='pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Banking & Finance</a></li>
-                                <li className='pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Transportation</a></li>
-                                <li className='pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Oil & Gas</a></li>
-                                <li className='pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Retail & Ecommerce</a></li>
-                                <li className='pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Safety & Security</a></li>
-                                <li className='pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Telecommunications</a></li>
-                                <li className='pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Utilities</a></li>
+                                <li className='pt-2'>
+                                    <Link to="/Manufacturing">
+                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Manufacturing</a>
+                                    </Link>
+                                </li>
+                                <li className='pt-2'>
+                                    <Link to="/Agriculture">
+                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Agriculture</a>
+                                    </Link>
+                                </li>
+                                <li className='pt-2'>
+                                    <Link to="/Aerospace">
+                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Aerospace & Defense</a>
+                                    </Link>
+                                </li>
+                                <li className='pt-2'>
+                                    <Link to="/Automotive">
+                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Automotive</a>
+                                    </Link>
+                                </li>
+                                <li className='pt-2'>
+                                    <Link to="/Banking">
+                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Banking & Finance</a>
+                                    </Link>
+                                </li>
+                                <li className='pt-2'>
+                                    <Link to="/Transportation">
+                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Transportation</a>
+                                    </Link>
+                                </li>
+                                <li className='pt-2'>
+                                    <Link to="/Oil">
+                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Oil & Gas</a>
+                                    </Link>
+                                </li>
+                                <li className='pt-2'>
+                                    <Link to="/Retail">
+                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Retail & Ecommerce</a>
+                                    </Link>
+                                </li>
+                                <li className='pt-2'>
+                                    <Link to="/Safety">
+                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Safety & Security</a>
+                                    </Link>
+                                </li>
+                                <li className='pt-2'>
+                                    <Link to="/Telecommunications">
+                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Telecommunications</a>
+                                    </Link>
+                                </li>
+                                <li className='pt-2'>
+                                    <Link to="/Utilities">
+                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Utilities</a>
+                                    </Link>
+                                </li>
                             </ul>
                         </Col>
                         <Col lg={4} md={4} sm={6} xs={12}>
                             <ul className='ps-0 ps-sm-3'>
                                 <li><p className='ff_Book fs_sm white pt-5 pt-lg-0'>Resources</p></li>
-                                <li className='pt-lg-3 pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Blogs</a></li>
+                                <li className='pt-lg-3 pt-2'>
+                                    <Link to="/Blogs">
+                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Blogs</a>
+                                    </Link>
+                                </li>
                                 <li className='pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Documentation</a></li>
                             </ul>
                         </Col>

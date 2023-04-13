@@ -13,7 +13,7 @@ export const Pricing = () => {
                 <Col lg={4} md={6} xs={12}>
                     <div className='normal_box p-3'>
                         <p className=' ff_Medium mb-0 fs_md text-white'>Normal</p>
-                        <p className='mb-0 ff_Medium fs_2xl text-white'><span>&#x24;</span>50</p>
+                        <p className='mb-0 ff_Medium fs_2xl text-white'><span className=' font-monospace'>&#x24;</span>50</p>
                         <p className=' ff_Medium fs_md text-white mx_280_md'>Quis commodo viverra elementum duis.</p>
                         <hr className='normal_line' />
                         <div className=' d-flex align-items-center pt-3'>
@@ -28,15 +28,15 @@ export const Pricing = () => {
                             <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
                             <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Text Annotation</p>
                         </div>
-                        <hr className='normal_line' />
-                        <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky' href="#">Interested</a>
+                        <hr className='normal_line mt-4' />
+                        <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky mt-3' href="#">Interested</a>
                     </div>
                 </Col>
                 {/* ///////////////////////// */}
                 <Col lg={4} md={6} xs={12} className='pt-4 pt-md-0'>
                     <div className='normal_box p-3 z-3'>
-                        <p className=' ff_Medium mb-0 fs_md text-white'>Normal</p>
-                        <p className='mb-0 ff_Medium fs_2xl text-white'>$90</p>
+                        <p className=' ff_Medium mb-0 fs_md text-white'>Rapid</p>
+                        <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span> 90</p>
                         <p className=' ff_Medium fs_md text-white mx_280_md'>Vitae sollicitudin arcu pretium nec cras.</p>
                         <hr className='normal_line' />
                         <div className=' d-flex align-items-center pt-3'>
@@ -51,14 +51,14 @@ export const Pricing = () => {
                             <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
                             <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Text Annotation</p>
                         </div>
-                        <hr className='normal_line' />
-                        <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky' href="#">Interested</a>
+                        <hr className='normal_line mt-4' />
+                        <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky mt-3' href="#">Interested</a>
                     </div>
                 </Col>
                 <Col lg={4} md={6} xs={12} className='pt-4 pt-lg-0'>
                     <div className='normal_box p-3'>
-                        <p className=' ff_Medium mb-0 fs_md text-white'>Normal</p>
-                        <p className='mb-0 ff_Medium fs_2xl text-white'>$150</p>
+                        <p className=' ff_Medium mb-0 fs_md text-white'>Enterprise</p>
+                        <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span> 150</p>
                         <p className=' ff_Medium fs_md text-white mx_300_md'>Interdum rhoncus nisl et rutrum tortor lectus.</p>
                         <hr className='normal_line' />
                         <div className=' d-flex align-items-center pt-3'>
@@ -73,8 +73,8 @@ export const Pricing = () => {
                             <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
                             <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Text Annotation</p>
                         </div>
-                        <hr className='normal_line' />
-                        <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky' href="#">Interested</a>
+                        <hr className='normal_line mt-4' />
+                        <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky mt-3' href="#">Interested</a>
                     </div>
                 </Col>
             </Row>
