@@ -44,7 +44,7 @@ const Challenges = (props) => {
     return (
         <Container>
             <div className='pt-5' >
-                <p className=' ff_Medium fs_3xl text-white fw_500 min_w_704'>{props.heading}</p>
+                <p id={props.max} className=' ff_Medium fs_3xl text-white fw_500 min_w_704'>{props.heading} </p>
                 <p className='grey fs_sm fw_300 grey whitelight_clr pb-5 min_w_704'>{props.para}</p>
 
                 <div >
