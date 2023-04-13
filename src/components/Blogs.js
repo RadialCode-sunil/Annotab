@@ -11,9 +11,11 @@ import { Navbar } from 'react-bootstrap'
 import Data_2 from './Data_2'
 import { Blog } from './Blog'
 import { CustomApplication } from './CustomApplications'
+import Blogheader from './Blogheader'
 const Blogs = () => {
     return (
         <div>
+            <Blogheader/>
             <Blog />
             <CustomApplication/>
             <Turpis />
