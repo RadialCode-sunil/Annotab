@@ -9,9 +9,10 @@ import Exploreaerospaces from './Exploreaerospaces'
 import { Defancegrid } from './Defancegrid'
 import Aerospaces2 from './Aerospaces2'
 import Testimonials from './Testimonials'
+import SolutionsHero from './SolutionsHero'
 const Aerospace = () => {
     return (
-        <div> <Hero />
+        <div> <SolutionsHero heroheading="Aerospace & Defense Ai" hero_h2_w="Aerospace_h2_width"  />
             <Aerospaces2 />
             <Testimonials />
             <Defancegrid /> 

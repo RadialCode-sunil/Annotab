@@ -9,9 +9,10 @@ import Footer from './Footer'
 import { Explorebanking } from './Explorebanking'
 import Testimonials from './Testimonials'
 import Lorem_Epsum_Automotive from './Lorem_Epsum_Automotive'
+import SolutionsHero from './SolutionsHero'
 const Banking = () => {
     return (
-        <div> <Hero />
+        <div> <SolutionsHero heroheading="Finance Ai" hero_h2_w="Banking_h2_width"  />
             <Lorem_Epsum_Automotive />
             <Testimonials />
             <Explorebanking />
