@@ -6,11 +6,14 @@ import Sliderprops from './Sliderprops'
 
 import Solutions from './Solutions'
 import Footer from './Footer'
+import { Explorebanking } from './Explorebanking'
 const Banking = () => {
     return (
         <div> <Hero />
             <Turpis />
-            <Footer /></div>
+            <Footer />
+            <Explorebanking />
+        </div>
     )
 }
 
