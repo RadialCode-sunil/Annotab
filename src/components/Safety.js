@@ -9,7 +9,8 @@ import Footer from './Footer'
 import Testimonials from './Testimonials'
 const Safety = () => {
   return (
-    <div><Hero />
+    <div>
+      <Hero />
       <Testimonials />
       <Turpis />
       <Footer /></div>
