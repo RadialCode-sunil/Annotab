@@ -6,7 +6,7 @@ const Exploreaerospaces = (props) => {
     return (
 
         <Container>
-            <p id={props.max} className=' ff_Medium fs_3xl grey fw_500 '>{props.Aerospace} </p>
+            <p id={props.max } className=' ff_Medium fs_3xl grey fw_500  '>{props.Aerospace} </p>
             <p className='  ff_Book grey fs_sm fw_300 max_width_704'>Scelerisque integer egestas nunc egestas. Vestibulum nunc blandit ultrices sit sagittis rutrum sed felis in ullamcorper adipiscing.</p>
             <div className='pt-5'>
                 <div className=' d_grid py-5  mb-5 '>

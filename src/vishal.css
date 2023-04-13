@@ -203,7 +203,11 @@
         }
 
         #max_width_704 {
-            max-width: 704px;
+            max-width: 703px;
+        }
+
+        #max_width_480 {
+            max-width: 480px !important;
         }
     }
 

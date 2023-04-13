@@ -8,12 +8,14 @@ import Solutions from './Solutions'
 import Footer from './Footer'
 import Testimonials from './Testimonials'
 import Lorem_Epsum_Automotive from './Lorem_Epsum_Automotive'
+import Exploreoil from '../Exploreoil'
 const Oil = () => {
   return (
     <div><Hero />
       <Lorem_Epsum_Automotive />
       <Testimonials />
       <Turpis />
+      <Exploreoil />
       <Footer /></div>
   )
 }

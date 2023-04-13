@@ -12,7 +12,7 @@ const Agriculture = () => {
     return (
         <div>
             <Hero />
-            <Agricultures2/>
+            <Agricultures2 />
             <Testimonials />
             <Agriculturecases />
             <Turpis />
