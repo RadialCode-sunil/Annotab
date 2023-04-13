@@ -7,12 +7,14 @@ import Solutions from './Solutions'
 import Footer from './Footer'
 import Testimonials from './Testimonials'
 import Lorem_Epsum_Automotive from './Lorem_Epsum_Automotive'
+import Science from '../Science'
 import SolutionsHero from './SolutionsHero'
 const Telecommunications = () => {
   return (
     <div><SolutionsHero heroheading="Telecommunications AI" hero_h2_w="Telecommunication_h2_width" />
       <Lorem_Epsum_Automotive />
       <Testimonials />
+      <Science />
       <Turpis />
       <Footer /></div>
   )

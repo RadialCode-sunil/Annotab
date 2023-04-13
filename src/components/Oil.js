@@ -8,6 +8,7 @@ import Solutions from './Solutions'
 import Footer from './Footer'
 import Testimonials from './Testimonials'
 import Lorem_Epsum_Automotive from './Lorem_Epsum_Automotive'
+import Exploreoil from '../Exploreoil'
 import SolutionsHero from './SolutionsHero'
 const Oil = () => {
   return (
@@ -15,6 +16,7 @@ const Oil = () => {
       <Lorem_Epsum_Automotive />
       <Testimonials />
       <Turpis />
+      <Exploreoil />
       <Footer /></div>
   )
 }
