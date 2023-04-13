@@ -264,6 +264,9 @@
 }
 
 /* Lorem_Epsum_Automotive */
+.Lorem_div_height {
+  height: 200px;
+}
 
 .Lorem_Epsum_Automotive_img_2 {
   margin-top: -15px;
@@ -276,9 +279,7 @@
   transform: translate(35%, 170%);
 }
 
-.h_200 {
-  height: 200px;
-}
+
 
 .Amet_p::after {
   content: '';
@@ -424,7 +425,6 @@
 }
 
 
-
 @media (min-width:992px) {
   .Lorem_Epsum_Amet::after {
     content: '';
@@ -475,6 +475,113 @@
     width: 150px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1400px) {
+  .Lorem_Epsum_Automotive_img_2 {
+    margin-top: -15px;
+  }
+
+  .Volutpat_ul {
+    top: 50%;
+    left: 50%;
+    transform: translate(30%, 170%);
+  }
+  .Amet_p::after {
+    left: -58px;
+    top: 47px;
+    width: 30px;
+  }
+
+  .Volutpat_p::after {
+    right: -95px;
+    top: 54px;
+    width: 85px;
+  }
+
+  .Volutpat_p::before {
+    top: -26px;
+    right: -208px;
+  }
+
+  .Lorem_Epsum_Automotive_img_2::after {
+    top: 166px;
+    left: 603px;
+  }
+
+  .Lorem_Epsum_Automotive_img_2::before {
+    top: -96px;
+    left: 297px;
+  }
+
+  .Lorem_Epsum_Automotive_img_1::after {
+    left: -220px;
+    top: 20px;
+    height: 403px;
+    width: 300px;
+  }
+
+  .Lorem_Epsum_Automotive_img_1::before {
+    left: -220px;
+    top: 20px;
+    height: 403px;
+    width: 220px;
+  }
+
+  .Volutpat_ul::after {
+    left: 416px;
+    top: 49px;
+    width: 191px;
+  }
+
+
+  .Lorem_Epsum_Automotive_img_3 {
+    margin-top: -90px;
+  }
+
+  .Lorem_Epsum_Automotive_img_3::before {
+    left: 50px;
+    top: -240px;
+    height: 600px;
+    width: 412px;
+  }
+
+  .Lorem_Epsum_Automotive_img_3::after {
+    bottom: -157px;
+    left: -63px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width:1200px) {
   .Team_slider_img_box {

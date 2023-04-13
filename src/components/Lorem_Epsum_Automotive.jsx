@@ -1,9 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
-import Lorem_Epsum_Automotive_img_1 from '../assets/img/png/Lorem_Epsum_Automotive_img1.png';
-import Lorem_Epsum_Automotive_img_2 from '../assets/img/png/Lorem_Epsum_Automotive_img2.png';
-import Lorem_Epsum_Automotive_img_3 from '../assets/img/png/Lorem_Epsum_Automotive_img3.png';
-const Lorem_Epsum_Automotive = () => {
+
+const Lorem_Epsum_Automotive = (props) => {
     return (
         <section className='py-5 mb-5'>
             <Container>
@@ -24,11 +22,11 @@ const Lorem_Epsum_Automotive = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className='Lorem_Epsum_Automotive_img_1  position-relative d-inline me-5 pe-4'><img className=' img-fluid ' src={Lorem_Epsum_Automotive_img_1} alt="Data engine" /></div>
+                    <div className='Lorem_Epsum_Automotive_img_1  position-relative d-inline me-5 pe-4'><img className=' img-fluid ' src={props.Lorem_Epsum_img1} alt="Data engine" /></div>
                 </div>
 
                 <div className='d-flex flex-column flex-lg-row justify-content-between Lorem_Epsum_Automotive_img_2 position-relative d-inline'>
-                    <img className=' img-fluid ' src={Lorem_Epsum_Automotive_img_2} alt="Data engine" />
+                    <img className=' img-fluid ' src={props.Lorem_Epsum_img2} alt="Data engine" />
                     <div className=' pt-5 mt-3'>
                         <ul className='Amet_ul '>
                             <li className=' ff_Book fw_300 fs_sm white opacity_7 Lorem_Epsum_p_w284 position-relative pt-3 pt-lg-0 list_dot Amet_p position-relative'>
@@ -57,9 +55,9 @@ const Lorem_Epsum_Automotive = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className='Lorem_Epsum_Automotive_img_3 position-relative d-inline me-5 pe-4'><img className=' img-fluid' src={Lorem_Epsum_Automotive_img_3} alt="Data engine" /></div>
+                    <div className='Lorem_Epsum_Automotive_img_3 position-relative d-inline me-5 pe-4'><img className=' img-fluid' src={props.Lorem_Epsum_img3} alt="Data engine" /></div>
                 </div>
-                <div className=' h_200'>
+                <div className=' Lorem_div_height'>
                 </div>
             </Container>
         </section>
