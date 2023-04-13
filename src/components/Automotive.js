@@ -11,11 +11,8 @@ import Lorem_Epsum_Automotive from './Lorem_Epsum_Automotive'
 const Automotive = () => {
     return (
         <div> <Hero />
-<<<<<<< HEAD
-        <Testimonials/>
-=======
-            <Lorem_Epsum_Automotive/>
->>>>>>> 30e6b591ad258129579f7cff3717309747bd7c3d
+            <Testimonials />
+            <Lorem_Epsum_Automotive />
             <Turpis />
             <Footer />
         </div>
