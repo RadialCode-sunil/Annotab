@@ -107,7 +107,7 @@
     .d_grid {
         display: grid;
         grid-template-columns: auto;
-        gap: 22px;
+        gap: 18px;
 
     }
 
@@ -167,6 +167,14 @@
         transition: all 0.5s linear;
     }
 
+    .list_style_circle {
+        list-style-type: circle !important;
+    }
+
+    .dot {
+        list-style-type: circle !important;
+    }
+
     @media (max-width:1200px) {
         .w_100 {
             width: 100%;
@@ -192,6 +200,10 @@
 
         .max_width_291 {
             max-width: 291px;
+        }
+
+        #max_width_704 {
+            max-width: 704px;
         }
     }
 

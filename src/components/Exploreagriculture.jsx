@@ -7,12 +7,12 @@ import agri4 from '../assets/img/png/agri_4.png';
 import agri5 from '../assets/img/png/agri_5.png';
 import agri6 from '../assets/img/png/agri_6.png';
 
-const Exploreagriculture = () => {
+const Exploreagriculture = (props) => {
     return (
         <Container>
             <div>
-                <p className=' ff_Medium fs_3xl grey fw_500'>Explore Agriculture Use Cases</p>
-                <p className='  ff_Book grey fs_sm fw_300 max_width_704 '>Scelerisque integer egestas nunc egestas. Vestibulum nunc blandit ultrices sit sagittis rutrum sed felis in ullamcorper adipiscing.</p>
+                <p className=' ff_Medium fs_3xl grey fw_500 '>{props.exploremy}</p>
+                <p className='  ff_Book grey fs_sm fw_300 max_width_704'> {props.Scelerisque}.</p>
             </div>
             <div className='pt-5'>
                 <div className=' d_grid py-5 mt-5 mb-5 '>
@@ -20,8 +20,15 @@ const Exploreagriculture = () => {
                         <img className=' w-100' src={agri} alt="" />
                         <div className=' explore_sec position-absolute top-50  start-50'>
                             <p className=' ff_Medium fs_lg text-white fw_400'>Commodo</p>
-                            <p className=' grey ff_Book  fs_sm fw_300 max_width_291'>Rutrum velit erat nulla dolor amet tellus</p>
-                            <p className='grey ff_Book  fs_sm fw_300 max_width_291'>Viverra lacus imperdiet sed ut est. Neque venenati.</p>
+                            <ul className='ps-0' >
+                                <li className='list_style_circle'>
+                                    <p className=' grey ff_Book  fs_sm fw_300 max_width_291 '>Rutrum velit erat nulla dolor amet tellus</p>
+
+                                </li>
+                                <li>
+                                    <p className='grey ff_Book  fs_sm fw_300 max_width_291'>Viverra lacus imperdiet sed ut est. Neque venenati.</p>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <div className='agri_2 command_box position-relative'>
@@ -67,7 +74,7 @@ const Exploreagriculture = () => {
 
                 </div>
                 <div className='d-flex justify-content-center  align-items-center flex-column'>
-                    <a href="#" class=" ff_Bold fs_md fw_400 butnnew butn d-inline-block">Explore</a>
+                    <a href="#" class=" ff_Bold fs_md fw_400 butnnew butn d-inline-block mb-5">Explore</a>
                 </div>            </div>
         </Container>
     )

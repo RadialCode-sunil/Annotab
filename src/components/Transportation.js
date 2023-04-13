@@ -6,11 +6,14 @@ import Sliderprops from './Sliderprops'
 
 import Solutions from './Solutions'
 import Footer from './Footer'
+import Exploretransporation from './Exploretransporation'
 const Transportation = () => {
   return (
       <div><Hero />
-          <Turpis />
-          <Footer /></div>
+      <Turpis />
+      <Exploretransporation/>
+      <Footer />
+    </div>
   )
 }
 

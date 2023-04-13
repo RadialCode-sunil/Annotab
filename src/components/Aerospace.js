@@ -6,11 +6,14 @@ import Sliderprops from './Sliderprops'
 
 import Solutions from './Solutions'
 import Footer from './Footer'
+import Exploreaerospaces from './Exploreaerospaces'
+import { Defancegrid } from './Defancegrid'
 const Aerospace = () => {
     return (
         <div> <Hero />
             <Turpis />
             <Footer />
+            <Defancegrid />
         </div>
     )
 }
