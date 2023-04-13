@@ -7,12 +7,14 @@ import Sliderprops from './Sliderprops'
 import Solutions from './Solutions'
 import Footer from './Footer'
 import Testimonials from './Testimonials'
+import Lorem_Epsum_Automotive from './Lorem_Epsum_Automotive'
 const Oil = () => {
   return (
-      <div><Hero />
-      <Testimonials/>
-          <Turpis />
-          <Footer /></div>
+    <div><Hero />
+      <Lorem_Epsum_Automotive />
+      <Testimonials />
+      <Turpis />
+      <Footer /></div>
   )
 }
 

@@ -1,5 +1,5 @@
 .list_dot {
-  list-style-type: circle !important;
+  list-style-type: disc !important;
 }
 
 .butn:link,
@@ -266,29 +266,162 @@
 /* Lorem_Epsum_Automotive */
 
 .Lorem_Epsum_Automotive_img_2 {
-  margin-top: -40px;
+  margin-top: -15px;
+  z-index: 2;
 }
 
 .Volutpat_ul {
   top: 50%;
   left: 50%;
-  transform: translate(50%, 100%);
+  transform: translate(35%, 170%);
+}
+
+.h_200 {
+  height: 200px;
+}
+
+.Amet_p::after {
+  content: '';
+  position: absolute;
+  left: -58px;
+  top: 47px;
+  width: 30px;
+  border-top: 1px solid #FFFFFF;
+  opacity: 0.7;
+}
+
+.Volutpat_p::after {
+  content: '';
+  position: absolute;
+  right: -83px;
+  top: 54px;
+  width: 85px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.Volutpat_p::before {
+  content: 'Data engine';
+  position: absolute;
+  background: #1C1F26;
+  border: 1px solid #FFFFFF;
+  padding: 10px;
+  top: -26px;
+  right: -196px;
+  /* text */
+  color: var(--color-white);
+  font-family: 'AllRoundGothic-Book', sans-serif;
+  font-size: var(--fs-sm);
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Lorem_Epsum_Automotive_img_2::after {
+  content: 'Data engine';
+  position: absolute;
+  background: #1C1F26;
+  border: 1px solid #FFFFFF;
+  padding: 10px;
+  top: 166px;
+  left: 784px;
+  /* text */
+  color: var(--color-white);
+  font-family: 'AllRoundGothic-Book', sans-serif;
+  font-size: var(--fs-sm);
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Lorem_Epsum_Automotive_img_2::before {
+  content: 'Data engine';
+  position: absolute;
+  background: #1C1F26;
+  border: 1px solid #FFFFFF;
+  padding: 10px;
+  top: -96px;
+  left: 284px;
+  /* text */
+  color: var(--color-white);
+  font-family: 'AllRoundGothic-Book', sans-serif;
+  font-size: var(--fs-sm);
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Lorem_Epsum_Automotive_img_1::after {
   content: '';
   position: absolute;
-  left: -452px;
-  top: 0;
-  height: 503px;
-  width: 474.5px;
-  border-top: 1px solid #FFFFFF;
+  left: -412px;
+  top: 20px;
+  height: 403px;
+  width: 500px;
   border-left: 1px solid #FFFFFF;
   border-bottom: 1px solid #FFFFFF;
+  opacity: 0.7;
+}
 
+.Lorem_Epsum_Automotive_img_1::before {
+  content: '';
+  position: absolute;
+  left: -412px;
+  top: 20px;
+  height: 403px;
+  width: 412px;
+  border-top: 1px solid #FFFFFF;
+  opacity: 0.7;
+}
+
+.Volutpat_ul::after {
+  content: '';
+  position: absolute;
+  left: 436px;
+  top: 49px;
+  width: 331px;
+  border-top: 1px solid #FFFFFF;
+  opacity: 0.7;
 }
 
 
+.Lorem_Epsum_Automotive_img_3 {
+  z-index: 2;
+  position: relative;
+  margin-top: -90px;
+}
+
+.Lorem_Epsum_Automotive_img_3::before {
+  content: '';
+  position: absolute;
+  left: 50px;
+  top: -240px;
+  height: 600px;
+  width: 412px;
+  border-left: 1px solid #FFFFFF;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.Lorem_Epsum_Automotive_img_3::after {
+  content: 'Data engine';
+  position: absolute;
+  background: #1C1F26;
+  border: 1px solid #FFFFFF;
+  padding: 10px;
+  bottom: -157px;
+  left: -63px;
+  /* text */
+  color: var(--color-white);
+  font-family: 'AllRoundGothic-Book', sans-serif;
+  font-size: var(--fs-sm);
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
@@ -311,6 +444,7 @@
     height: 364px;
     width: 100px;
     border-top: 1px solid #FFFFFF;
+    opacity: 0.7;
   }
 }
 

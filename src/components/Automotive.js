@@ -11,8 +11,8 @@ import Lorem_Epsum_Automotive from './Lorem_Epsum_Automotive'
 const Automotive = () => {
     return (
         <div> <Hero />
-            <Testimonials />
             <Lorem_Epsum_Automotive />
+            <Testimonials />
             <Turpis />
             <Footer />
         </div>

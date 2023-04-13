@@ -45,7 +45,7 @@ const Challenges = () => {
     };
     return (
         <div>
-            <Sliderprops heading="Challenges with Implementing Generative AI" para="Scelerisque integer egestas nunc egestas. Vestibulum nunc blandit ultrices sit sagittis rutrum sed felis in ullamcorper adipiscing." sliderimg={bigcrowed} sliderimg2={crowedcar} sliderimg3={cyclecar} />
+            <Sliderprops heading="Challenges with Implementing Generative AI" para="Scelerisque integer egestas nunc egestas. Vestibulum nunc blandit ultrices sit sagittis rutrum sed felis in ullamcorper adipiscing." sliderimg={bigcrowed} sliderimg2={crowedcar} sliderimg3={cyclecar} smallheading1="Sit donec" smallheading2="Commodo" smallheading3="Tellus turpis" />
         </div>
     )
 }

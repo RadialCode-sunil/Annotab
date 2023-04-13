@@ -15,9 +15,9 @@ const Manufacturing = () => {
             <Hero />
             <Lorem_Epsum />
             <Testimonials />
+            <Explore/>
             <Turpis />
             <Footer />
-            <Explore />
         </div>
 
     )
