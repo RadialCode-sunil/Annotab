@@ -74,7 +74,7 @@ const Testimonials = () => {
                     <div>
                         <img className='d-inline w-50' src={urna} alt="" />
                         <p className='ff_Medium fs_lg white pt-4'>Urna</p>
-                        <p className='ff_Medium fs_sm grey opacity_7 max_ w_ '>Sit risus rhoncus non non tortor amet iaculis morbi.  Et tempus elit nibh rhoncus in. Aliquam.</p>
+                        <p className='ff_Medium fs_sm grey opacity_7'>Sit risus rhoncus non non tortor amet iaculis morbi.  Et tempus elit nibh rhoncus in. Aliquam.</p>
                     </div>
                     <a className='ff_Bold fs_md sky Learn_btn d-inline-block mt-4' href="#">Learn More</a>
                 </div>
