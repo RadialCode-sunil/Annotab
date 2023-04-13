@@ -12,12 +12,12 @@ const Lorem_Epsum_Automotive = (props) => {
                 <div className=' d-flex flex-column-reverse flex-lg-row justify-content-between pt-5'>
 
                     <div className='py-4 py-lg-0'>
-                        <ul>
+                        <ul className=' list-unstyled ms-lg-4 ps-lg-2'>
                             <li className=' ff_Book fw_300 fs_sm white opacity_7 Lorem_Epsum_p_w284 pe-3 position-relative list_dot Volutpat_p position-relative'>
                                 Volutpat ipsum nunc non e molestie  swssa volutpat mauris.
                             </li>
 
-                            <li className=' ff_Book fw_300 fs_sm white opacity_7 Lorem_Epsum_p_w284 pe-3  position-relative list_dot pt-3'>
+                            <li className=' ff_Book fw_300 fs_sm white opacity_7 Lorem_Epsum_p_w284 pe-3  position-relative list_dot pt-3 Volutpat_p_2 position-relative'>
                                 Volutpat ipsum nunc non e molestie  swssa.
                             </li>
                         </ul>
@@ -28,7 +28,7 @@ const Lorem_Epsum_Automotive = (props) => {
                 <div className='d-flex flex-column flex-lg-row justify-content-between Lorem_Epsum_Automotive_img_2 position-relative d-inline'>
                     <img className=' img-fluid img2_w' src={props.Lorem_Epsum_img2} alt="Data engine" />
                     <div className=' py-4 py-lg-0 pt-lg-5 mt-lg-3'>
-                        <ul className='Amet_ul '>
+                        <ul className='Amet_ul list-unstyled'>
                             <li className=' ff_Book fw_300 fs_sm white opacity_7 Lorem_Epsum_p_w284 position-relative pt-3 pt-lg-0 list_dot Amet_p position-relative'>
                                 Amet at ultricies adipiscing lectus sed vitae. Nullam quam facilisi.
                             </li>
@@ -42,7 +42,7 @@ const Lorem_Epsum_Automotive = (props) => {
                 <div className='d-flex flex-column-reverse flex-lg-row justify-content-between align-items-lg-end'>
 
                     <div className=' pt-4 pt-lg-5 '>
-                        <ul className='Volutpat_ul'>
+                        <ul className='Volutpat_ul list-unstyled ms-lg-4 ps-lg-2'>
                             <li className=' ff_Book fw_300 fs_sm white opacity_7 Lorem_Epsum_p_w341 position-relative pt-3 pt-lg-0 list_dot'>
                                 Volutpat ipsum nunc non e molestie  swssa volutpat mauris.
                             </li>
