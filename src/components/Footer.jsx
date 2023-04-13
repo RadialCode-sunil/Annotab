@@ -8,7 +8,7 @@ const MyNew = () => {
         <Container className='py-5'>
             <Row>
                 <Col lg={3} xs={12} ><ul className='ps-0'>
-                    <img src={logo} alt="" />
+                    <a href="#"><img src={logo} alt="logo" /></a>
                     <p className='ff_Book fs_sm grey pt-4'>Feugiat tempor sagittis set dis nisl est.  at Malesuada in tortor cras dapibus.</p>
                     <li className='mt-5'>
                         <a className='footer_img ' href="#"><svg className='footer_img' width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,7 +22,7 @@ const MyNew = () => {
                 </ul></Col>
                 <Col lg={9} xs={12}>
                     <Row>
-                        <Col md={3} sm={6} xs={12}  className='d-flex justify-content-lg-center'id='ul_1'>
+                        <Col md={3} sm={6} xs={12} className='d-flex justify-content-lg-center' id='ul_1'>
                             <ul className=' pt-5 pt-5 pt-lg-0 ps-0  '>
                                 <li>
                                     <p className='ff_Book fs_sm white '>Products</p>
@@ -30,7 +30,7 @@ const MyNew = () => {
                                 <li className='pt-lg-3 pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Annotab Studio</a></li>
                             </ul>
                         </Col>
-                        <Col md={3} sm={6} xs={12}  className='d-flex align-items-lg-end justify-content-lg-end'id='ul_2'>
+                        <Col md={3} sm={6} xs={12} className='d-flex align-items-lg-end justify-content-lg-end' id='ul_2'>
                             <ul className='ps-0'>
                                 <li>
                                     <p className='ff_Book fs_sm white pt-5 pt-lg-0'>Solutions</p>
@@ -92,7 +92,7 @@ const MyNew = () => {
                                     </Link>
                                 </li>
                             </ul></Col>
-                        <Col md={3} sm={6} xs={12}  className='d-flex flex-column align-items-sm-center align-items-xl-end'id='ul_3'>
+                        <Col md={3} sm={6} xs={12} className='d-flex flex-column align-items-sm-center align-items-xl-end' id='ul_3'>
                             <ul className='ps-0 ps-sm-3'>
                                 <li><p className='ff_Book fs_sm white pt-5 pt-lg-0'>Resources</p></li>
                                 <li className='pt-lg-3 pt-2'>
@@ -102,7 +102,7 @@ const MyNew = () => {
                                 </li>
                                 <li className='pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Documentation</a></li>
                             </ul></Col>
-                        <Col md={3} sm={6} xs={12}  className='d-flex flex-column align-items-sm-center align-items-lg-end'id='ul_4'>
+                        <Col md={3} sm={6} xs={12} className='d-flex flex-column align-items-sm-center align-items-lg-end' id='ul_4'>
                             <ul className='ps-0 ps-lg-3'>
                                 <li><p className='ff_Book fs_sm white pt-5 pt-lg-0'>Company</p></li>
                                 <li className='pt-lg-3 pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">About us</a></li>
