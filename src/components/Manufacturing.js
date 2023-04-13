@@ -6,6 +6,7 @@ import Sliderprops from './Sliderprops'
 
 import Solutions from './Solutions'
 import Footer from './Footer'
+import Explore from './Explore'
 import Lorem_Epsum from './Lorem_Epsum'
 const Manufacturing = () => {
     return (
@@ -14,6 +15,7 @@ const Manufacturing = () => {
             <Lorem_Epsum/>
             <Turpis />
             <Footer />
+            <Explore />
         </div>
 
     )
