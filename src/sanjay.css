@@ -214,3 +214,31 @@ input[type="checkbox"]:checked ~ .Menuicon .icon_span {
   background-position-y: top;
   background-repeat: no-repeat;
 }
+@media (max-width: 768px) {
+  .gif_img {
+    width: 100%;
+    scale: 1.5;
+  }
+}
+@media (min-width: 768px) {
+  .gif_img {
+    position: absolute;
+    left: 211px;
+    top: -175px;
+  }
+}
+@media (min-width: 992px) {
+  .gif_img {
+    position: absolute;
+    left: 311px;
+    top: -175px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .gif_img {
+    position: absolute;
+    left: 548px;
+    top: -175px;
+  }
+}

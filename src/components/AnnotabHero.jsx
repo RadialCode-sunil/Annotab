@@ -12,9 +12,9 @@ const AnnotabHero = () => {
       <header className="bg_black_blue d-flex min-vh-100 flex-column position-relative">
         <NavBar />
         <section className="d-flex flex-column flex-grow-1 justify-content-center position-relative z-0">
-          <Container>
-            <Row className="position-relative index_1">
-              <Col lg={6} md={8}>
+          <Container className="position-relative">
+            <Row>
+              <Col lg={6} md={8} className="position-relative index_1">
                 <h2 className="fs_4xl ff_Bold white pb-3">
                   Welcome to Annotab <span className="sky">Studio</span>
                 </h2>
@@ -27,14 +27,14 @@ const AnnotabHero = () => {
                 </Link>
               </Col>
             </Row>
+            <img className=" gif_img " src={annotabGif} alt="gif" />
           </Container>
-          <img
-            className=" position-absolute end_sm_n70 top-0 "
-            src={annotabGif}
-            alt="gif"
-          />
         </section>
-        <img className="position-absolute top-0 start-0" src={annotabBgDots} alt="bg_dots" />
+        <img
+          className="position-absolute top-0 start-0"
+          src={annotabBgDots}
+          alt="bg_dots"
+        />
       </header>
     </div>
   );
