@@ -9,13 +9,28 @@
 }
 
 .green_lght {
-    top: 20px;
-    left: 0;
+    height: 316px;
+    width: 107px;
+    left: -150px;
+    top: 2px;
+    background: #00FFCC;
+    filter: blur(158px);
 
 }
 
 .blue_lght {
-    top: 20px;
-    right: 0;
+    height: 444px;
+    width: 157px;
+    right: -90px;
+    top: 218px;
+    background: #4A119E;
+    filter: blur(149px);
+}
 
+.best_wdth {
+    max-width: 688px;
+}
+
+.achieve_wdth {
+    max-width: 612px;
 }
