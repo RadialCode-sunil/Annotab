@@ -8,9 +8,11 @@ import Solutions from './Solutions'
 import Footer from './Footer'
 import Testimonials from './Testimonials'
 import { Exploreretails } from './Exploreretails'
+import Lorem_Epsum_Automotive from './Lorem_Epsum_Automotive'
 const Retail = () => {
     return (
         <div> <Hero />
+            <Lorem_Epsum_Automotive />
             <Testimonials />
             <Exploreretails />
             <Turpis />

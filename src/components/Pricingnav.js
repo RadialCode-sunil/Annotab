@@ -5,12 +5,17 @@ import Process from './Process'
 import Sliderprops from './Sliderprops'
 import Solutions from './Solutions'
 import Footer from './Footer'
+import { Latest } from './Latest'
+import Testimonials from './Testimonials'
 const Pricingnav = () => {
     return (
-        <div>  <div> <Hero />
+        <div>
+            <Hero />
+            <Latest />
+            <Testimonials />
             <Turpis />
             <Footer />
-        </div></div>
+        </div>
     )
 }
 

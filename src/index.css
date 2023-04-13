@@ -276,6 +276,10 @@
   transform: translate(35%, 170%);
 }
 
+.h_200 {
+  height: 200px;
+}
+
 .Amet_p::after {
   content: '';
   position: absolute;

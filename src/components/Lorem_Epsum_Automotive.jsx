@@ -7,7 +7,7 @@ const Lorem_Epsum_Automotive = () => {
     return (
         <section className='py-5 mb-5'>
             <Container>
-                <h2 className=' ff_Medium fw_600 fs_3xl white text-center'>
+                <h2 className=' ff_Medium fw_600 fs_3xl white text-center pb-5'>
                     Lorem Epsum Dolar Sit emit
                 </h2>
 
@@ -58,6 +58,8 @@ const Lorem_Epsum_Automotive = () => {
                         </ul>
                     </div>
                     <div className='Lorem_Epsum_Automotive_img_3 position-relative d-inline me-5 pe-4'><img className=' img-fluid' src={Lorem_Epsum_Automotive_img_3} alt="Data engine" /></div>
+                </div>
+                <div className=' h_200'>
                 </div>
             </Container>
         </section>

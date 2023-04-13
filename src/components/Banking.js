@@ -8,13 +8,16 @@ import Solutions from './Solutions'
 import Footer from './Footer'
 import { Explorebanking } from './Explorebanking'
 import Testimonials from './Testimonials'
+import Lorem_Epsum_Automotive from './Lorem_Epsum_Automotive'
 const Banking = () => {
     return (
         <div> <Hero />
+            <Lorem_Epsum_Automotive />
             <Testimonials />
+            <Explorebanking />
             <Turpis />
             <Footer />
-            <Explorebanking />
+            
         </div>
     )
 }

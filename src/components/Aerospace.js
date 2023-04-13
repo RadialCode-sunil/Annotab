@@ -14,9 +14,10 @@ const Aerospace = () => {
         <div> <Hero />
             <Aerospaces2 />
             <Testimonials />
+            <Defancegrid /> 
             <Turpis />
             <Footer />
-            <Defancegrid />
+
         </div>
     )
 }
