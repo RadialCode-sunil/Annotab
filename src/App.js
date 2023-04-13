@@ -18,6 +18,7 @@ import Retail from "./components/Retail";
 // import Pricing from "./components/Pricing";
 import Blogs from "./components/Blogs";
 import Pricingnav from "./components/Pricingnav";
+import Banking from "./components/Banking";
 
 function App() {
   return (
@@ -66,6 +67,10 @@ function App() {
         <Route exact path="/Blogs" element={<Blogs />}>
 
         </Route>
+        <Route exact path="/Banking" element={<Banking />}>
+
+        </Route>
+       
 
 
       </Routes>

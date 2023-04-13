@@ -11,38 +11,43 @@ const Lorem_Epsum = () => {
                     Lorem Epsum Dolar Sit emit
                 </h2>
 
-                <div className=' d-flex pt-5'>
-                    <img className='' src={Manufacturing_Lorem_img1} alt="image" />
-                    <div className=' ps-4'>
-                        <p className=' ff_Book fw_300 fs_sm white Lorem_Epsum_p_w341 Lorem_Epsum_Amet position-relative'>
-                            .  Amet at ultricies adipiscing lectus sed vitae. Nullam quam facilisi.
-                        </p>
-                        <p className=' ff_Book fw_300 fs_sm white Lorem_Epsum_p_w341'>
-                            .  Maecenas sed cras feugiat ligula auctor gravida. Nunc nisi massa scelerisque est.
-                        </p>
+                <div className=' d-flex flex-column flex-lg-row pt-5'>
+                    <img className=' img-fluid' src={Manufacturing_Lorem_img1} alt="image" />
+                    <div className=''>
+                        <ul>
+                            <li className=' ff_Book fw_300 fs_sm white opacity_7 Lorem_Epsum_p_w341 Lorem_Epsum_Amet position-relative pt-3 pt-lg-0 list_dot'>
+                                Amet at ultricies adipiscing lectus sed vitae. Nullam quam facilisi.
+                            </li>
+
+                            <li className=' ff_Book fw_300 fs_sm white opacity_7 Lorem_Epsum_p_w341 Lorem_Epsum_Maecenas position-relative list_dot pt-2 '>
+                                Maecenas sed cras feugiat ligula auctor gravida. Nunc nisi massa scelerisque est.
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div className=' d-flex align-items-end pt-5'>
+                <div className=' d-flex flex-column flex-xl-row align-items-xl-end pt-5 mt-5 mt-lg-0'>
 
-                    <div className=' d-flex '>
-                        <img src={Manufacturing_Lorem_img2} alt="image" />
-                        <div className=' ps-4'>
-                            <p className=' ff_Book fw_300 fs_sm white Lorem_Epsum_p_w284'>
-                                .  Volutpat ipsum nunc non e molestie  swssa volutpat mauris.
-                            </p>
-                            <p className=' ff_Book fw_300 fs_sm white Lorem_Epsum_p_w284 pe-5'>
-                                .  Volutpat ipsum nunc non e molestie  swssa.
-                            </p>
+                    <div className=' d-flex flex-column flex-lg-row pt-3 pt-lg-0'>
+                        <img className=' img-fluid' src={Manufacturing_Lorem_img2} alt="image" />
+                        <div className=''>
+                            <ul className=''>
+                                <li className=' ff_Book fw_300 fs_sm white opacity_7 pt-3 pt-lg-0 list_dot Lorem_Epsum_p_w284'>
+                                    Volutpat ipsum nunc non e molestie  swssa volutpat mauris.
+                                </li>
+                                <li className=' ff_Book fw_300 fs_sm white opacity_7 pe-5 list_dot pt-2 Lorem_Epsum_p_w284'>
+                                    Volutpat ipsum nunc non e molestie  swssa.
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <div>
-                        <img src={Manufacturing_Lorem_img3} alt="image" />
+                    <div className=' pt-4'>
+                        <div className='Lorem_Epsum_Data_img position-relative d-inline'><img className=' img-fluid  ' src={Manufacturing_Lorem_img3} alt="image" /></div>
                     </div>
                 </div>
 
 
             </Container>
-        </section>
+        </section >
     )
 }
 
