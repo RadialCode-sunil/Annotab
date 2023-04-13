@@ -9,15 +9,16 @@ import purplelight from "../assets/img/png/purple_light.png";
 import herogreenLight from "../assets/img/png/hero_green_light.png";
 import Green_btn from "./Green_btn";
 import { Link } from "react-router-dom";
+import linear_bg from "../assets/img/png/linear_bg_black.png"
 
 const Hero = () => {
   return (
     <div>
       <header className="bg_black_blue d-flex min-vh-100 flex-column dotted_bg position-relative linear_background">
         <NavBar />
-        <section className="d-flex flex-column flex-grow-1 justify-content-center position-relative z-0">
+        <section className="d-flex flex-column flex-grow-1 justify-content-end position-relative z-0">
           <Container>
-            <div className="d-flex flex-column align-items-center">
+            <div className="d-flex flex-column align-items-center pt-5">
               <h2 className="text-center fs_4xl ff_Bold white pb-3">
                 One place to build deploy{" "}
                 <span className="d-block text-center sky ff_Bold">
@@ -42,7 +43,7 @@ const Hero = () => {
                 <div className="max_width270 position-relative index_1">
                   <img className="w-100 px-5 px-sm-0" src={pcImg3} alt="img" />
                 </div>
-                <div className=" position-absolute top_37p d-sm-block d-none">
+                <div className=" position-absolute top_47p d-sm-block d-none">
                   <img src={curlyLine} alt="line" />
                 </div>
               </div>
@@ -54,6 +55,7 @@ const Hero = () => {
           <div className=" position-absolute end-0 top_n180">
             <img src={herogreenLight} alt="light" />
           </div>
+          <div className="linear_hero_bottom"> <img className="w-100 h-100" src={linear_bg} alt="bg" /></div>
         </section>
       </header>
     </div >
