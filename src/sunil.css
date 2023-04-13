@@ -1,9 +1,21 @@
 .turpis_img {
     background: url(../src/assets/img/png/turpis_bg_img.png) center no-repeat;
     background-size: cover;
- 
+
 }
 
 .feauth_wdth {
     max-width: 731px;
+}
+
+.green_lght {
+    top: 20px;
+    left: 0;
+
+}
+
+.blue_lght {
+    top: 20px;
+    right: 0;
+
 }
