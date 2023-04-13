@@ -6,12 +6,14 @@ import Sliderprops from './Sliderprops'
 
 import Solutions from './Solutions'
 import Footer from './Footer'
+import Explore from './Explore'
 const Manufacturing = () => {
     return (
         <div>
             <Hero />
             <Turpis />
             <Footer />
+            <Explore />
         </div>
 
     )
