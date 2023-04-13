@@ -9,9 +9,10 @@ import Footer from './Footer'
 import Testimonials from './Testimonials'
 import { Exploreretails } from './Exploreretails'
 import Lorem_Epsum_Automotive from './Lorem_Epsum_Automotive'
+import SolutionsHero from './SolutionsHero'
 const Retail = () => {
     return (
-        <div> <Hero />
+        <div> <SolutionsHero heroheading="Retail & Ecommerce AI" hero_h2_w="Retail_h2_width" />
             <Lorem_Epsum_Automotive />
             <Testimonials />
             <Exploreretails />

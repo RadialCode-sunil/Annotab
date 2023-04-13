@@ -8,12 +8,12 @@ import Solutions from './Solutions'
 import Footer from './Footer'
 import Exploretransporation from './Exploretransporation'
 import Lorem_Epsum_Automotive from './Lorem_Epsum_Automotive'
-
+import SolutionsHero from './SolutionsHero'
 
 
 const Transportation = () => {
   return (
-    <div><Hero />
+    <div><SolutionsHero heroheading="Transportation AI" hero_h2_w="Transport_h2_width" />
       <Lorem_Epsum_Automotive />
       <Testimonials />
       <Exploretransporation />

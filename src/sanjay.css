@@ -38,9 +38,9 @@
   background-position-x: center;
   background-position-y: top;
 }
-@media (min-width:1200px) {
-  .dotted_bg{
-        background-position-y: -24%;
+@media (min-width: 1200px) {
+  .dotted_bg {
+    background-position-y: -24%;
   }
 }
 /* .curly_line_bg {
@@ -139,10 +139,9 @@ select option {
 .dropdown {
   position: relative;
   display: inline-block;
-  
 }
 .dropdown-content a:hover {
-  background-color:#1C1F26;
+  background-color: #1c1f26;
 }
 
 .dropdown:hover .dropdown-content {
@@ -251,7 +250,62 @@ input[type="checkbox"]:checked ~ .Menuicon .icon_span {
 }
 
 .linear_hero_bottom {
-  background:#1C1F26 ;
+  background: #1c1f26;
   width: 100%;
   height: 211px;
+}
+
+.max_w_612 {
+  max-width: 612px;
+}
+#safety_h2_width{
+  max-width: 731px;
+}
+#Banking_h2_width{
+  max-width: 688px;
+}
+#Manufacturing_h2_width{
+  max-width: 688px;
+}
+#Oil_h2_width{
+  max-width: 688px;
+}
+#Retail_h2_width{
+  max-width: 735px;
+}
+#Telecommunication_h2_width{
+  max-width: 731px;
+}
+#Transport_h2_width{
+  max-width: 688px;
+}
+#Utilities_h2_width{
+  max-width: 688px;
+}
+#Automotive_h2_w {
+  max-width: 688px;
+}
+#Aerospace_h2_width {
+  max-width: 747px;
+}
+#Agriculture_h2_width {
+  max-width: 688px;
+}
+.blue_light {
+  position: absolute;
+  background: #4a119e;
+  filter: blur(149px);
+  width: 157px;
+  height: 444px;
+  right: -69px;
+}
+.green_light {
+  position: absolute;
+  width: 107px;
+  height: 316px;
+  background: #00ffcc;
+  filter: blur(158px);
+  left: -8px;
+  top: 31px;
+  z-index: 0;
 }
