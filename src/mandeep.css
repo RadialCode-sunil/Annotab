@@ -39,6 +39,10 @@
     color: #00FFCC;
     border: 1px solid #00FFCC;
 }
+
+.whitelight_clr{
+    color: #B9BABE !important;
+}
 @media (min-width:1200px) {
 
     .min_w_524 {
@@ -48,8 +52,16 @@
     .min_w_324 {
         max-width: 324px;
     }
+        .min_w_704{
+        max-width: 704px;
+        }
 }
-
+@media (max-width:768px) {
+    .h_lg_450 {
+            height: 450px;
+            object-fit: cover;
+        }
+}
 .slick-track {
     display: flex !important;
 }

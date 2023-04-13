@@ -235,7 +235,7 @@ const NavBar = () => {
             <div className="d-flex align-items-start  d-lg-none sm_view nav_left0 px_md_100 px-sm-5 ">
               <div className="ps_20 ">
                 <a className="fs_sm text-white ff_Book" href="#">
-                  Pricing
+                  Home
                 </a>
               </div>
               <Accordion className="w-100">
