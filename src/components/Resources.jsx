@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Slider from "react-slick";
+import Green_btn_2 from './Green_btn_2';
 
 const Resources = () => {
     var Resources_slider = {
@@ -69,35 +70,45 @@ const Resources = () => {
                     <div className='Resources_slider_box mx-2'>
                         <p className=' ff_Medium fw_400 fs_lg white'>Phasellus convallis</p>
                         <p className=' ff_Book fw_300 fs_sm grey opacity_7'>Euismod quisque semper ut sem. Enim vivamus in tortor malesuada lectus.</p>
-                        <a href="#" className=' ff_Bold fw_500 fs_md sky Resources_slider_box_btn d-inline-block mt-3'>Learn More</a>
+                        <div className='mt-3'>
+                            <Green_btn_2 Green_btn_2text="Learn More" />
+                        </div>
                     </div>
                 </div>
                 <div className=''>
                     <div className='Resources_slider_box mx-2'>
                         <p className=' ff_Medium fw_400 fs_lg white'>Phasellus convallis</p>
                         <p className=' ff_Book fw_300 fs_sm grey opacity_7'>Euismod quisque semper ut sem. Enim vivamus in tortor malesuada lectus.</p>
-                        <a href="#" className=' ff_Bold fw_500 fs_md sky Resources_slider_box_btn d-inline-block mt-3'>Learn More</a>
+                        <div className='mt-3'>
+                            <Green_btn_2 Green_btn_2text="Learn More" />
+                        </div>
                     </div>
                 </div>
                 <div className=''>
                     <div className='Resources_slider_box mx-2'>
                         <p className=' ff_Medium fw_400 fs_lg white'>Phasellus convallis</p>
                         <p className=' ff_Book fw_300 fs_sm grey opacity_7'>Euismod quisque semper ut sem. Enim vivamus in tortor malesuada lectus.</p>
-                        <a href="#" className=' ff_Bold fw_500 fs_md sky Resources_slider_box_btn d-inline-block mt-3'>Learn More</a>
+                        <div className='mt-3'>
+                            <Green_btn_2 Green_btn_2text="Learn More" />
+                        </div>
                     </div>
                 </div>
                 <div className=''>
                     <div className='Resources_slider_box mx-2'>
                         <p className=' ff_Medium fw_400 fs_lg white'>Phasellus convallis</p>
                         <p className=' ff_Book fw_300 fs_sm grey opacity_7'>Euismod quisque semper ut sem. Enim vivamus in tortor malesuada lectus.</p>
-                        <a href="#" className=' ff_Bold fw_500 fs_md sky Resources_slider_box_btn d-inline-block mt-3'>Learn More</a>
+                        <div className='mt-3'>
+                            <Green_btn_2 Green_btn_2text="Learn More" />
+                        </div>
                     </div>
                 </div>
                 <div className=''>
                     <div className='Resources_slider_box mx-2'>
                         <p className=' ff_Medium fw_400 fs_lg white'>Phasellus convallis</p>
                         <p className=' ff_Book fw_300 fs_sm grey opacity_7'>Euismod quisque semper ut sem. Enim vivamus in tortor malesuada lectus.</p>
-                        <a href="#" className=' ff_Bold fw_500 fs_md sky Resources_slider_box_btn d-inline-block mt-3'>Learn More</a>
+                        <div className='mt-3'>
+                            <Green_btn_2 Green_btn_2text="Learn More" />
+                        </div>
                     </div>
                 </div>
 

@@ -7,11 +7,13 @@ import Sliderprops from './Sliderprops'
 import Solutions from './Solutions'
 import Footer from './Footer'
 import Testimonials from './Testimonials'
+import { Exploresafety } from './Exploresafety'
 const Safety = () => {
   return (
     <div>
       <Hero />
       <Testimonials />
+      <Exploresafety />
       <Turpis />
       <Footer /></div>
   )

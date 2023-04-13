@@ -7,10 +7,12 @@ import Sliderprops from './Sliderprops'
 import Solutions from './Solutions'
 import Footer from './Footer'
 import Testimonials from './Testimonials'
+import { Exploreretails } from './Exploreretails'
 const Retail = () => {
     return (
         <div> <Hero />
             <Testimonials />
+            <Exploreretails />
             <Turpis />
             <Footer />
         </div>
