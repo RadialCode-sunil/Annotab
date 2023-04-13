@@ -213,6 +213,36 @@
   z-index: 1;
 }
 
+/* Lorem_Epsum */
+
+.Lorem_Epsum_p_w341 {
+  max-width: 341px;
+}
+
+.Lorem_Epsum_p_w284 {
+  max-width: 284px;
+}
+
+.Lorem_Epsum_Amet::after {
+  content: '';
+  position: absolute;
+  right: -190px;
+  height: 364px;
+  width: 207px;
+  border-right: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+}
+.Lorem_Epsum_Amet::before {
+  content: '';
+  position: absolute;
+  right: -190px;
+  top: 22px;
+  height: 364px;
+  width: 150px;
+  border-top: 1px solid #FFFFFF;
+
+}
+
 @media (max-width:1200px) {
   .Team_slider_img_box {
     padding: 22px 25px 30px 22px;
