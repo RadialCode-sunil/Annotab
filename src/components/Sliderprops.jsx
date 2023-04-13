@@ -53,7 +53,7 @@ const Challenges = (props) => {
                             <div className=' h-100  d-flex justify-content-between flex-column'>
                                 <div>
                                     <img className=' w-100 h_lg_450' src={props.sliderimg} alt="" />
-                                    <p className=' ff_Medium fs_lg text-white fw_400 pt-3'>Sit donec</p>
+                                    <p className=' ff_Medium fs_lg text-white fw_400 pt-3'>{props.smallheading1} </p>
                                     <ul className='pb-3'>
                                         <li className='list_style whitelight_clr ff_Book fw_300 fs_sm min_w_324 '>Volutpat ipsum nunc non e molestie  swssa volutpat mauris.</li>
                                         <li className='list_style whitelight_clr ff_Book fw_300 fs_sm min_w_324 pt-2'>Volutpat ipsum nunc non e molestie  swssa.</li>
@@ -69,7 +69,7 @@ const Challenges = (props) => {
                             <div className=' h-100 d-flex justify-content-between flex-column'>
                                 <div>
                                     <img className=' w-100 h_lg_450' src={props.sliderimg2} alt="" />
-                                    <p className=' ff_Medium fs_lg text-white pt-3'>Commodo</p>
+                                    <p className=' ff_Medium fs_lg text-white pt-3'>{props.smallheading2} </p>
                                     <ul className='pb-3'>
                                         <li className='list_style whitelight_clr ff_Book fs_sm min_w_324'>Rutrum velit erat nulla dolor amet tellus</li>
                                         <li className='list_style whitelight_clr ff_Book fs_sm min_w_324 pt-2'>Rutrum velit erat nulla dolor amet tellus</li>
@@ -86,7 +86,7 @@ const Challenges = (props) => {
                             <div className=' h-100  d-flex justify-content-between flex-column'>
                                 <div>
                                     <img className=' w-100 h_lg_450' src={props.sliderimg3} alt="" />
-                                    <p className=' ff_Medium fs_lg text-white pt-3'>Tellus turpis</p>
+                                    <p className=' ff_Medium fs_lg text-white pt-3'>{props.smallheading3}</p>
                                     <ul className='pb-3'>
                                         <li className='list_style whitelight_clr ff_Book fs_sm min_w_324 '>Risus hendrerit risus</li>
                                         <li className='list_style whitelight_clr ff_Book fs_sm min_w_324 pt-2'>Risus hendrerit risus</li>
