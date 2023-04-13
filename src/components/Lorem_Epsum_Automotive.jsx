@@ -9,9 +9,9 @@ const Lorem_Epsum_Automotive = (props) => {
                     Lorem Epsum Dolar Sit emit
                 </h2>
 
-                <div className=' d-flex flex-column flex-lg-row justify-content-between pt-5'>
+                <div className=' d-flex flex-column-reverse flex-lg-row justify-content-between pt-5'>
 
-                    <div className=''>
+                    <div className='py-4 py-lg-0'>
                         <ul>
                             <li className=' ff_Book fw_300 fs_sm white opacity_7 Lorem_Epsum_p_w284 pe-3 position-relative list_dot Volutpat_p position-relative'>
                                 Volutpat ipsum nunc non e molestie  swssa volutpat mauris.
@@ -22,12 +22,12 @@ const Lorem_Epsum_Automotive = (props) => {
                             </li>
                         </ul>
                     </div>
-                    <div className='Lorem_Epsum_Automotive_img_1  position-relative d-inline me-5 pe-4'><img className=' img-fluid ' src={props.Lorem_Epsum_img1} alt="Data engine" /></div>
+                    <div className='Lorem_Epsum_Automotive_img_1  position-relative d-inline me-5 pe-4'><img className=' img-fluid img_w' src={props.Lorem_Epsum_img1} alt="Data engine" /></div>
                 </div>
 
                 <div className='d-flex flex-column flex-lg-row justify-content-between Lorem_Epsum_Automotive_img_2 position-relative d-inline'>
-                    <img className=' img-fluid ' src={props.Lorem_Epsum_img2} alt="Data engine" />
-                    <div className=' pt-5 mt-3'>
+                    <img className=' img-fluid img2_w' src={props.Lorem_Epsum_img2} alt="Data engine" />
+                    <div className=' py-4 py-lg-0 pt-lg-5 mt-lg-3'>
                         <ul className='Amet_ul '>
                             <li className=' ff_Book fw_300 fs_sm white opacity_7 Lorem_Epsum_p_w284 position-relative pt-3 pt-lg-0 list_dot Amet_p position-relative'>
                                 Amet at ultricies adipiscing lectus sed vitae. Nullam quam facilisi.
@@ -39,9 +39,9 @@ const Lorem_Epsum_Automotive = (props) => {
                         </ul>
                     </div>
                 </div>
-                <div className='d-flex flex-column flex-lg-row justify-content-between align-items-end'>
+                <div className='d-flex flex-column-reverse flex-lg-row justify-content-between align-items-lg-end'>
 
-                    <div className=' pt-5 '>
+                    <div className=' pt-4 pt-lg-5 '>
                         <ul className='Volutpat_ul'>
                             <li className=' ff_Book fw_300 fs_sm white opacity_7 Lorem_Epsum_p_w341 position-relative pt-3 pt-lg-0 list_dot'>
                                 Volutpat ipsum nunc non e molestie  swssa volutpat mauris.
@@ -55,7 +55,7 @@ const Lorem_Epsum_Automotive = (props) => {
                             </li>
                         </ul>
                     </div>
-                    <div className='Lorem_Epsum_Automotive_img_3 position-relative d-inline me-5 pe-4'><img className=' img-fluid' src={props.Lorem_Epsum_img3} alt="Data engine" /></div>
+                    <div className='Lorem_Epsum_Automotive_img_3 position-relative d-inline me-5 pe-4'><img className=' img-fluid img_w' src={props.Lorem_Epsum_img3} alt="Data engine" /></div>
                 </div>
                 <div className=' Lorem_div_height'>
                 </div>
