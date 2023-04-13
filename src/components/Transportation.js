@@ -18,10 +18,8 @@ const Transportation = () => {
   return (
 
     <div>
-      <Hero />
-      <Lorem_Epsum_Automotive Lorem_Epsum_img1={Lorem_Transportation_img1} Lorem_Epsum_img2={Lorem_Transportation_img2} Lorem_Epsum_img3={Lorem_Transportation_img3} />
       <SolutionsHero heroheading="Transportation AI" hero_h2_w="Transport_h2_width" />
-      <Lorem_Epsum_Automotive />
+      <Lorem_Epsum_Automotive Lorem_Epsum_img1={Lorem_Transportation_img1} Lorem_Epsum_img2={Lorem_Transportation_img2} Lorem_Epsum_img3={Lorem_Transportation_img3} />
       <Testimonials />
       <Exploretransporation />
       <Turpis />

@@ -18,9 +18,7 @@ import SolutionsHero from './SolutionsHero'
 const Telecommunications = () => {
   return (
     <div><SolutionsHero heroheading="Telecommunications AI" hero_h2_w="Telecommunication_h2_width" />
-      <Hero />
       <Lorem_Epsum_Automotive Lorem_Epsum_img1={Lorem_Telecommunications_img1} Lorem_Epsum_img2={Lorem_Telecommunications_img2} Lorem_Epsum_img3={Lorem_Telecommunications_img3} />
-      <Lorem_Epsum_Automotive />
       <Testimonials />
       <Science />
       <Turpis />

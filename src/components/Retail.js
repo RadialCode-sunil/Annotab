@@ -19,10 +19,7 @@ const Retail = () => {
     return (
         <div>
             <SolutionsHero heroheading="Retail & Ecommerce AI" hero_h2_w="Retail_h2_width" />
-
-            <Hero />
             <Lorem_Epsum_Automotive Lorem_Epsum_img1={Lorem_Retail_img1} Lorem_Epsum_img2={Lorem_Retail_img2} Lorem_Epsum_img3={Lorem_Retail_img3} />
-            <Lorem_Epsum_Automotive />
             <Testimonials />
             <Exploreretails />
             <Turpis />
