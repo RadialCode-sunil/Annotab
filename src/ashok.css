@@ -48,7 +48,7 @@
 
 /* Agricultures2 */
 .dot {
-    list-style-type: circle !important;
+    list-style-type: disc !important;
 }
 
 @media (min-width: 1200px) {
