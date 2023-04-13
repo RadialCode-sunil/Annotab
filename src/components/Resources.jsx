@@ -10,6 +10,10 @@ const Resources = () => {
         slidesToShow: 4.26,
         slidesToScroll: 1,
         arrows: false,
+        cssEase: 'linear',
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 3000,
         responsive: [
             {
                 breakpoint: 1200,
@@ -96,7 +100,7 @@ const Resources = () => {
                         <a href="#" className=' ff_Bold fw_500 fs_md sky Resources_slider_box_btn d-inline-block mt-3'>Learn More</a>
                     </div>
                 </div>
-                
+
             </Slider>
 
         </section>
