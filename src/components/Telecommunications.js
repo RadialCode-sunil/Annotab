@@ -7,11 +7,8 @@ import Solutions from './Solutions'
 import Footer from './Footer'
 import Testimonials from './Testimonials'
 import Lorem_Epsum_Automotive from './Lorem_Epsum_Automotive'
-<<<<<<< HEAD
 import Science from '../Science'
-=======
 import SolutionsHero from './SolutionsHero'
->>>>>>> 9324eafdc944d844d0b15e13b05e116d6bbedf01
 const Telecommunications = () => {
   return (
     <div><SolutionsHero heroheading="Telecommunications AI" hero_h2_w="Telecommunication_h2_width" />
