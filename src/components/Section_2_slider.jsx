@@ -8,7 +8,7 @@ const Section_2_slider = () => {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 7.35,
+        slidesToShow: 7.90,
         slidesToScroll: 1,
         arrows: false,
         cssEase: 'linear',
@@ -19,7 +19,7 @@ const Section_2_slider = () => {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3.25,
+                    slidesToShow: 7.25,
                     slidesToScroll: 3,
                     infinite: true,
                     dots: false
@@ -28,14 +28,14 @@ const Section_2_slider = () => {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2.25,
+                    slidesToShow: 7.25,
                     slidesToScroll: 2
                 }
             },
             {
                 breakpoint: 670,
                 settings: {
-                    slidesToShow: 1.03,
+                    slidesToShow: 4.03,
                     slidesToScroll: 1
                 }
             }]
