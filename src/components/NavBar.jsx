@@ -52,9 +52,11 @@ const NavBar = () => {
                     </span>
                   </a>
                   <div className="dropdown-content">
-                    <a className="fs_sm text-white ff_Book" href="#">
-                      Annotab&nbsp;Studio
-                    </a>
+                    <Link to="/annotab">
+                      <a className="fs_sm text-white ff_Book p-0" href="#">
+                        Annotab&nbsp;Studio
+                      </a>
+                    </Link>
                     <a className="fs_sm text-white ff_Book" href="#">
                       Video&nbsp;Annotab{" "}
                     </a>
