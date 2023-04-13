@@ -5,10 +5,12 @@ import Process from './Process'
 import Sliderprops from './Sliderprops'
 
 import Solutions from './Solutions'
+import Testimonials from './Testimonials'
 import Footer from './Footer'
 const Automotive = () => {
     return (
         <div> <Hero />
+        <Testimonials/>
             <Turpis />
             <Footer />
         </div>

@@ -27,14 +27,18 @@ const Testimonials = () => {
                 breakpoint: 992,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true
                 }
             },
             {
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
                 }
             }]
     };
@@ -68,7 +72,7 @@ const Testimonials = () => {
                 </div>
 
             </Slider>
-          
+
         </Container>
     )
 }

@@ -5,22 +5,70 @@
 }
 
 /* hover */
-.footer_img:hover svg{
-  transform: translateY(-10%) !important;
+.footer_img:hover svg {
+    transform: translateY(-10%) !important;
 }
+
 .footer_hover {
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 
 }
 
 .footer_hover:hover {
     opacity: 0.3;
 }
+
 /*  */
-.max_w{
+.max_w {
     max-width: 856px;
 }
-.Learn_btn{
+
+.Learn_btn {
     border: 1px solid #00FFCC;
     padding: 11px 20px;
+}
+
+.slick-track {
+    display: flex !important;
+}
+
+.slick-slide {
+    height: inherit !important;
+    display: flex !important;
+}
+
+.slick-slide>div {
+    display: flex;
+}
+
+/* Agricultures2 */
+.dot {
+    list-style-type: circle !important;
+}
+
+
+/* Aerospaces2 */
+/* .max_w_284 {
+    max-width: 284px;
+}
+
+.max_w_273 {
+    max-width: 273px;
+} */
+
+@media (min-width: 1200px) {
+    .max_w_284 {
+        max-width: 284px;
+    }
+
+    .max_w_273 {
+        max-width: 273px;
+    }
+    .max_w_260{
+    max-width: 260px;
+    }
+    .max_w_300{
+    max-width: 300px;
+    }
+   
 }
