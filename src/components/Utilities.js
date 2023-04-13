@@ -6,11 +6,13 @@ import Sliderprops from './Sliderprops'
 
 import Solutions from './Solutions'
 import Footer from './Footer'
+import Testimonials from './Testimonials'
 const Utilities = () => {
   return (
-      <div><Hero />
-          <Turpis />
-          <Footer /></div>
+    <div><Hero />
+      <Testimonials />
+      <Turpis />
+      <Footer /></div>
   )
 }
 

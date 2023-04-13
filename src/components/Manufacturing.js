@@ -6,14 +6,18 @@ import Sliderprops from './Sliderprops'
 
 import Solutions from './Solutions'
 import Footer from './Footer'
+import Explore from './Explore'
 import Lorem_Epsum from './Lorem_Epsum'
+import Testimonials from './Testimonials'
 const Manufacturing = () => {
     return (
         <div>
             <Hero />
-            <Lorem_Epsum/>
+            <Lorem_Epsum />
+            <Testimonials />
             <Turpis />
             <Footer />
+            <Explore />
         </div>
 
     )

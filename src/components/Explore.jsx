@@ -1,12 +1,9 @@
 import React from 'react'
-import Slider from "react-slick";
 import Sliderprops from './Sliderprops'
-import bigcrowed from '../assets/img/png/bigcrowed.png'
-import crowedcar from '../assets/img/png/crowedcar.png'
-import cyclecar from '../assets/img/png/cyclecar.png'
-import { Container, Row, Col } from 'react-bootstrap';
-
-const Challenges = () => {
+import exploreimg1 from '../assets/img/png/exploreimg1.png'
+import exploreimg2 from '../assets/img/png/exploreimg2.png'
+import exploreimg3 from '../assets/img/png/exploreimg3.png'
+const Explore = () => {
     var Team_slider = {
         dots: false,
         infinite: true,
@@ -31,7 +28,8 @@ const Challenges = () => {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
-                    dots: true,
+                    dots: false,
+                    dots: true
                 }
             },
             {
@@ -39,15 +37,15 @@ const Challenges = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    dots: true,
+                    dots: true
                 }
             }]
     };
     return (
         <div>
-            <Sliderprops heading="Challenges with Implementing Generative AI" para="Scelerisque integer egestas nunc egestas. Vestibulum nunc blandit ultrices sit sagittis rutrum sed felis in ullamcorper adipiscing." sliderimg={bigcrowed} sliderimg2={crowedcar} sliderimg3={cyclecar} />
+            <Sliderprops heading="Explore Manufacturing Use Cases" para="Scelerisque integer egestas nunc egestas. Vestibulum nunc blandit ultrices sit sagittis rutrum sed felis in ullamcorper adipiscing." sliderimg={exploreimg1} sliderimg2={exploreimg2} sliderimg3={exploreimg3} />
         </div>
     )
 }
 
-export default Challenges
+export default Explore
