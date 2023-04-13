@@ -14,6 +14,9 @@ const Solutions = () => {
         arrows: false,
         nextArrow: ".next",
         prevArrow: ".back",
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 3000,
         responsive: [
             {
                 breakpoint: 1200,

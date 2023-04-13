@@ -7,10 +7,12 @@ import Solutions from './Solutions'
 import Footer from './Footer'
 import { Latest } from './Latest'
 import Testimonials from './Testimonials'
+import Pricingplan from './Pricingplan'
 const Pricingnav = () => {
     return (
         <div>
             <Hero />
+            <Pricingplan/>
             <Latest />
             <Testimonials />
             <Turpis />

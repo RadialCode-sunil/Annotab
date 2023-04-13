@@ -54,3 +54,35 @@
     display: flex;
 }
 
+.maxw_627{
+    max-width: 627px;
+}
+
+.h_454{
+    height: 454px;
+}
+
+.maxw_689{
+    max-width: 689px;
+}
+
+.blue_light1 {
+    position: absolute;
+    background: #4a119e;
+    filter: blur(110px);
+    width: 87px;
+    height: 244px;
+    right: 50px;
+    bottom: 0;
+    top: 40%;
+}
+
+.green_light1 {
+    position: absolute;
+    width: 81px;
+    height: 242px;
+    background: #00FFCC;
+    filter: blur(120px);
+    left: 50px;
+    top: 40%;
+}
