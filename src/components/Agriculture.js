@@ -5,12 +5,14 @@ import Process from './Process'
 import Sliderprops from './Sliderprops'
 import Solutions from './Solutions'
 import Footer from './Footer'
+import Testimonials from './Testimonials'
+import { Agriculturecases } from './Agriculturecases'
 const Agriculture = () => {
     return (
         <div>
             <Hero />
             <Testimonials />
-            <Agricultures2 />
+            <Agriculturecases />
             <Turpis />
             <Footer />
             <Agriculturecases />
