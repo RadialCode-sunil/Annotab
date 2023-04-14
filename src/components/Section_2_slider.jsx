@@ -8,7 +8,7 @@ const Section_2_slider = () => {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 7.90,
+        slidesToShow: 9.80,
         slidesToScroll: 1,
         arrows: false,
         cssEase: 'linear',
@@ -17,9 +17,27 @@ const Section_2_slider = () => {
         speed: 3000,
         responsive: [
             {
+                breakpoint: 1920,
+                settings: {
+                    slidesToShow: 9.80,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 1600,
+                settings: {
+                    slidesToShow: 8.80,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 7.25,
+                    slidesToShow: 7.90,
                     slidesToScroll: 3,
                     infinite: true,
                     dots: false
@@ -43,6 +61,24 @@ const Section_2_slider = () => {
     return (
         <section>
             <Slider {...Section_2_slider}>
+                <div>
+                    <img className=' w-100' src={slider_img} alt="" />
+                </div>
+                <div>
+                    <img className=' w-100' src={slider_img} alt="" />
+                </div>
+                <div>
+                    <img className=' w-100' src={slider_img} alt="" />
+                </div>
+                <div>
+                    <img className=' w-100' src={slider_img} alt="" />
+                </div>
+                <div>
+                    <img className=' w-100' src={slider_img} alt="" />
+                </div>
+                <div>
+                    <img className=' w-100' src={slider_img} alt="" />
+                </div>
                 <div>
                     <img className=' w-100' src={slider_img} alt="" />
                 </div>

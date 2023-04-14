@@ -66,47 +66,57 @@ const Resources = () => {
                 </div>
             </Container>
             <Slider {...Resources_slider} className=' pt-5 mt-3'>
+                {/* 1 */}
                 <div className=''>
-                    <div className='Resources_slider_box mx-2'>
-                        <p className=' ff_Medium fw_400 fs_lg white'>Phasellus convallis</p>
-                        <p className=' ff_Book fw_300 fs_sm grey opacity_7'>Euismod quisque semper ut sem. Enim vivamus in tortor malesuada lectus.</p>
-                        <div className='mt-3'>
+                    <div className='Resources_slider_box mx-2 h-100 d-flex flex-column justify-content-between'>
+                        <div>
+                            <p className=' ff_Medium fw_400 fs_lg white'>Phasellus convallis</p>
+                            <p className=' ff_Book fw_300 fs_sm grey opacity_7'>Euismod quisque semper ut sem. Enim vivamus in tortor malesuada lectus.</p></div>
+                        <div className='mt-4'>
                             <Green_btn_2 Green_btn_2text="Learn More" />
                         </div>
                     </div>
                 </div>
+                {/* 2 */}
                 <div className=''>
-                    <div className='Resources_slider_box mx-2'>
-                        <p className=' ff_Medium fw_400 fs_lg white'>Phasellus convallis</p>
-                        <p className=' ff_Book fw_300 fs_sm grey opacity_7'>Euismod quisque semper ut sem. Enim vivamus in tortor malesuada lectus.</p>
-                        <div className='mt-3'>
+                    <div className='Resources_slider_box mx-2 h-100 d-flex flex-column justify-content-between'>
+                        <div>
+                            <p className=' ff_Medium fw_400 fs_lg white'>Et urna nisi lorem</p>
+                            <p className=' ff_Book fw_300 fs_sm grey opacity_7'>Fringilla leo convallis consectetur ac sapien. bibendum urna leo.</p></div>
+                        <div className='mt-4'>
                             <Green_btn_2 Green_btn_2text="Learn More" />
                         </div>
                     </div>
                 </div>
+                {/* 3 */}
                 <div className=''>
-                    <div className='Resources_slider_box mx-2'>
-                        <p className=' ff_Medium fw_400 fs_lg white'>Phasellus convallis</p>
-                        <p className=' ff_Book fw_300 fs_sm grey opacity_7'>Euismod quisque semper ut sem. Enim vivamus in tortor malesuada lectus.</p>
-                        <div className='mt-3'>
+                    <div className='Resources_slider_box mx-2 h-100 d-flex flex-column justify-content-between'>
+                        <div>
+                            <p className=' ff_Medium fw_400 fs_lg white'>Et urna nisi lorem</p>
+                            <p className=' ff_Book fw_300 fs_sm grey opacity_7'>Fringilla leo convallis consectetur ac sapien. bibendum urna leo.</p></div>
+                        <div className='mt-4'>
                             <Green_btn_2 Green_btn_2text="Learn More" />
                         </div>
                     </div>
                 </div>
+                {/* 4 */}
                 <div className=''>
-                    <div className='Resources_slider_box mx-2'>
-                        <p className=' ff_Medium fw_400 fs_lg white'>Phasellus convallis</p>
-                        <p className=' ff_Book fw_300 fs_sm grey opacity_7'>Euismod quisque semper ut sem. Enim vivamus in tortor malesuada lectus.</p>
-                        <div className='mt-3'>
+                    <div className='Resources_slider_box mx-2 h-100 d-flex flex-column justify-content-between   '>
+                        <div>
+                            <p className=' ff_Medium fw_400 fs_lg white'>Et urna nisi lorem</p>
+                            <p className=' ff_Book fw_300 fs_sm grey opacity_7'>Fringilla leo convallis consectetur ac sapien. bibendum urna leo.</p></div>
+                        <div className='mt-4'>
                             <Green_btn_2 Green_btn_2text="Learn More" />
                         </div>
                     </div>
                 </div>
+                {/* 5 */}
                 <div className=''>
-                    <div className='Resources_slider_box mx-2'>
-                        <p className=' ff_Medium fw_400 fs_lg white'>Phasellus convallis</p>
-                        <p className=' ff_Book fw_300 fs_sm grey opacity_7'>Euismod quisque semper ut sem. Enim vivamus in tortor malesuada lectus.</p>
-                        <div className='mt-3'>
+                    <div className='Resources_slider_box mx-2 h-100 d-flex flex-column justify-content-between'>
+                        <div>
+                            <p className=' ff_Medium fw_400 fs_lg white'>Et urna nisi lorem</p>
+                            <p className=' ff_Book fw_300 fs_sm grey opacity_7'>Fringilla leo convallis consectetur ac sapien. bibendum urna leo.</p></div>
+                        <div className='mt-4'>
                             <Green_btn_2 Green_btn_2text="Learn More" />
                         </div>
                     </div>
