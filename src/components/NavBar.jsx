@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <div>
-      <div className="bg_blur">
-        <Container className="py-3  position-relative  z_index_10">
+      <div className="bg_blur position-relative  z_index_10">
+        <Container className="py-3  ">
           <div className="d-flex justify-content-lg-around justify-content-between align-items-center py-1">
             <Link to="/">
               <img className="p-0" src={annotab} alt="annotab logo" />
