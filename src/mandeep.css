@@ -6,8 +6,8 @@
     text-decoration: none !important;
     list-style-type: none !important;
     box-sizing: border-box !important;
-
 }
+
 
 .bg_darkgreen {
     background: #1E1E1E;
@@ -53,6 +53,103 @@
     transform: scale(1.1);
 }
 
+@media (min-width:576px) {
+    .seconddisplay_img1 {
+        position: absolute;
+        z-index: 2;
+        left: 25%;
+        top: 0;
+    }
+
+    .seconddisplay_img1::after {
+        content: url(./assets/img/png/process_line.png);
+        position: absolute;
+        left: -61px;
+        top: 70px;
+    }
+
+    .seconddisplay_img2 {
+        position: absolute;
+        right: 6px;
+        bottom: -391px;
+    }
+
+    .seconddisplay_img3 {
+        position: absolute;
+        left: 12px;
+        bottom: -432px;
+    }
+}
+
+@media (min-width:768px) {
+    .seconddisplay_img1 {
+        left: 32%;
+        top: 0;
+    }
+
+    .seconddisplay_img2 {
+        right: 93px;
+        bottom: -392px;
+    }
+
+    .seconddisplay_img3 {
+        left: 105px;
+        bottom: -432px;
+    }
+}
+
+@media (min-width:992px) {
+    .seconddisplay_img1 {
+        left: 40%;
+        top: 0px;
+    }
+
+    .seconddisplay_img2 {
+        right: 179px;
+        bottom: -380px;
+    }
+
+    .seconddisplay_img3 {
+        left: 256px;
+        bottom: -429px;
+    }
+}
+
+
+@media (min-width:1200px) {
+    .seconddisplay_img1 {
+        left: 120px;
+        top: -190px;
+    }
+
+    .seconddisplay_img2 {
+        right: 70px;
+        bottom: -180px;
+    }
+
+    .seconddisplay_img3 {
+        left: 0px;
+        bottom: -237px;
+    }
+}
+
+@media (min-width:1400px) {
+    .seconddisplay_img1 {
+        left: 120px;
+        top: -190px;
+    }
+
+    .seconddisplay_img2 {
+        right: 140px;
+        bottom: -180px;
+    }
+
+    .seconddisplay_img3 {
+        left: 0px;
+        bottom: -237px;
+    }
+}
+
 @media (min-width:1200px) {
 
     .min_w_524 {
@@ -72,6 +169,13 @@
     }
 }
 
+@media (max-width:1200px) {
+    .desktop_img {
+        height: 500px;
+    }
+
+}
+
 @media (max-width:768px) {
     .h_lg_450 {
         height: 450px;
@@ -81,4 +185,10 @@
 
 .slick-track {
     display: flex !important;
+}
+
+@media (max-width:576px) {
+    .desktop_img {
+        height: 0;
+    }
 }
