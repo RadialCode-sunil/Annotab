@@ -51,8 +51,6 @@ export const Latest = () => {
     return (
         <Container>
             <div className='pt-5 text-center justify-content-center d-flex align-items-center flex-column'>
-                <p className=' ff_Medium  fs_3xl grey fw_400 pt-5'>Latest Plans </p>
-                <p className=' ff_Book  fs_sm grey fw_400 mx_700_md pb-5 opacity_7'>Scelerisque integer egestas nunc egestas. Vestibulum nunc blandit ultrices sit sagittis rutrum sed felis in ullamcorper adipiscing.</p>
                 <div className='d-flex align-items-center mb-5 border_bottom_latest'>
                     <p className=' ff_Medium  fs_xl grey fw_400 mb-0 pe-5 border_bottom_1 pointer'>Basic plans</p>
                     <p className=' ff_Medium  fs_xl grey fw_400 mb-0 ps-2 border_bottom_1 pointer'>Exclusive plans</p>
