@@ -27,14 +27,14 @@ const NavBar = () => {
               <ul className="d-flex mb-0 gap-xl-4 gap-3 p-0 flex-lg-row flex-column">
                 <li>
                   <Link to="/">
-                    <a className="fs_sm text-white ff_Book" href="#">
+                    <a className="fs_sm text-white ff_Book main_pages" href="#">
                       Home
                     </a>
                   </Link>
                 </li>
                 <li className="dropdown">
                   <a
-                    className="fs_sm text-white product position-relative ff_Book"
+                    className="fs_sm text-white product position-relative ff_Book main_navbar"
                     href="#"
                   >
                     Products{" "}
@@ -90,7 +90,7 @@ const NavBar = () => {
                 </li>
                 <li className="dropdown">
                   <a
-                    className="fs_sm text-white product position-relative ff_Book"
+                    className="fs_sm text-white product position-relative ff_Book main_navbar"
                     href="#"
                   >
                     Solutions{" "}
@@ -217,14 +217,17 @@ const NavBar = () => {
                 </li>
                 <li>
                   <Link to="/Pricingnav">
-                    <a className="fs_sm text-white ff_Book p-0 links" href="#">
+                    <a
+                      className="fs_sm text-white ff_Book p-0 links main_pages"
+                      href="#"
+                    >
                       Pricing
                     </a>
                   </Link>
                 </li>
                 <li className="dropdown">
                   <a
-                    className="fs_sm text-white product position-relative ff_Book"
+                    className="fs_sm text-white product position-relative ff_Book main_navbar"
                     href="#"
                   >
                     Resources{" "}
@@ -264,7 +267,7 @@ const NavBar = () => {
                 </li>
                 <li className="dropdown">
                   <a
-                    className="fs_sm text-white product position-relative ff_Book"
+                    className="fs_sm text-white product position-relative ff_Book main_navbar"
                     href="#"
                   >
                     Company{" "}
@@ -322,16 +325,18 @@ const NavBar = () => {
               <Green_btn any_text="Sign up" />
             </div>
             <div className="d-flex align-items-start  d-lg-none sm_view nav_left0 px_md_100 px-sm-5 ">
-              <div className="ps_20 ">
-                <a className="fs_sm text-white ff_Book py-3" href="#">
-                  Home
-                </a>
+              <div className="ps_20 pb-3">
+                <Link to="/">
+                  <a className="fs_sm text-white ff_Book" href="#">
+                    Home
+                  </a>
+                </Link>
               </div>
               <Accordion className="w-100">
                 <Accordion.Item eventKey="0" className="border-0">
                   <Accordion.Header>Products</Accordion.Header>
-                  <Accordion.Body className="d-flex flex-column">
-                    <Link to="/annotab" className="hover_green py-2">
+                  <Accordion.Body className="d-flex flex-column py-1">
+                    <Link to="/annotab" className="hover_green py-1">
                       <a
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
@@ -339,7 +344,7 @@ const NavBar = () => {
                         Annotab&nbsp;Studio
                       </a>
                     </Link>
-                    <Link className="hover_green py-2">
+                    <Link className="hover_green py-1">
                       <a
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
@@ -347,7 +352,7 @@ const NavBar = () => {
                         Video&nbsp;Annotab{" "}
                       </a>
                     </Link>
-                    <Link className="hover_green py-2">
+                    <Link className="hover_green py-1">
                       <a
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
@@ -355,7 +360,7 @@ const NavBar = () => {
                         Images&nbsp;Annotab{" "}
                       </a>
                     </Link>
-                    <Link className="hover_green py-2">
+                    <Link className="hover_green py-1">
                       <a
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
@@ -367,8 +372,8 @@ const NavBar = () => {
                 </Accordion.Item>
                 <Accordion.Item eventKey="1" className="border-0">
                   <Accordion.Header>Solutions</Accordion.Header>
-                  <Accordion.Body className="d-flex flex-column">
-                    <Link className="hover_green py-2">
+                  <Accordion.Body className="d-flex flex-column py-1">
+                    <Link className="hover_green py-0">
                       <a
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
@@ -376,7 +381,7 @@ const NavBar = () => {
                         Healthcare & Medicine{" "}
                       </a>
                     </Link>
-                    <Link to="/Manufacturing" className="hover_green py-2">
+                    <Link to="/Manufacturing" className="hover_green py-0">
                       <a
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
@@ -384,7 +389,7 @@ const NavBar = () => {
                         Manufacturing{" "}
                       </a>
                     </Link>
-                    <Link to="/Agriculture" className="hover_green py-2">
+                    <Link to="/Agriculture" className="hover_green py-0">
                       <a
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
@@ -392,7 +397,7 @@ const NavBar = () => {
                         Agriculture{" "}
                       </a>
                     </Link>
-                    <Link to="/Aerospace" className="hover_green py-2">
+                    <Link to="/Aerospace" className="hover_green py-0">
                       <a
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
@@ -400,7 +405,7 @@ const NavBar = () => {
                         Aerospace & Defense{" "}
                       </a>
                     </Link>
-                    <Link to="/Automotive" className="hover_green py-2">
+                    <Link to="/Automotive" className="hover_green py-0">
                       <a
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
@@ -409,7 +414,7 @@ const NavBar = () => {
                       </a>
                     </Link>
 
-                    <Link to="/Banking" className="hover_green py-2">
+                    <Link to="/Banking" className="hover_green py-0">
                       <a
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
@@ -418,7 +423,7 @@ const NavBar = () => {
                       </a>
                     </Link>
 
-                    <Link to="/Transportation" className="hover_green py-2">
+                    <Link to="/Transportation" className="hover_green py-0">
                       <a
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
@@ -427,7 +432,7 @@ const NavBar = () => {
                       </a>
                     </Link>
 
-                    <Link to="/Oil" className="hover_green py-2">
+                    <Link to="/Oil" className="hover_green py-0">
                       <a
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
@@ -436,7 +441,7 @@ const NavBar = () => {
                       </a>
                     </Link>
 
-                    <Link to="/Retail" className="hover_green py-2">
+                    <Link to="/Retail" className="hover_green py-0">
                       <a
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
@@ -445,7 +450,7 @@ const NavBar = () => {
                       </a>
                     </Link>
 
-                    <Link to="/Safety" className="hover_green py-2">
+                    <Link to="/Safety" className="hover_green py-0">
                       <a
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
@@ -454,7 +459,7 @@ const NavBar = () => {
                       </a>
                     </Link>
 
-                    <Link to="/Telecommunications" className="hover_green py-2">
+                    <Link to="/Telecommunications" className="hover_green py-0">
                       <a
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
@@ -463,7 +468,7 @@ const NavBar = () => {
                       </a>
                     </Link>
 
-                    <Link to="/Utilities" className="hover_green py-2">
+                    <Link to="/Utilities" className="hover_green py-0">
                       <a
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
@@ -473,7 +478,7 @@ const NavBar = () => {
                     </Link>
                   </Accordion.Body>
                 </Accordion.Item>
-                <div className="ps_20">
+                <div className="ps_20 py-3">
                   <a className="fs_sm text-white ff_Book" href="#">
                     Pricing
                   </a>
@@ -481,7 +486,7 @@ const NavBar = () => {
                 <Accordion.Item eventKey="3" className="border-0">
                   <Accordion.Header>Resources</Accordion.Header>
                   <Accordion.Body className="d-flex flex-column">
-                    <Link to="/Blogs" className="hover_green py-2">
+                    <Link to="/Blogs" className="hover_green py-1">
                       <a
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
@@ -489,7 +494,7 @@ const NavBar = () => {
                         Blogs
                       </a>
                     </Link>
-                    <Link className="hover_green py-2">
+                    <Link className="hover_green py-1">
                       <a
                         className="fs_sm text-white ff_Book p-0 links "
                         href="#"
@@ -502,7 +507,7 @@ const NavBar = () => {
                 <Accordion.Item eventKey="4" className="border-0">
                   <Accordion.Header>Company</Accordion.Header>
                   <Accordion.Body className="d-flex flex-column">
-                    <Link className="hover_green py-2">
+                    <Link className="hover_green py-1">
                       <a
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
@@ -510,7 +515,7 @@ const NavBar = () => {
                         About us
                       </a>
                     </Link>
-                    <Link className="hover_green py-2">
+                    <Link className="hover_green py-1">
                       <a
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
@@ -518,7 +523,7 @@ const NavBar = () => {
                         News{" "}
                       </a>
                     </Link>
-                    <Link className="hover_green py-2">
+                    <Link className="hover_green py-1">
                       <a
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
@@ -526,7 +531,7 @@ const NavBar = () => {
                         Data Security{" "}
                       </a>
                     </Link>
-                    <Link className="hover_green py-2">
+                    <Link className="hover_green py-1">
                       <a
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"

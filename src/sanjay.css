@@ -334,3 +334,14 @@ input[type="checkbox"]:checked ~ .Menuicon .icon_span {
 .hover_green:hover .links {
   color: #00ffcc !important;
 }
+
+.dropdown:hover .main_navbar{
+  color: #00ffcc !important;
+}
+.main_pages:hover{
+  color: #00ffcc !important;
+}
+.accordion-button{
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
