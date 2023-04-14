@@ -10,10 +10,15 @@ const Other_Products = () => {
 
         <section className='py-5'>
             <Container className='scroll-w'>
+                <h2 className=' ff_Medium fs_3xl fw_500 white text-center'>Other Products</h2>
+                <p className=' ff_Book fs_sm fw_300 grey Other_Products_p_Neque mx-auto text-center pt-3 pb-4'>
+                    Neque eget quis ornare id a. Neque nisl purus gravida enim donec purus egestas. Non nulla purus blandit aliquam. Enim id cras fermentum sed metus.
+                </p>
                 <Tabs
-                    defaultActiveKey="profile"
+                    defaultActiveKey="home"
                     id="uncontrolled-tab-example"
-                    className='Tabs'
+                    className=''
+                    
                 >
                     <Tab eventKey="home" title="Annotab Studio">
                         <Row className=' align-items-center pt-5'>
