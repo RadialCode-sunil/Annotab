@@ -9,7 +9,7 @@ export const Exploresafety = () => {
     return (
         <Container>
             <div>
-                <Sliderprops heading="Explore Safety & Security Use Cases" para="Scelerisque integer egestas nunc egestas. Vestibulum nunc blandit ultrices sit sagittis rutrum sed felis in ullamcorper adipiscing." sliderimg={exploreimg10} sliderimg2={exploreimg11} sliderimg3={exploreimg12} smallheading1="Venenatis ullamcorper" smallheading2="Quis" smallheading3="Nec eu" />
+                <Sliderprops heading="Explore Safety" secondhalf="&" thirdHalf="Security Use Cases" para="Scelerisque integer egestas nunc egestas. Vestibulum nunc blandit ultrices sit sagittis rutrum sed felis in ullamcorper adipiscing." sliderimg={exploreimg10} sliderimg2={exploreimg11} sliderimg3={exploreimg12} smallheading1="Venenatis ullamcorper" smallheading2="Quis" smallheading3="Nec eu" />
             </div>
             <div className=' d-flex justify-content-center pt-5'>
                 <Green_btn any_text="Explore" btn_id="explore_style" />
