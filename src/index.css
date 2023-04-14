@@ -2,6 +2,8 @@
   list-style-type: disc !important;
 }
 
+/* Green_btn */
+
 .butn:link,
 .butn:visited {
   text-decoration: none;
@@ -71,6 +73,12 @@
 .Green_btn_2 {
   padding: 18px 32px;
   border: 1px solid var(--color-sky);
+  transition: all 0.2s linear;
+}
+
+.Green_btn_2:hover {
+  background: var(--color-sky);
+  color: var(--color-darkblue) !important;
 }
 
 /* Resources */
@@ -150,6 +158,10 @@
 }
 
 /* Other_Products */
+
+.Other_Products_p_Neque {
+  max-width: 698px;
+}
 
 .Other_Products_p_w {
   max-width: 438px;
