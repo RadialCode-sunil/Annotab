@@ -22,8 +22,8 @@ const Agricultures2 = () => {
                     </ul>
 
                 </Col>
-                <Col lg={4} sm={6} xs={12} className='d-flex align-items-center justify-content-center'>
-                    <img className='w-100' src={tamato} alt="tamato" />
+                <Col lg={4} sm={6} xs={12} className='d-flex align-items-center justify-content-center '>
+                    <img className='w-100 footer_img img_hover' src={tamato} alt="tamato" />
                 </Col>
                 <Col lg={4} sm={6} xs={12} className=' mt-4 mt-lg-0'>
                     <ul>
@@ -36,14 +36,14 @@ const Agricultures2 = () => {
                     </ul>
                 </Col>
                 <Col lg={4} sm={6} xs={12} className='d-flex align-items-center justify-content-center mt-4'>
-                    <img className='w-100' src={tractor} alt="tractor" />
+                    <img className='w-100 footer_img img_hover' src={tractor} alt="tractor" />
                 </Col>
                 <Col lg={4} sm={6} xs={12} className='d-flex align-items-center justify-content-center mt-4'>
-                    <img className='w-100' src={tractor_2} alt="tractor_2" />
+                    <img className='w-100 footer_img img_hover' src={tractor_2} alt="tractor_2" />
 
                 </Col>
                 <Col lg={4} sm={6} xs={12} className='d-flex align-items-center justify-content-center mt-4'>
-                    <img className='w-100' src={tractor_3} alt="tractor_3" />
+                    <img className='w-100 footer_img img_hover  ' src={tractor_3} alt="tractor_3" />
 
                 </Col>
             </Row>

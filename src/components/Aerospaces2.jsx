@@ -23,7 +23,7 @@ const Aerospaces2 = () => {
 
                 </Col>
                 <Col lg={4} sm={6} xs={12} className='d-flex align-items-center justify-content-center'>
-                    <img className='w-100' src={star_light} alt="star_light" />
+                    <img className='w-100 footer_img img_hover' src={star_light} alt="star_light" />
                 </Col>
                 <Col lg={4} sm={6} xs={12} className=' mt-4 mt-lg-0'>
                     <ul>
@@ -36,14 +36,14 @@ const Aerospaces2 = () => {
                     </ul>
                 </Col>
                 <Col lg={4} sm={6} xs={12} className='d-flex align-items-center justify-content-center mt-4'>
-                    <img className='w-100' src={aerospace1} alt="aerospace1" />
+                    <img className='w-100 footer_img img_hover' src={aerospace1} alt="aerospace1" />
                 </Col>
                 <Col lg={4} sm={6} xs={12} className='d-flex align-items-center justify-content-center mt-4'>
-                    <img className='w-100' src={aerospaces2} alt="aerospace2" />
+                    <img className='w-100 footer_img img_hover' src={aerospaces2} alt="aerospace2" />
 
                 </Col>
                 <Col lg={4} sm={6} xs={12} className='d-flex align-items-center justify-content-center mt-4'>
-                    <img className='w-100' src={aerospace3} alt="aerospace1" />
+                    <img className='w-100 footer_img img_hover' src={aerospace3} alt="aerospace1" />
 
                 </Col>
             </Row>
