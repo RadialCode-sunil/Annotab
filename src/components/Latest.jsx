@@ -58,9 +58,9 @@ export const Latest = () => {
                 </div></div >
             <Slider {...price_sv}>
                 {/* 1 */}
-                <div className='latest_box p-4'>
+                <div className='latest_box latest_shadow  p-4 ms-3 text-center'>
                     <p className=' ff_Medium mb-0 fs_md text-white'>Normal</p>
-                    <p className='mb-0 ff_Medium fs_2xl text-white'><span className='ff_arial'>&</span>50</p>
+                    <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span>50</p>
                     <p className=' ff_Medium fs_md text-white mx_280_md mt-2'>Quis commodo viverra elementum duis.</p>
                     <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky mt-3' href="#">Buy
                         now</a>
@@ -112,9 +112,9 @@ export const Latest = () => {
                     </div>
                 </div>
 
-                <div className='latest_box p-4'>
+                <div className='latest_box latest_shadow  p-4 ms-3 text-center'>
                     <p className=' ff_Medium mb-0 fs_md text-white'>Rapid</p>
-                    <p className='mb-0 ff_Medium fs_2xl text-white'>$90</p>
+                    <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span>90</p>
                     <p className=' ff_Medium fs_md text-white mx_280_md'>Vitae sollicitudin arcu pretium nec cras.</p>
                     <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky mt-3' href="#">Buy
                         now</a>
@@ -167,9 +167,9 @@ export const Latest = () => {
                 </div>
 
                 {/* 3 */}
-                <div className='latest_box p-4'>
+                <div className=' latest_shadow latest_box text-center  p-4 ms-3'>
                     <p className=' ff_Medium mb-0 fs_md text-white'>Enterprise</p>
-                    <p className='mb-0 ff_Medium fs_2xl text-white'>$150</p>
+                    <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span>150</p>
                     <p className=' ff_Medium fs_md text-white mx_280_md'>Interdum rhoncus nisl et rutrum tortor lectus.</p>
                     <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky mt-3' href="#">Buy
                         now</a>
