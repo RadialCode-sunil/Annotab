@@ -356,4 +356,5 @@ input[type="checkbox"]:checked ~ .Menuicon .icon_span {
 .accordion-body{
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+  line-height: inherit;
 }
