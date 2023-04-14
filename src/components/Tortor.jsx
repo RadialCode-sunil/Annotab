@@ -25,8 +25,8 @@ const Tortor = () => {
 
                 <div className=' '>
                     <p className=' ff_Medium  fs_3xl fw_400 white  '>Tortor nisi amet aliquam fermentum. Elementum orci sit mi nunc ac. Aliquam eget cras felis id feugiat.</p>
-                    <p className=' fs_sm white ff_Book fw_300'>Eget molestie purus molestie urna feugiat eget.</p>
-                    <div className=' mt-3 me-3'>
+                    <p className=' fs_sm white ff_Book fw_300 pt-2'>Eget molestie purus molestie urna feugiat eget.</p>
+                    <div className=' mt-5 me-3'>
                         <Green_btn any_text='Know More' />
                     </div>
                 </div>
