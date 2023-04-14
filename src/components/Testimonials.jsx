@@ -54,7 +54,7 @@ const Testimonials = () => {
                 <div className='d-flex flex-column align-items-center justify-content-between text-center p-5 h-100 '>
 
                     <div>
-                        <img className='d-inline w-50' src={sit} alt="" />
+                        <img className='d-inline w-50 img_hover' src={sit} alt="sit" />
                         <p className='ff_Medium fs_lg white pt-4'> Sit donec</p>
                         <p className='ff_Medium fs_sm grey opacity_7'>Quis quam risus id nulla egestas pellentesque. Id in maecenas aenean ornare aenean ultricies ridiculus aliquam.</p>
                     </div>
@@ -64,7 +64,7 @@ const Testimonials = () => {
                 {/* 2 */}
                 <div className='d-flex flex-column align-items-center justify-content-between text-center p-5 h-100 '>
                     <div>
-                        <img className='d-inline w-50' src={mauris} alt="" />
+                        <img className='d-inline w-50 img_hover' src={mauris} alt="mauris" />
                         <p className='ff_Medium fs_lg white pt-4'>Mauris</p>
                         <p className='ff_Medium fs_sm grey opacity_7'>Quisque eu adipiscing risus tempor arcu vitae  fames. Pulvinar id congue euismod viverra. Sed platea dolor.</p>
                     </div>
@@ -75,7 +75,7 @@ const Testimonials = () => {
                 {/* 3 */}
                 <div className='d-flex flex-column align-items-center justify-content-between text-center p-5 justify-content-between h-100 '>
                     <div>
-                        <img className='d-inline w-50' src={urna} alt="" />
+                        <img className='d-inline w-50 img_hover' src={urna} alt="urna" />
                         <p className='ff_Medium fs_lg white pt-4'>Urna</p>
                         <p className='ff_Medium fs_sm grey opacity_7'>Sit risus rhoncus non non tortor amet iaculis morbi.  Et tempus elit nibh rhoncus in. Aliquam.</p>
                     </div>
