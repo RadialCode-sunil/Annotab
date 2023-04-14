@@ -12,7 +12,8 @@ import Testimonials from './Testimonials'
 import SolutionsHero from './SolutionsHero'
 const Aerospace = () => {
     return (
-        <div> <SolutionsHero heroheading="Aerospace & Defense Ai" hero_h2_w="Aerospace_h2_width"  />
+        <div> <SolutionsHero firstheading="Aerospace" middleHalf="&" thirdHalf="Defense Ai
+" hero_h2_w="Aerospace_h2_width"  />
             <Aerospaces2 />
             <Testimonials />
             <Defancegrid /> 

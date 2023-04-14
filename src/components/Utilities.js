@@ -17,7 +17,7 @@ import SolutionsHero from './SolutionsHero'
 
 const Utilities = () => {
   return (
-    <div><SolutionsHero heroheading="Utilities AI" hero_h2_w="Utilities_h2_width" />
+    <div><SolutionsHero firstheading="Utilities AI" hero_h2_w="Utilities_h2_width" />
       <Lorem_Epsum_Automotive Lorem_Epsum_img1={Lorem_Utilities_img1} Lorem_Epsum_img2={Lorem_Utilities_img2} Lorem_Epsum_img3={Lorem_Utilities_img3} />
       <Testimonials />
       <Exploreutilites />

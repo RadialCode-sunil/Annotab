@@ -17,7 +17,7 @@ import Lorem_Epsum_Automotive_img_3 from '../assets/img/png/Lorem_Epsum_Automoti
 
 const Automotive = () => {
     return (
-        <div> <SolutionsHero heroheading="Automotive AI" hero_h2_w="Automotive_h2_w" />
+        <div> <SolutionsHero firstheading="Automotive AI" hero_h2_w="Automotive_h2_w" />
             <Lorem_Epsum_Automotive Lorem_Epsum_img1={Lorem_Epsum_Automotive_img_1} Lorem_Epsum_img2={Lorem_Epsum_Automotive_img_2} Lorem_Epsum_img3={Lorem_Epsum_Automotive_img_3} />
             <Testimonials />
             <Exploeautomative />

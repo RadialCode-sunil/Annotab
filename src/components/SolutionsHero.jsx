@@ -17,7 +17,9 @@ const SolutionsHero = (props) => {
                 id={props.hero_h2_w}
               >
                 Best Data Platform for
-                <span className=" sky ff_Bold"> {props.heroheading}</span>
+                <span className=" sky ff_Bold"> {props.firstheading} </span>
+                <span className=" sky ff_arial">{props.middleHalf} </span>
+                <span className=" sky ff_Bold"> {props.thirdHalf} </span>
               </h2>
               <p className="fs_sm grey ff_Book opacity_70 pb-4 mb-3 text-center max_w_612">
                 Achieve a new level of data accuracy. Automate your video and

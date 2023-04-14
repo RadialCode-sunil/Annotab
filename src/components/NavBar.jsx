@@ -131,7 +131,7 @@ const NavBar = () => {
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
                       >
-                        Healthcare & Medicine{" "}
+                        Healthcare <span className="ff_arial">&</span> Medicine{" "}
                       </a>
                     </Link>
                     <Link to="/Manufacturing" className="hover_green py-2 py-2">
@@ -155,7 +155,7 @@ const NavBar = () => {
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
                       >
-                        Aerospace & Defense{" "}
+                        Aerospace <span className="ff_arial">&</span> Defense{" "}
                       </a>
                     </Link>
                     <Link to="/Automotive" className="hover_green py-2">
@@ -172,7 +172,7 @@ const NavBar = () => {
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
                       >
-                        Banking & Finance{" "}
+                        Banking <span className="ff_arial">&</span> Finance{" "}
                       </a>
                     </Link>
 
@@ -190,7 +190,7 @@ const NavBar = () => {
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
                       >
-                        Oil & Gas{" "}
+                        Oil <span className="ff_arial">&</span> Gas{" "}
                       </a>
                     </Link>
 
@@ -199,7 +199,7 @@ const NavBar = () => {
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
                       >
-                        Retail & Ecommerce{" "}
+                        Retail <span className="ff_arial">&</span> Ecommerce{" "}
                       </a>
                     </Link>
 
@@ -208,7 +208,7 @@ const NavBar = () => {
                         className="fs_sm text-white ff_Book p-0 links"
                         href="#"
                       >
-                        Safety & Security{" "}
+                        Safety <span className="ff_arial">&</span> Security{" "}
                       </a>
                     </Link>
 
@@ -357,7 +357,7 @@ const NavBar = () => {
                         className="fs_sm text-white ff_Book p-0 links_opacity_70"
                         href="#"
                       >
-                        Annotab&nbsp;Studio
+                        Annotab<span className="ff_arial">&</span>nbsp;Studio
                       </a>
                     </Link>
                     <Link className="hover_green py-0">
@@ -365,7 +365,7 @@ const NavBar = () => {
                         className="fs_sm text-white ff_Book p-0 links_opacity_70"
                         href="#"
                       >
-                        Video&nbsp;Annotab{" "}
+                        Video<span className="ff_arial">&</span>nbsp;Annotab{" "}
                       </a>
                     </Link>
                     <Link className="hover_green py-0">
@@ -373,7 +373,7 @@ const NavBar = () => {
                         className="fs_sm text-white ff_Book p-0 links_opacity_70"
                         href="#"
                       >
-                        Images&nbsp;Annotab{" "}
+                        Images<span className="ff_arial">&</span>nbsp;Annotab{" "}
                       </a>
                     </Link>
                     <Link className="hover_green py-0">
@@ -394,7 +394,7 @@ const NavBar = () => {
                         className="fs_sm text-white ff_Book p-0 links_opacity_70"
                         href="#"
                       >
-                        Healthcare & Medicine{" "}
+                        Healthcare <span className="ff_arial">&</span> Medicine{" "}
                       </a>
                     </Link>
                     <Link to="/Manufacturing" className="hover_green py-0">
@@ -418,7 +418,7 @@ const NavBar = () => {
                         className="fs_sm text-white ff_Book p-0 links_opacity_70"
                         href="#"
                       >
-                        Aerospace & Defense{" "}
+                        Aerospace <span className="ff_arial">&</span> Defense{" "}
                       </a>
                     </Link>
                     <Link to="/Automotive" className="hover_green py-0">
@@ -435,7 +435,7 @@ const NavBar = () => {
                         className="fs_sm text-white ff_Book p-0 links_opacity_70"
                         href="#"
                       >
-                        Banking & Finance{" "}
+                        Banking <span className="ff_arial">&</span> Finance{" "}
                       </a>
                     </Link>
 
@@ -453,7 +453,7 @@ const NavBar = () => {
                         className="fs_sm text-white ff_Book p-0 links_opacity_70"
                         href="#"
                       >
-                        Oil & Gas{" "}
+                        Oil <span className="ff_arial">&</span> Gas{" "}
                       </a>
                     </Link>
 
@@ -462,7 +462,7 @@ const NavBar = () => {
                         className="fs_sm text-white ff_Book p-0 links_opacity_70"
                         href="#"
                       >
-                        Retail & Ecommerce{" "}
+                        Retail <span className="ff_arial">&</span> Ecommerce{" "}
                       </a>
                     </Link>
 
@@ -471,7 +471,7 @@ const NavBar = () => {
                         className="fs_sm text-white ff_Book p-0 links_opacity_70"
                         href="#"
                       >
-                        Safety & Security{" "}
+                        Safety <span className="ff_arial">&</span> Security{" "}
                       </a>
                     </Link>
 

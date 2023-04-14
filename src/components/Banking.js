@@ -17,7 +17,7 @@ import SolutionsHero from './SolutionsHero'
 
 const Banking = () => {
     return (
-        <div> <SolutionsHero heroheading="Finance Ai" hero_h2_w="Banking_h2_width" />
+        <div> <SolutionsHero firstheading="Finance Ai" hero_h2_w="Banking_h2_width" />
             <Lorem_Epsum_Automotive Lorem_Epsum_img1={Lorem_Banking_img1} Lorem_Epsum_img2={Lorem_Banking_img2} Lorem_Epsum_img3={Lorem_Banking_img3} />
             <Testimonials />
             <Explorebanking />
