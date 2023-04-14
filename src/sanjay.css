@@ -345,3 +345,6 @@ input[type="checkbox"]:checked ~ .Menuicon .icon_span {
   padding-top: 8px !important;
   padding-bottom: 8px !important;
 }
+.z_index_10{
+  z-index: 10;
+}
