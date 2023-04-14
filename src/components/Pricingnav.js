@@ -11,7 +11,6 @@ import Pricingplan from './Pricingplan'
 const Pricingnav = () => {
     return (
         <div>
-            <Hero />
             <Pricingplan/>
             <Latest />
             <Testimonials />
