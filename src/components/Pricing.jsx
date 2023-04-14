@@ -30,7 +30,6 @@ export const Pricing = () => {
                             <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Text Annotation</p>
                         </div>
                         <hr className='normal_line mt-4' />
-                        {/* <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky mt-3' href="#">Interested</a> */}
                         <Green_btn_2 Green_btn_2text="Interested" />
                     </div>
                 </Col>
@@ -54,7 +53,6 @@ export const Pricing = () => {
                             <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Text Annotation</p>
                         </div>
                         <hr className='normal_line mt-4' />
-                        {/* <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky mt-3' href="#">Interested</a> */}
                         <Green_btn_2 Green_btn_2text="Interested"/>
                     </div>
                 </Col>
@@ -77,7 +75,6 @@ export const Pricing = () => {
                             <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Text Annotation</p>
                         </div>
                         <hr className='normal_line mt-4' />
-                        {/* <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky mt-3' href="#">Interested</a> */}
                         <Green_btn_2 Green_btn_2text="Interested" />
                     </div>
                 </Col>
