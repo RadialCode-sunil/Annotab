@@ -8,10 +8,11 @@ import Footer from './Footer'
 import Testimonials from './Testimonials'
 import { Agriculturecases } from './Agriculturecases'
 import Agricultures2 from './Agricultures2'
+import SolutionsHero from './SolutionsHero'
 const Agriculture = () => {
     return (
         <div>
-            <Hero />
+           <SolutionsHero heroheading="Agriculture AI" hero_h2_w="Agriculture_h2_width"  />
             <Agricultures2/>
             <Testimonials />
             <Agriculturecases />

@@ -29,8 +29,8 @@
 }
 .bg_blur {
   background: rgba(123, 123, 123, 0.08);
-  backdrop-filter: blur(10px) !important;
   -webkit-backdrop-filter: blur(10px) !important;
+  backdrop-filter: blur(10px) !important;
 }
 .dotted_bg {
   background-image: url(./assets/img/png/dotted-background.png);
@@ -38,22 +38,11 @@
   background-position-x: center;
   background-position-y: top;
 }
-@media (min-width:1200px) {
-  .dotted_bg{
-        background-position-y: -24%;
+@media (min-width: 1200px) {
+  .dotted_bg {
+    background-position-y: -4%;
   }
 }
-/* .curly_line_bg {
-  background-image: url(./assets/img/png/curly_line.png);
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
-} */
-/* .circle_bg {
-  background-image: url(./assets/img/png/bg_circle.png);
-  background-repeat: no-repeat;
-  background-position-x: center;
-} */
 
 select option {
   margin: 40px;
@@ -98,10 +87,16 @@ select option {
   .end_sm_n70 {
     right: -250px;
   }
+  .dotted_bg {
+    background-position-y: -105%;
+  }
 }
 @media (min-width: 992px) {
   .end_sm_n70 {
     right: -70px;
+  }
+  .dotted_bg {
+    background-position-y: -4%;
   }
 }
 @media (min-width: 1200px) {
@@ -126,7 +121,7 @@ select option {
   background-color: #110721;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  transform: translateX(-21%);
+  /* transform: translateX(-21%); */
   min-width: 115px;
 }
 
@@ -139,10 +134,9 @@ select option {
 .dropdown {
   position: relative;
   display: inline-block;
-  
 }
 .dropdown-content a:hover {
-  background-color:#1C1F26;
+  background-color: #1c1f26;
 }
 
 .dropdown:hover .dropdown-content {
@@ -251,7 +245,92 @@ input[type="checkbox"]:checked ~ .Menuicon .icon_span {
 }
 
 .linear_hero_bottom {
-  background:#1C1F26 ;
+  background: #1c1f26;
   width: 100%;
   height: 211px;
+}
+
+.max_w_612 {
+  max-width: 612px;
+}
+#safety_h2_width {
+  max-width: 731px;
+}
+#Banking_h2_width {
+  max-width: 688px;
+}
+#Manufacturing_h2_width {
+  max-width: 688px;
+}
+#Oil_h2_width {
+  max-width: 688px;
+}
+#Retail_h2_width {
+  max-width: 735px;
+}
+#Telecommunication_h2_width {
+  max-width: 731px;
+}
+#Transport_h2_width {
+  max-width: 688px;
+}
+#Utilities_h2_width {
+  max-width: 688px;
+}
+#Automotive_h2_w {
+  max-width: 688px;
+}
+#Aerospace_h2_width {
+  max-width: 747px;
+}
+#Agriculture_h2_width {
+  max-width: 688px;
+}
+.blue_light {
+  position: absolute;
+  background: #4a119e;
+  filter: blur(149px);
+  width: 157px;
+  height: 444px;
+}
+.solution_bluelight_position {
+  right: -69px;
+}
+.green_light {
+  position: absolute;
+  width: 107px;
+  height: 316px;
+  background: #00ffcc;
+  filter: blur(158px);
+
+  z-index: 0;
+}
+.solution_greenlight_position {
+  right: -69px;
+  left: -8px;
+  top: 31px;
+}
+.home_greenlight_position{
+  top: 80px;
+  right: -107px;
+  
+}
+.home_bluelight_position{
+  top: 37px;
+  left: -80px;
+}
+/* .rotate_arrow {
+  transform: rotate(180deg) !important;
+} */
+.dropdown:hover.dropdown a span svg {
+  transform: rotate(180deg);
+}
+.dropdown:hover.dropdown a span svg path {
+  fill: #00ffcc !important;
+}
+.dropdown a span svg {
+  transition: all 0.2s linear;
+}
+.hover_green:hover .links {
+  color: #00ffcc !important;
 }
