@@ -171,6 +171,12 @@
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
         text-align: start;
     }
+    .img_hover:hover{
+        transform: scale(0.9);
+    }
+    .opacity_0_7{
+        opacity: 0.7;
+    }
 
     .explore_sec {
         transform: translate(-50%, -50%);

@@ -12,7 +12,7 @@ const Exploreagriculture = (props) => {
         <Container>
             <div>
                 <p className=' ff_Medium fs_3xl grey fw_500 '>{props.exploremy}</p>
-                <p className='  ff_Book grey fs_sm fw_300 max_width_704 '> {props.Scelerisque}.</p>
+                <p className='  ff_Book grey fs_sm fw_300 max_width_704 opacity_0_7'> {props.Scelerisque}.</p>
             </div>
             <div className='pt-5'>
                 <div className=' d_grid py-5 mt-5 mb-5 '>
