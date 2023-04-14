@@ -4,6 +4,7 @@ import mauris from '../assets/img/png/mauris.png'
 import urna from '../assets/img/png/urna.png'
 import { Container, Row, Col } from 'react-bootstrap';
 import Slider from "react-slick";
+import Green_btn_2 from './Green_btn_2';
 
 const Testimonials = () => {
     var Test_slider = {
@@ -53,30 +54,32 @@ const Testimonials = () => {
                 <div className='d-flex flex-column align-items-center justify-content-between text-center p-5 h-100 '>
 
                     <div>
-                        <img className='d-inline w-50' src={sit} alt="" />
+                        <img className='d-inline w-50 img_hover' src={sit} alt="sit" />
                         <p className='ff_Medium fs_lg white pt-4'> Sit donec</p>
                         <p className='ff_Medium fs_sm grey opacity_7'>Quis quam risus id nulla egestas pellentesque. Id in maecenas aenean ornare aenean ultricies ridiculus aliquam.</p>
                     </div>
 
-                    <a className='ff_Bold fs_md sky Learn_btn d-inline-block mt-4' href="#">Learn More</a>
+                    <Green_btn_2 Green_btn_2text='Learn More' />
                 </div>
                 {/* 2 */}
                 <div className='d-flex flex-column align-items-center justify-content-between text-center p-5 h-100 '>
                     <div>
-                        <img className='d-inline w-50' src={mauris} alt="" />
+                        <img className='d-inline w-50 img_hover' src={mauris} alt="mauris" />
                         <p className='ff_Medium fs_lg white pt-4'>Mauris</p>
                         <p className='ff_Medium fs_sm grey opacity_7'>Quisque eu adipiscing risus tempor arcu vitae  fames. Pulvinar id congue euismod viverra. Sed platea dolor.</p>
                     </div>
-                    <a className='ff_Bold fs_md sky Learn_btn d-inline-block mt-4' href="#">Learn More</a>
+                    <div className='pt-3'>
+                        <Green_btn_2 Green_btn_2text='Learn More' />
+                    </div>
                 </div>
                 {/* 3 */}
                 <div className='d-flex flex-column align-items-center justify-content-between text-center p-5 justify-content-between h-100 '>
                     <div>
-                        <img className='d-inline w-50' src={urna} alt="" />
+                        <img className='d-inline w-50 img_hover' src={urna} alt="urna" />
                         <p className='ff_Medium fs_lg white pt-4'>Urna</p>
                         <p className='ff_Medium fs_sm grey opacity_7'>Sit risus rhoncus non non tortor amet iaculis morbi.  Et tempus elit nibh rhoncus in. Aliquam.</p>
                     </div>
-                    <a className='ff_Bold fs_md sky Learn_btn d-inline-block mt-4' href="#">Learn More</a>
+                    <Green_btn_2 Green_btn_2text='Learn More' />
                 </div>
 
             </Slider>

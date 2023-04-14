@@ -12,8 +12,6 @@ import SolutionsHero from './SolutionsHero'
 const Agriculture = () => {
     return (
         <div>
-            <Hero />
-            <Agricultures2 />
            <SolutionsHero heroheading="Agriculture AI" hero_h2_w="Agriculture_h2_width"  />
             <Agricultures2/>
             <Testimonials />
