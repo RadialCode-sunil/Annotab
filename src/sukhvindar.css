@@ -13,6 +13,33 @@
     backdrop-filter: blur(10px);
 }
 
+
+.class_box {
+    background: rgba(83, 8, 163, 0.08);
+    border: 1px solid rgba(252, 252, 255, 0.16);
+    border-radius: 16px;
+}
+
+.Polygon:hover {
+    background: #00FFCC;
+    border-radius: 6px;
+    width: 100%;
+
+}
+.slick-slide{
+    width: 620px !important;
+}
+.slick-current{
+    width: 100%;
+}
+.Polygon:hover .clr_change {
+    color: #1C1F26 !important;
+}
+
+.Polygon:hover div span svg path {
+    fill: #1C1F26;
+}
+
 .normal_line {
     opacity: 0.1;
     border: 1px solid #FFFFFF;
@@ -292,7 +319,7 @@
 
     .blog_8 {
         grid-row: 8/9;
-        grid-column:  1/2;
+        grid-column: 1/2;
     }
 
     .blog_9 {
