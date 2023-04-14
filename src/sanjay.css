@@ -97,7 +97,7 @@ select option {
     background-position-y: -4%;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1401px) {
   .dotted_bg {
     background-position-y: -22%;
     background-size: 100em;
