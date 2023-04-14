@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Slider from "react-slick";
 import Team_boy_img_1 from '../assets/img/png/Team_boy_img_1.png';
 import Team_boy_img_2 from '../assets/img/png/Team_boy_img_2.png';
-import Team_boy_img_3 from '../assets/img/png/Team_boy_img_3.png';  
+import Team_boy_img_3 from '../assets/img/png/Team_boy_img_3.png';
 const Team = () => {
     var Team_slider = {
         dots: false,
@@ -14,6 +14,10 @@ const Team = () => {
         arrows: false,
         centerMode: true,
         centerPadding: "100px",
+        cssEase: 'linear',
+        autoplay: true,
+        autoplaySpeed: 3000,
+     
         responsive: [
             {
                 breakpoint: 1200,
