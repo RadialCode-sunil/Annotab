@@ -7,15 +7,52 @@
     scroll-behavior: smooth !important;
 }
 
+
+
 .normal_box {
     background: rgba(255, 255, 255, 0.08);
-    box-shadow: 0px 0px 40px rgba(0, 255, 204, 0.04);
     backdrop-filter: blur(10px);
+    /* width: 400px; */
+}
+
+
+.class_box {
+    background: rgba(83, 8, 163, 0.08);
+    border: 1px solid rgba(252, 252, 255, 0.16);
+    border-radius: 16px;
+}
+
+.Polygon:hover {
+    background: #00FFCC;
+    border-radius: 6px;
+    width: 100%;
+
+}
+
+.slick-slide {
+    width: 620px !important;
+}
+
+.slick-current {
+    width: 100%;
+}
+
+.Polygon:hover .clr_change {
+    color: #1C1F26 !important;
+}
+
+.Polygon:hover div span svg path {
+    fill: #1C1F26;
 }
 
 .normal_line {
     opacity: 0.1;
     border: 1px solid #FFFFFF;
+}
+
+.slick-slide {
+    justify-content: center !important;
+    display: flex !important;
 }
 
 .opacity0_6 {
@@ -62,9 +99,19 @@
     opacity: 0.6;
 }
 
+.class_position {
+    bottom: -90px;
+    left: -25px;
+}
+
+.class_width {
+    max-width: 500px;
+}
+
+
+
 .latest_box {
     background: rgba(255, 255, 255, 0.08);
-    box-shadow: 0px 0px 40px rgba(0, 255, 204, 0.04);
     backdrop-filter: blur(10px);
 }
 
@@ -148,6 +195,13 @@
     max-width: 600px;
 }
 
+@media (max-width:1400px) {
+    /* .normal_box {
+            width: 470px;
+            margin: 20px;
+        } */
+}
+
 @media (min-width:1200px) {
     .mx_300_xl {
         max-width: 300px;
@@ -159,6 +213,16 @@
 
     .mx_480_xl {
         max-width: 480px;
+    }
+}
+
+@media (min-width:992px) {
+    .latest_shadow {
+        box-shadow: 0px 0px 40px rgba(0, 255, 204, 0.04);
+    }
+
+    .normal_shadow {
+        box-shadow: 0px 0px 40px rgba(0, 255, 204, 0.04);
     }
 }
 
@@ -240,7 +304,9 @@
     .mx_300_md {
         max-width: 300px;
     }
-
+.border_left_1 {
+    border-left: 2px solid #00FFCC;
+}
     .mx_700_md {
         max-width: 700px;
     }
@@ -252,6 +318,14 @@
     .w-md-75 {
         width: 75% !important;
     }
+}
+
+@media (min-width:576px) {
+    .position_absolute_sm_n {
+        position: absolute;
+    }.border_left_1 {
+    border-left: 2px solid #00FFCC;
+}
 }
 
 @media (max-width:576px) {
@@ -292,7 +366,7 @@
 
     .blog_8 {
         grid-row: 8/9;
-        grid-column:  1/2;
+        grid-column: 1/2;
     }
 
     .blog_9 {
@@ -313,5 +387,11 @@
     .blog_12 {
         grid-row: 12/13;
         grid-column: 1/2;
+    }
+}
+
+@media (max-width:420px) {
+    .normal_box {
+        width: 300px;
     }
 }

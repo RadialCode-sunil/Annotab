@@ -18,7 +18,8 @@ import SolutionsHero from './SolutionsHero'
 const Oil = () => {
   return (
     <div>
-      <SolutionsHero heroheading="Oil & Gas AI" hero_h2_w="Oil_h2_width" />
+      <SolutionsHero firstheading="Oil" middleHalf="&" thirdHalf="Gas AI
+" hero_h2_w="Oil_h2_width" />
       <Lorem_Epsum_Automotive Lorem_Epsum_img1={Lorem_Oil_img1} Lorem_Epsum_img2={Lorem_Oil_img2} Lorem_Epsum_img3={Lorem_Oil_img3} />
       <Testimonials />
       <Exploreoil />
