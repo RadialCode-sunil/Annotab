@@ -13,7 +13,7 @@ import SolutionsHero from './SolutionsHero'
 const Manufacturing = () => {
     return (
         <div>
-            <SolutionsHero heroheading="Manufacturing AI" hero_h2_w="Manufacturing_h2_width" />
+            <SolutionsHero firstheading="Manufacturing AI" hero_h2_w="Manufacturing_h2_width" />
             <Lorem_Epsum />
             <Testimonials />
             <Explore/>

@@ -15,7 +15,7 @@ import SolutionsHero from './SolutionsHero'
 const Safety = () => {
   return (
     <div>
-      <SolutionsHero heroheading="Safety & Security AI" hero_h2_w="safety_h2_width" />
+      <SolutionsHero  firstheading="Safety" middleHalf="&" thirdHalf="Security AI"  hero_h2_w="safety_h2_width" />
       <Lorem_Epsum_Automotive Lorem_Epsum_img1={Lorem_Safety_img1} Lorem_Epsum_img2={Lorem_Safety_img2} Lorem_Epsum_img3={Lorem_Safety_img3} />
       <Testimonials />
       <Exploresafety />

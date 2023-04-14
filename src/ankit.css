@@ -117,6 +117,10 @@
     height: 268px;
 }
 
+.blog_box img{
+    transition: all .2s linear;
+}
+
 .blog_box:hover img{
-    scale: 1.1;
+    transform: scale(1.1);
 }

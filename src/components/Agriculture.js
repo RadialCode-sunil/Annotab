@@ -12,7 +12,7 @@ import SolutionsHero from './SolutionsHero'
 const Agriculture = () => {
     return (
         <div>
-           <SolutionsHero heroheading="Agriculture AI" hero_h2_w="Agriculture_h2_width"  />
+           <SolutionsHero firstheading="Agriculture AI" hero_h2_w="Agriculture_h2_width"  />
             <Agricultures2/>
             <Testimonials />
             <Agriculturecases />
