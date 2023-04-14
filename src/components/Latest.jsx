@@ -4,6 +4,7 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import tick from '../assets/img/svg/tick.svg'
 import Slider from "react-slick"
+import Green_btn_2 from './Green_btn_2';
 
 export const Latest = () => {
     var price_sv = {
@@ -51,7 +52,7 @@ export const Latest = () => {
         <Container>
             <div className='pt-5 text-center justify-content-center d-flex align-items-center flex-column'>
                 <p className=' ff_Medium  fs_3xl grey fw_400 pt-5'>Latest Plans </p>
-                <p className=' ff_Book  fs_sm grey fw_400 mx_700_md pb-5'>Scelerisque integer egestas nunc egestas. Vestibulum nunc blandit ultrices sit sagittis rutrum sed felis in ullamcorper adipiscing.</p>
+                <p className=' ff_Book  fs_sm grey fw_400 mx_700_md pb-5 opacity_7'>Scelerisque integer egestas nunc egestas. Vestibulum nunc blandit ultrices sit sagittis rutrum sed felis in ullamcorper adipiscing.</p>
                 <div className='d-flex align-items-center mb-5 border_bottom_latest'>
                     <p className=' ff_Medium  fs_xl grey fw_400 mb-0 pe-5 border_bottom_1 pointer'>Basic plans</p>
                     <p className=' ff_Medium  fs_xl grey fw_400 mb-0 ps-2 border_bottom_1 pointer'>Exclusive plans</p>
@@ -59,12 +60,11 @@ export const Latest = () => {
             <Slider {...price_sv}>
                 {/* 1 */}
                 <div className='latest_box latest_shadow  p-4 ms-3 text-center'>
-                    <p className=' ff_Medium mb-0 fs_md text-white'>Normal</p>
+                    <p className=' ff_Medium mb-0 fs_md text-white opacity_7'>Normal</p>
                     <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span>50</p>
-                    <p className=' ff_Medium fs_md text-white mx_280_md mt-2'>Quis commodo viverra elementum duis.</p>
-                    <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky mt-3' href="#">Buy
-                        now</a>
-                    <p className=' ff_Bold fs_sm text-white mt-4'>Buy Later</p>
+                    <p className=' ff_Medium fs_md text-white mx_280_md mt-2 opacity_7'>Quis commodo viverra elementum duis.</p>
+                    <Green_btn_2 Green_btn_2text="Buy now" />
+                    <p className=' ff_Bold fs_sm text-white mt-4 opacity_7'>Buy Later</p>
                     <hr className='normal_line' />
                     <div className=' d-flex justify-content-center'>
                         <div>
@@ -113,12 +113,12 @@ export const Latest = () => {
                 </div>
 
                 <div className='latest_box latest_shadow  p-4 ms-3 text-center'>
-                    <p className=' ff_Medium mb-0 fs_md text-white'>Rapid</p>
+                    <p className=' ff_Medium mb-0 fs_md text-white opacity_7'>Rapid</p>
                     <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span>90</p>
-                    <p className=' ff_Medium fs_md text-white mx_280_md'>Vitae sollicitudin arcu pretium nec cras.</p>
-                    <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky mt-3' href="#">Buy
-                        now</a>
-                    <p className=' ff_Bold fs_sm text-white mt-4'>Buy Later</p>
+                    <p className=' ff_Medium fs_md text-white mx_280_md opacity_7'>Vitae sollicitudin arcu pretium nec cras.</p>
+                    <Green_btn_2 Green_btn_2text="Buy now" />
+
+                    <p className=' ff_Bold fs_sm text-white mt-4 opacity_7'>Buy Later</p>
                     <hr className='normal_line mt-4' />
                     <div className='d-flex justify-content-center'>
                         <div>
@@ -168,12 +168,12 @@ export const Latest = () => {
 
                 {/* 3 */}
                 <div className=' latest_shadow latest_box text-center  p-4 ms-3'>
-                    <p className=' ff_Medium mb-0 fs_md text-white'>Enterprise</p>
+                    <p className=' ff_Medium mb-0 fs_md text-white opacity_7'>Enterprise</p>
                     <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span>150</p>
-                    <p className=' ff_Medium fs_md text-white mx_280_md'>Interdum rhoncus nisl et rutrum tortor lectus.</p>
-                    <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky mt-3' href="#">Buy
-                        now</a>
-                    <p className=' ff_Bold fs_sm text-white mt-4'>Buy Later</p>
+                    <p className=' ff_Medium fs_md text-white mx_280_md opacity_7'>Interdum rhoncus nisl et rutrum tortor lectus.</p>
+                    <Green_btn_2 Green_btn_2text="Buy now" />
+
+                    <p className=' ff_Bold fs_sm text-white mt-4 opacity_7'>Buy Later</p>
                     <hr className='normal_line mt-4' />
                     <div className=' d-flex justify-content-center'>
                         <div>
