@@ -46,7 +46,7 @@ export const Pricing = () => {
             }]
     };
     return (
-        <section className=' pt-5'>
+        <section className=' py-3 py-lg-5'>
             <div className=' d-flex flex-column align-items-center pt-5'>
                 <p className=' ff_Medium text-center fs_3xl grey '>Pricing</p>
                 <p className=' ff_Book fs_sm grey text-center min_w_524 pb-5'>Ultricies in integer semper pharetra. vestibulum.Ultricies in integer semper pharetra. vestibulum.</p>
@@ -110,7 +110,7 @@ export const Pricing = () => {
                             <div className='normal_box normal_shadow p-5 ms-3'>
                                 <p className=' ff_Medium mb-0 fs_md text-white'>Enterprise</p>
                                 <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span> 150</p>
-                                <p className=' ff_Medium fs_md text-white mx_300_md'>Interdum rhoncus nisl et rutrum tortor lectus.</p>
+                                <p className=' ff_Medium fs_md text-white mx_300_md'>Interdum rhoncus nisl et rutrum tortor.</p>
                                 <hr className='normal_line' />
                                 <div className=' d-flex align-items-center pt-3'>
                                     <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
