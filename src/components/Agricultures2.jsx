@@ -22,8 +22,9 @@ const Agricultures2 = () => {
                     </ul>
 
                 </Col>
-                <Col lg={4} sm={6} xs={12} className='d-flex align-items-center justify-content-center'>
-                    <img className='w-100' src={tamato} alt="tamato" />
+                <Col lg={4} sm={6} xs={12} className='d-flex align-items-center justify-content-center '>
+                    <div className=' overflow-hidden'>
+                        <img className='w-100 footer_img img_hover' src={tamato} alt="tamato" /></div>
                 </Col>
                 <Col lg={4} sm={6} xs={12} className=' mt-4 mt-lg-0'>
                     <ul>
@@ -35,15 +36,19 @@ const Agricultures2 = () => {
                         <li className='ff_Book fs_sm grey opacity_7 dot mt-2'>Elementum nec bibendum orci auctor egestas dolor neque lacus senectus.</li>
                     </ul>
                 </Col>
-                <Col lg={4} sm={6} xs={12} className='d-flex align-items-center justify-content-center mt-4'>
-                    <img className='w-100' src={tractor} alt="tractor" />
+                <Col lg={4} sm={6} xs={12} className='d-flex align-items-center justify-content-center mt-5 pt-3'>
+                    <div className=' overflow-hidden'>
+                        <img className='w-100 footer_img img_hover' src={tractor} alt="tractor" />
+                    </div>
                 </Col>
-                <Col lg={4} sm={6} xs={12} className='d-flex align-items-center justify-content-center mt-4'>
-                    <img className='w-100' src={tractor_2} alt="tractor_2" />
-
+                <Col lg={4} sm={6} xs={12} className='d-flex align-items-center justify-content-center mt-5 pt-3'>
+                    <div className=' overflow-hidden'>
+                        <img className='w-100 footer_img img_hover' src={tractor_2} alt="tractor_2" />
+                    </div>
                 </Col>
-                <Col lg={4} sm={6} xs={12} className='d-flex align-items-center justify-content-center mt-4'>
-                    <img className='w-100' src={tractor_3} alt="tractor_3" />
+                <Col lg={4} sm={6} xs={12} className='d-flex align-items-center justify-content-center mt-5 pt-3'>
+                    <div className=' overflow-hidden'>
+                        <img className='w-100 footer_img img_hover  ' src={tractor_3} alt="tractor_3" /></div>
 
                 </Col>
             </Row>
