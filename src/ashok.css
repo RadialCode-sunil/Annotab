@@ -28,7 +28,7 @@
     max-width: 856px;
 }
 
-.img_hover:hover {
+.img_hover{
     transition: 0.5s ease-in-out;
 }
 
