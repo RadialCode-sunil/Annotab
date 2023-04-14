@@ -35,11 +35,11 @@ const MyNew = () => {
                                 <li>
                                     <p className='ff_Book fs_sm white pt-5 pt-lg-0'>Solutions</p>
                                 </li>
-                                <li className='pt-lg-3 pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Healthcare & Medicine</a></li>
+                                <li className='pt-lg-3 pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Healthcare <span className=' ff_arial'>&</span> Medicine</a></li>
                                 <li className='pt-2'>
                                     <Link to="/Manufacturing">
                                         <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Manufacturing</a>
-                                    </Link>
+                                    </Link> 
                                 </li>
                                 <li className='pt-2'>
                                     <Link to="/Agriculture">
@@ -48,7 +48,7 @@ const MyNew = () => {
                                 </li>
                                 <li className='pt-2'>
                                     <Link to="/Aerospace">
-                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Aerospace & Defense</a>
+                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Aerospace <span className=' ff_arial'>&</span> Defense</a>
                                     </Link>
                                 </li>
                                 <li className='pt-2'>
@@ -58,7 +58,7 @@ const MyNew = () => {
                                 </li>
                                 <li className='pt-2'>
                                     <Link to="/Banking">
-                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Banking & Finance</a>
+                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Banking <span className=' ff_arial'>&</span> Finance</a>
                                     </Link>
                                 </li>
                                 <li className='pt-2'>
@@ -68,17 +68,17 @@ const MyNew = () => {
                                 </li>
                                 <li className='pt-2'>
                                     <Link to="/Oil">
-                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Oil & Gas</a>
+                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Oil <span className=' ff_arial'>&</span> Gas</a>
                                     </Link>
                                 </li>
                                 <li className='pt-2'>
                                     <Link to="/Retail">
-                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Retail & Ecommerce</a>
+                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Retail <span className=' ff_arial'>&</span> Ecommerce</a>
                                     </Link>
                                 </li>
                                 <li className='pt-2'>
                                     <Link to="/Safety">
-                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Safety & Security</a>
+                                        <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Safety <span className=' ff_arial'>&</span> Security</a>
                                     </Link>
                                 </li>
                                 <li className='pt-2'>
