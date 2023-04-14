@@ -67,7 +67,7 @@ const Solutions = () => {
                 <div className='py-1 h-100 d-flex flex-column justify-content-between'>
                     <div><p className='ff_Medium fs_lg white'>Healthcare <span className='ff_arial'>&</span> Medicine</p>
                     <p className='ff_Book fs_sm white opacity_7'>Tristique fames neque facilisis bibendum pretium elementum non. commodo. Cursus suspendisse vel quis ridiculus id. Volutpat vulputate mollis at sit.</p></div>
-                    <Link>
+                              <Link to="/Healthcare">
                     <Green_btn_2 Green_btn_2text='Learn More' />
                     </Link>
                 </div>

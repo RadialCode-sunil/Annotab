@@ -3,9 +3,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const Lorem_Epsum_Automotive = (props) => {
     return (
-        <section className='py-5 mb-5'>
+        <section className='py-5 mb-5 position-relative'>
+            <div className='Lorem_Automotive_light_black'></div>
             <Container>
-                <h2 className=' ff_Medium fw_600 fs_3xl white text-center pb-5'>
+                <h2 className=' ff_Medium fw_600 fs_3xl white text-center pb-5 position-relative z_index_2'>
                     Lorem Epsum Dolar Sit emit
                 </h2>
 
@@ -23,12 +24,14 @@ const Lorem_Epsum_Automotive = (props) => {
                         </ul>
                     </div>
                     <div className='Lorem_Epsum_Automotive_img_1  position-relative d-inline me-sm-5 pe-sm-4 mb-5 mb-sm-0 pb-5 pb-sm-0'>
-                        <img className=' img-fluid img_w' src={props.Lorem_Epsum_img1} alt="Data engine" />
+                        <img className=' img-fluid img_w position-relative z_index_2' src={props.Lorem_Epsum_img1} alt="Data engine" />
+                        <div className='Lorem_Epsum_Automotive_light'></div>
                     </div>
                 </div>
 
                 <div className='d-flex flex-column flex-lg-row justify-content-between align_items_center_xs Lorem_Epsum_Automotive_img_2 position-relative d-inline pb-4 pb-sm-0'>
-                    <img className=' img-fluid img2_w pb-4 pb-sm-0' src={props.Lorem_Epsum_img2} alt="Data engine" />
+                    <img className=' img-fluid img2_w pb-4 pb-sm-0 position-relative z_index_2' src={props.Lorem_Epsum_img2} alt="Data engine" />
+                    <div className='Lorem_Epsum_Automotive_light2'></div>
                     <div className=' my-5 my-sm-0 py-4 py-lg-0 pt-lg-5 mt-lg-3'>
                         <ul className='Amet_ul list-unstyled ps-1 ps-sm-0'>
                             <li className=' ff_Book fw_300 fs_sm white opacity_7 Lorem_Epsum_p_w284 position-relative pt-3 pt-lg-0 list_dot Amet_p position-relative'>
