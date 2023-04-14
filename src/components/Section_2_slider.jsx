@@ -14,7 +14,7 @@ const Section_2_slider = () => {
         cssEase: 'linear',
         autoplay: true,
         autoplaySpeed: 0,
-        speed: 3000,
+        speed: 6000,
         responsive: [
             {
                 breakpoint: 1920,

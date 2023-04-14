@@ -18,7 +18,7 @@ const SolutionsHero = (props) => {
               >
                 Best Data Platform for
                 <span className=" sky ff_Bold"> {props.firstheading} </span>
-                <span className=" sky ff_arial">{props.middleHalf} </span>
+                <span className=" sky ff_arial fw-bold">{props.middleHalf} </span>
                 <span className=" sky ff_Bold"> {props.thirdHalf} </span>
               </h2>
               <p className="fs_sm grey ff_Book opacity_70 pb-4 mb-3 text-center max_w_612">
