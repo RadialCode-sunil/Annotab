@@ -8,7 +8,7 @@ import oil_6 from './assets/img/png/oil_6.png';
 import Exploreaerospaces from './components/Exploreaerospaces';
 const Exploreoil = () => {
     return (
-        <div> <Exploreaerospaces max="max_width_480" Aerospace="Explore Oil & Gas Use Cases" gridimg1={oil_1} gridimg2={oil_2} gridimg3={oil_3} gridimg4={oil_4} gridimg5={oil_5} gridimg6={oil_6} /></div>
+        <div> <Exploreaerospaces max="max_width_480" Aerospace="Explore Oil" secondAero="&" ThirdAero="Gas Use Cases" gridimg1={oil_1} gridimg2={oil_2} gridimg3={oil_3} gridimg4={oil_4} gridimg5={oil_5} gridimg6={oil_6} /></div>
     )
 }
 

@@ -1,3 +1,4 @@
+ 
 import React from 'react'
 import Slider from "react-slick";
 import { Container, Row, Col } from 'react-bootstrap';
@@ -15,7 +16,7 @@ const Challenges = (props) => {
         nextArrow: ".next",
         prevArrow: ".back",
         responsive: [
-            {
+            { 
                 breakpoint: 1200,
                 settings: {
                     slidesToShow: 3,
@@ -30,7 +31,8 @@ const Challenges = (props) => {
                     slidesToShow: 2,
                     slidesToScroll: 2,
                     dots: true
-                }
+                } 
+
             },
             {
                 breakpoint: 768,
