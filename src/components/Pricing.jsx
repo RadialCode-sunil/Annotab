@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import tick from '../assets/img/svg/tick.svg'
+import Green_btn_2 from './Green_btn_2';
 export const Pricing = () => {
     return (
         <Container>
@@ -29,7 +30,8 @@ export const Pricing = () => {
                             <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Text Annotation</p>
                         </div>
                         <hr className='normal_line mt-4' />
-                        <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky mt-3' href="#">Interested</a>
+                        {/* <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky mt-3' href="#">Interested</a> */}
+                        <Green_btn_2 Green_btn_2text="Interested" />
                     </div>
                 </Col>
                 {/* ///////////////////////// */}
@@ -52,7 +54,8 @@ export const Pricing = () => {
                             <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Text Annotation</p>
                         </div>
                         <hr className='normal_line mt-4' />
-                        <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky mt-3' href="#">Interested</a>
+                        {/* <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky mt-3' href="#">Interested</a> */}
+                        <Green_btn_2 Green_btn_2text="Interested"/>
                     </div>
                 </Col>
                 <Col lg={4} md={6} xs={12} className='pt-4 pt-lg-0'>
@@ -74,7 +77,8 @@ export const Pricing = () => {
                             <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Text Annotation</p>
                         </div>
                         <hr className='normal_line mt-4' />
-                        <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky mt-3' href="#">Interested</a>
+                        {/* <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky mt-3' href="#">Interested</a> */}
+                        <Green_btn_2 Green_btn_2text="Interested" />
                     </div>
                 </Col>
             </Row>
