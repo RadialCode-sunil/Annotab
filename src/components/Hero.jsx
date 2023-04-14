@@ -17,7 +17,7 @@ const Hero = () => {
       <header className="bg_black_blue d-flex min-vh-100 flex-column dotted_bg position-relative linear_background">
         <NavBar />
         <section className="d-flex flex-column flex-grow-1 justify-content-end position-relative z-0">
-          <Container>
+          <Container className="pt-5">
             <div className="d-flex flex-column align-items-center pt-5">
               <h2 className="text-center fs_4xl ff_Bold white pb-3">
                 One place to build deploy{" "}
@@ -30,7 +30,7 @@ const Hero = () => {
               </p>
               <div className="pb-5">
                 <Link to="/annotab">
-                  < Green_btn any_text="Explore" />
+                  <Green_btn any_text="Explore" />
                 </Link>
               </div>
               <div className="d-flex flex-sm-row flex-column w-100 justify-content-center pt-3 curly_line_bg gap_87 position-relative ">
@@ -49,16 +49,14 @@ const Hero = () => {
               </div>
             </div>
           </Container>
-          <div className=" position-absolute top_n105">
-            <img src={purplelight} alt="light" />
+          <div className="blue_light  home_bluelight_position"></div>
+          <div className="green_light  home_greenlight_position"></div>
+          <div className="linear_hero_bottom">
+            <img className="w-100 h-100" src={linear_bg} alt="bg" />
           </div>
-          <div className=" position-absolute end-0 top_n180">
-            <img src={herogreenLight} alt="light" />
-          </div>
-          <div className="linear_hero_bottom"> <img className="w-100 h-100" src={linear_bg} alt="bg" /></div>
         </section>
       </header>
-    </div >
+    </div>
   );
 };
 
