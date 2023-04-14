@@ -26,6 +26,17 @@
     background-color: #1C1F26;
 }
 
+.solutions .slick-list::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 4000px;
+    left: 105%;
+    background-color: #1C1F26;
+    z-index: 1;
+}
 
 
 @media (max-width:992px) {
@@ -38,6 +49,11 @@
         left: 100%;
         background-color: #1C1F26;
         z-index: 1;
+    }
+
+    .solutions .slick-slide>div {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
@@ -52,6 +68,7 @@
 
 .solutions .slick-slide>div {
     display: flex;
+    max-width: 354px;
 }
 
 .maxw_627{
