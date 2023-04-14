@@ -4,6 +4,7 @@ import classess from '../assets/img/png/classtype.png'
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Green_btn from './Green_btn';
+import plus from '../assets/img/png/plus.png'
 export const Classes = () => {
     return (
         <Container>
@@ -13,14 +14,14 @@ export const Classes = () => {
                         annotab</p>
                     <p className='ff_book pt-3 ff_sm grey mx_470_xl'>Scelerisque integer egestas nunc egestas. Vestibulum nunc blandit ultrices sit sagittis rutrum sed felis in ullamcorper adipiscing.</p>
                     <div className='pt-3'>
-                        <Green_btn any_text='Learn More'/>
+                        <Green_btn any_text='Learn More' />
                     </div>
                 </Col>
-                <Col xs={12} xl={6}>
+                <Col xs={12} xl={6} className=' position-relative'>
                     <div className='class_box p-4'>
                         <p className=' mb-0 ff_Medium fs_ss grey opacity_7'>Class Type</p>
-                        <div className=' pe-5'>
-                            <div className=' d-flex justify-content-between'>
+                        <div className=' pe-5 pb-5'>
+                            <div className=' d-flex flex-column flex-sm-row justify-content-between pb-3'>
                                 <div>
                                     <div className=' d-flex justify-content-center   flex-column'>
                                         <div className=' d-flex align-items-center Polygon ps-3 py-2 pe-5'>
@@ -109,6 +110,17 @@ export const Classes = () => {
                             </div>
                         </div>
 
+                    </div>
+                    <div className='class_box class_width p-3 position_absolute_sm_n class_position'>
+                        <div className=' d-flex align-items-center flex-column flex-sm-row justify-content-center'>
+                            <div className=' pe-sm-4'>
+                                <img src={plus} />
+                                <p className=' ff_Medium grey fs_sm pt-2'>Polygon</p>
+                            </div>
+                            <div className='border_left_1'>
+                                <p className=' fs_sm ff_Medium grey opacity_7 mb-0 ps-3 text-center text-sm-start'>Congue non diam ut massa sagittis blandit enim a. Neque augue tincidunt duis egestas feugiat sed in felis interdum. Ligula ac suspendisse egestas risus faucibus suscipit eleifend. Amet sit urna libero cras tellus. Neque aliquet tortor tortor ac. Sapien lacus.</p>
+                            </div>
+                        </div>
                     </div>
                 </Col>
             </Row>
