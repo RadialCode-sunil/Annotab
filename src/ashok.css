@@ -15,7 +15,7 @@
 }
 
 .footer_hover {
-    transition: 0.2s ease-in-out;
+    transition: all 0.5s linear;
 
 }
 
@@ -28,9 +28,12 @@
     max-width: 856px;
 }
 
-.Learn_btn {
-    border: 1px solid #00FFCC;
-    padding: 11px 20px;
+.img_hover{
+    transition: 0.5s ease-in-out;
+}
+
+.img_hover:hover {
+    transform: scale(1.1);
 }
 
 .slick-track {
@@ -87,6 +90,7 @@
         order: 4;
     }
 }
+
 @media (max-width: 576px) {
     #ul_1 {
         order: 1;

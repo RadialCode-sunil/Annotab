@@ -103,6 +103,19 @@
   border: 1px solid var(--color-sky);
 }
 
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  height: inherit !important;
+  display: flex !important;
+}
+
+.slick-slide>div {
+  display: flex;
+}
+
 /* Team */
 .Team_p_w {
   max-width: 514px;
@@ -114,7 +127,7 @@
 
 .Team_slider_box_img {
   border-radius: 16px;
-  transition: all 0.7s linear;
+  transition: all 0.2s linear;
 }
 
 .Team_slider_box:hover img {
@@ -171,6 +184,16 @@
   border-color: var(--bs-nav-tabs-link-active-border-color);
   border: none !important;
 
+}
+
+.nav-item {
+  white-space: nowrap !important;
+}
+
+
+
+.nav {
+  justify-content: space-between !important;
 }
 
 .nav-tabs {
@@ -246,7 +269,7 @@
   border: 1px solid #FFFFFF;
   padding: 10px;
   top: -130px;
-  right: 50px;
+  right: 40px;
   /* text */
   color: var(--color-white);
   font-family: 'AllRoundGothic-Book', sans-serif;
@@ -276,6 +299,35 @@
 }
 
 /* Lorem_Epsum_Automotive */
+.Lorem_Automotive_light_black {
+  height: 469px;
+  width: 100%;
+  top: 0;
+  position: absolute;
+  background: linear-gradient(180deg, #010102 12.15%, rgba(1, 1, 2, 0) 100%);
+}
+
+.Lorem_Epsum_Automotive_light {
+  position: absolute;
+  top: -20px;
+  right: 90px;
+  height: 300px;
+  width: 217px;
+  background: #4A119E;
+  filter: blur(118.5px);
+  z-index: 1;
+}
+
+.Lorem_Epsum_Automotive_light2 {
+  position: absolute;
+  top: 20px;
+  left: 90px;
+  height: 349px;
+  width: 217px;
+  background: #4A119E;
+  filter: blur(118.5px);
+  z-index: 1;
+}
 
 
 .Lorem_div_height {
@@ -745,6 +797,7 @@
 }
 
 @media (max-width:1200px) {
+
   .Team_slider_img_box {
     padding: 22px 25px 30px 22px;
   }
@@ -756,6 +809,16 @@
 
   .img2_w {
     width: 40% !important;
+  }
+
+  .nav {
+    flex-wrap: unset !important;
+    overflow: hidden;
+    overflow-x: scroll !important;
+  }
+
+  .nav::-webkit-scrollbar {
+    height: 0 !important;
   }
 }
 
@@ -832,6 +895,24 @@
 }
 
 @media (max-width:576px) {
+  .d-flex-xs {
+    display: flex;
+  }
+
+  .Manufacturing_img_3_w {
+    width: 90% !important;
+  }
+
+  .Lorem_Epsum_Data_img::after {
+    top: -22px;
+    right: 40px;
+  }
+
+  .Lorem_Epsum_Data_img::before {
+    top: 50px;
+    left: -7px;
+  }
+
   .align_items_center_xs {
     align-items: center;
   }

@@ -24,7 +24,7 @@ const Product = () => {
                     </div>
                 </Col>
                 <Col xs={12} lg={6} className='text-center'>
-                    <img className='img-fluid w_100  h-100' src={person} alt="" />
+                    <img className='img-fluid w_100  h-100 mt-3 mt-lg-0' src={person} alt="" />
 
                 </Col>
 
