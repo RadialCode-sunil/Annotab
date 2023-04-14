@@ -40,8 +40,12 @@ const Lorem_Epsum = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className=' pt-4'>
-                        <div className='Lorem_Epsum_Data_img position-relative d-inline'><img className=' img-fluid  ' src={Manufacturing_Lorem_img3} alt="image" /></div>
+                    <div className=' pt-5'>
+                        <span className='Lorem_Epsum_Data_img position-relative d-flex-xs  justify-content-center justify-content-sm-start'>
+
+                            <img className=' img-fluid Manufacturing_img_3_w' src={Manufacturing_Lorem_img3} alt="image" />
+
+                        </span>
                     </div>
                 </div>
 
