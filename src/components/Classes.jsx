@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import classess from '../assets/img/png/classtype.png'
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import Green_btn from './Green_btn';
 export const Classes = () => {
     return (
         <Container>
@@ -11,7 +12,9 @@ export const Classes = () => {
                     <p className='mb-0 ff_Medium grey fs_3xl lh_140p mx_300_xl'>All classes of
                         annotab</p>
                     <p className='ff_book pt-3 ff_sm grey mx_470_xl'>Scelerisque integer egestas nunc egestas. Vestibulum nunc blandit ultrices sit sagittis rutrum sed felis in ullamcorper adipiscing.</p>
-                    <a className='learn_btn bg_sky ff_Bold darkblue fs_md mt-3 d-inline-block' href="#">Learn More</a>
+                    <div className='pt-3'>
+                        <Green_btn any_text='Learn More'/>
+                    </div>
                 </Col>
                 <Col xs={12} xl={6}>
                     <div className='class_box p-4'>

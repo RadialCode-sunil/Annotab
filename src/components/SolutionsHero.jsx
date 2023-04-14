@@ -7,10 +7,10 @@ import Green_btn from "./Green_btn";
 const SolutionsHero = (props) => {
   return (
     <div>
-      <header className="bg_black_blue d-flex min-vh-100 flex-column overflow-hidden">
+      <header className="bg_black_blue d-flex min-vh-100 flex-column Overflow_x_hidden ">
         <NavBar />
         <section className="d-flex flex-column flex-grow-1 justify-content-center position-relative z-0">
-          <Container className=" position-relative z_index_5">
+          <Container>
             <div className="d-flex flex-column align-items-center justify-content-center pt-5">
               <h2
                 className="text-center fs_4xl ff_Bold white pb-3"

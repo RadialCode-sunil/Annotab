@@ -14,7 +14,7 @@ import linear_bg from "../assets/img/png/linear_bg_black.png"
 const Hero = () => {
   return (
     <div>
-      <header className="bg_black_blue d-flex min-vh-100 flex-column dotted_bg position-relative linear_background overflow-hidden">
+      <header className="bg_black_blue d-flex min-vh-100 flex-column dotted_bg position-relative linear_background Overflow_x_hidden">
         <NavBar />
         <section className="d-flex flex-column flex-grow-1 justify-content-end position-relative z-0">
           <Container className="pt-5">

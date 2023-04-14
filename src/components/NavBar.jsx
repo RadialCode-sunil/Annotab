@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <div>
-      <Nav className="bg_blur position-relative z_index_10 w-100">
-        <Container className="py-3">
+      <div className="bg_blur position-relative  z_index_10">
+        <Container className="py-3  ">
           <div className="d-flex justify-content-lg-around justify-content-between align-items-center py-1">
             <Link to="/">
               <img className="p-0" src={annotab} alt="annotab logo" />
@@ -23,8 +23,8 @@ const NavBar = () => {
               <span></span>
               <span className="icon_span"></span>
             </label>
-            <div className="d-lg-flex d-none align-items-center gap_106  flex-row ">
-              <ul className="d-flex mb-0 gap-xl-4 gap-3 p-0 flex-lg-row flex-column">
+            <div className="d-lg-flex d-none align-items-center gap_106  flex-row  w-100">
+              <ul className="d-flex mb-0 gap-xl-4 gap-3 p-0 flex-lg-row flex-column justify-content-center w-100">
                 <li>
                   <Link to="/">
                     <a className="fs_sm text-white ff_Book main_pages" href="#">
@@ -322,7 +322,7 @@ const NavBar = () => {
                   </div>
                 </li>
               </ul>
-              <Green_btn any_text="Sign up" />
+              <Green_btn any_text="Sign&nbsp;up" />
             </div>
             <div className="d-flex align-items-start  d-lg-none sm_view nav_left0 px_md_100 px-sm-5 ">
               <div className="ps_20 pb-3">
@@ -548,7 +548,7 @@ const NavBar = () => {
             </div>
           </div>
         </Container>
-      </Nav>
+      </div>
     </div>
   );
 };
