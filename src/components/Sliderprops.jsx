@@ -52,7 +52,7 @@ const Challenges = (props) => {
                     <Slider {...Team_slider}>
                         <div className='p-3'>
                             <div className=' h-100  d-flex justify-content-between flex-column'>
-                                <div>
+                                <div className='zomeimg'>
                                     <div className='overflow-hidden'>
                                         <img className=' w-100 h_lg_450 explore_img_hover' src={props.sliderimg} alt="sliderimg1" />
                                     </div>
@@ -70,7 +70,7 @@ const Challenges = (props) => {
 
                         <div className=' p-3 '>
                             <div className=' h-100 d-flex justify-content-between flex-column'>
-                                <div>
+                                <div className='zomeimg'>
                                     <div className='overflow-hidden'>
                                         <img className=' w-100 h_lg_450 explore_img_hover' src={props.sliderimg2} alt="sliderimg2" /></div>
                                     <p className=' ff_Medium fs_lg text-white pt-3'>{props.smallheading2} </p>
@@ -88,7 +88,7 @@ const Challenges = (props) => {
 
                         <div className=' p-3 '>
                             <div className=' h-100  d-flex justify-content-between flex-column'>
-                                <div>
+                                <div className='zomeimg'>
                                     <div className='overflow-hidden'>
                                         <img className=' w-100 h_lg_450 explore_img_hover' src={props.sliderimg3} alt="sliderimg3" /></div>
                                     <p className=' ff_Medium fs_lg text-white pt-3'>{props.smallheading3}</p>
