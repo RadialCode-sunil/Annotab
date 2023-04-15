@@ -15,11 +15,14 @@ import Blogheader from './Blogheader'
 const Blogs = () => {
     return (
         <div>
-            <Blogheader/>
+            <Blogheader />
             <Blog />
-            <CustomApplication/>
+            <CustomApplication />
             <Turpis />
             <Footer />
+
+
+            {/* hello */}
         </div>
     )
 }
