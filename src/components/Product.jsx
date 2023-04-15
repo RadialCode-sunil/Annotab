@@ -15,10 +15,11 @@ const Product = () => {
                 <p className=' ff_Medium  fs_3xl grey fw_400'>Product</p>
                 <p className=' ff_Book  fs_sm grey fw_400 max_width_459'>Ultricies in integer semper pharetra. vestibulum.Ultricies in integer semper pharetra. vestibulum.</p>
             </div>
+            <div className='blur_image'></div>
             <Row className='mt-5 pt-5 align-items-center'>
                 <Col xs={12} lg={6}>
-                    <div>
-                        <img className=' position-absolute blue_img' src={bluelihgt} alt="" />
+                    <div className=' '>
+                        {/* <img className=' position-absolute blue_img' src={bluelihgt} alt="" /> */}
                         <AccordionAnno />
 
                     </div>
