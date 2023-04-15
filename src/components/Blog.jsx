@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import image1 from '../assets/img/png/blog1.png'
 import image2 from '../assets/img/png/blog2.png'
 import image3 from '../assets/img/png/blog3.png'
+import Green_btn from './Green_btn';
 export const Blog = () => {
     return (
         <Container>
@@ -67,6 +68,11 @@ export const Blog = () => {
                     <p className=' ff_Medium fs_lg mb-0 text-white pt-4'>Bibendum sollicitudin</p>
                     <p className=' ff_Book text-white'>Apr 10, 2023</p>
                 </div>
+                
+            </div>
+            <div className=' text-center py-5  justify-content-center d-flex align-items-center'>
+                <Green_btn any_text='View more' />
+
             </div>
         </Container>
     )
