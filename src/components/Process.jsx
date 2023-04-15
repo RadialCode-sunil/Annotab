@@ -9,7 +9,7 @@ import threddisplay from '../assets/img/png/threddisplay.png'
 
 const Process = () => {
     return (
-        <div className='darkblue pt-5 position-relative pt-5 pb -5 '>
+        <div className='darkblue position-relative pt-5 pb-5 '>
             <img className=' position-absolute Team_green_light' src={greenboll} alt="greenboll" />
             <Container>
                 <Row className=' align-items-center'>
