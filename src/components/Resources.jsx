@@ -41,7 +41,7 @@ const Resources = () => {
             }]
     };
     return (
-        <section className='py-3 py-lg-5 my-lg-5 overflow-hidden'>
+        <section className='mt-3 py-lg-5 my-lg-5 overflow-hidden'>
             <Container className=''>
                 <div className=' d-flex flex-column flex-lg-row align-items-lg-center'>
                     <div>
@@ -58,7 +58,7 @@ const Resources = () => {
                                 Blogs
                             </p></div>
                         <div className='Resources_Documentation'>
-                            <p className='ff_Medium fw_400 fs_xl white ps-5 ms-4 '>
+                            <p className='ff_Medium fw_400 fs_xl white ps-lg-5 ms-4 '>
                                 Documentation
                             </p>
                         </div>
