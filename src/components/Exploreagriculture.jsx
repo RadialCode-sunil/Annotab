@@ -21,13 +21,13 @@ const Exploreagriculture = (props) => {
                         <div className=' explore_sec position-absolute top-50  start-50'>
                             <p className=' ff_Medium fs_lg text-white fw_400'>Commodo</p>
                             <ul className='ps-0' >
-                                <li className='list_style_circle'>
-                                    <p className=' grey ff_Book  fs_sm fw_300 max_width_291 '>Rutrum velit erat nulla dolor amet tellus</p>
+                                <ul className='list_style_circle'>
+                                    <li className=' grey ff_Book  fs_sm fw_300 max_width_291  list_style'>Rutrum velit erat nulla dolor amet tellus</li>
 
-                                </li>
-                                <li>
-                                    <p className='grey ff_Book  fs_sm fw_300 max_width_291'>Viverra lacus imperdiet sed ut est. Neque venenati.</p>
-                                </li>
+                                </ul>
+                                <ul>
+                                    <li className='grey ff_Book  fs_sm fw_300 max_width_291 list_style'>Viverra lacus imperdiet sed ut est. Neque venenati.</li>
+                                </ul>
                             </ul>
                         </div>
                     </div>
