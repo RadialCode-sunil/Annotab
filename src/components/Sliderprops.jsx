@@ -93,7 +93,7 @@ const Challenges = (props) => {
                                         <img className=' w-100 h_lg_450 explore_img_hover' src={props.sliderimg3} alt="sliderimg3" /></div>
                                     <p className=' ff_Medium fs_lg text-white pt-3'>{props.smallheading3}</p>
                                     <ul className='pb-3'>
-                                        <li className='list_style whitelight_clr ff_Book fs_sm min_w_324 '>Risus hendrerit risus</li>
+                                        <li className='list_style whitelight_clr ff_Book fs_sm min_w_324'>Risus hendrerit risus</li>
                                         <li className='list_style whitelight_clr ff_Book fs_sm min_w_324 pt-2'>Risus hendrerit risus</li>
                                         <li className='list_style whitelight_clr ff_Book fs_sm min_w_324 pt-2'>Laoreet vulputate amet semper lectus est sagittis ac. Ultrices enim volutpat </li>
 
