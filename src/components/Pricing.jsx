@@ -64,15 +64,15 @@ export const Pricing = () => {
                             <p className=' ff_Medium fs_md text-white mx_280_md'>Quis commodo viverra elementum duis.</p>
                             <hr className='normal_line' />
                             <div className=' d-flex align-items-center pt-3'>
-                                <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                <span className='d-flex align-items-center'><img src={tick} alt="tick" /></span>
                                 <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Video Annotation</p>
                             </div>
                             <div className=' d-flex align-items-center pt-3'>
-                                <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                <span className='d-flex align-items-center'><img src={tick} alt="tick" /></span>
                                 <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>image Annotation</p>
                             </div>
                             <div className=' d-flex align-items-center pt-3 pb-3'>
-                                <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                <span className='d-flex align-items-center'><img src={tick} alt="tick" /></span>
                                 <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Text Annotation</p>
                             </div>
                             <hr className='normal_line mt-4' />
@@ -88,15 +88,15 @@ export const Pricing = () => {
                                 <p className=' ff_Medium fs_md text-white mx_280_md'>Vitae sollicitudin arcu pretium nec cras.</p>
                                 <hr className='normal_line' />
                                 <div className=' d-flex align-items-center pt-3'>
-                                    <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                    <span className='d-flex align-items-center'><img src={tick} alt="tick" /></span>
                                     <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Video Annotation</p>
                                 </div>
                                 <div className=' d-flex align-items-center pt-3'>
-                                    <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                    <span className='d-flex align-items-center'><img src={tick} alt="tick" /></span>
                                     <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>image Annotation</p>
                                 </div>
                                 <div className=' d-flex align-items-center pt-3 pb-3'>
-                                    <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                    <span className='d-flex align-items-center'><img src={tick} alt="tick" /></span>
                                     <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Text Annotation</p>
                                 </div>
                                 <hr className='normal_line mt-4' />
@@ -136,3 +136,4 @@ export const Pricing = () => {
         </section>
     )
 }
+

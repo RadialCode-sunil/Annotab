@@ -1,14 +1,14 @@
 import React from 'react'
-import logo from '../assets/img/png/logo.png'
+import footer_logo from '../assets/img/png/footer_logo.png'
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 
 const MyNew = () => {
     return (
-        <Container className='py-5'>
-            <Row>
-                <Col lg={3} xs={12} ><ul className='ps-0'>
-                    <a href="#"><img src={logo} alt="logo" /></a>
+        <Container className='pt-4'>
+            <Row >
+                <Col xl={3} xs={12} ><ul className='ps-0'>
+                    <a href="#"><img src={footer_logo} alt="logo" /></a>
                     <p className='ff_Book fs_sm grey pt-4'>Feugiat tempor sagittis set dis nisl est.  at Malesuada in tortor cras dapibus.</p>
                     <li className='mt-5'>
                         <a className='footer_img ' href="#"><svg className='footer_img' width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -20,9 +20,9 @@ const MyNew = () => {
                         </a>
                     </li>
                 </ul></Col>
-                <Col lg={9} xs={12}>
+                <Col xl={9} xs={12} className='pt-4'>
                     <Row>
-                        <Col md={3} sm={6} xs={12} className='d-flex justify-content-lg-center' id='ul_1'>
+                        <Col md={3} sm={6} xs={12} className='d-flex justify-content-xl-center' id='ul_1'>
                             <ul className=' pt-5 pt-5 pt-lg-0 ps-0  '>
                                 <li>
                                     <p className='ff_Book fs_sm white '>Products</p>
@@ -30,7 +30,7 @@ const MyNew = () => {
                                 <li className='pt-lg-3 pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Annotab Studio</a></li>
                             </ul>
                         </Col>
-                        <Col md={3} sm={6} xs={12} className='d-flex align-items-lg-end justify-content-lg-end' id='ul_2'>
+                        <Col md={3} sm={6} xs={12} className='d-flex align-items-xl-end justify-content-xl-end' id='ul_2'>
                             <ul className='ps-0'>
                                 <li>
                                     <p className='ff_Book fs_sm white pt-5 pt-lg-0'>Solutions</p>
@@ -39,7 +39,7 @@ const MyNew = () => {
                                 <li className='pt-2'>
                                     <Link to="/Manufacturing">
                                         <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Manufacturing</a>
-                                    </Link> 
+                                    </Link>
                                 </li>
                                 <li className='pt-2'>
                                     <Link to="/Agriculture">
@@ -115,7 +115,7 @@ const MyNew = () => {
             </Row>
             <hr className='footer_hr mt-4' />
             <div className='d-flex flex-column align-items-center mt-4'>
-                <p className='ff_Book fs_sm white opacity_7'>@ 2023 ANNOTAB. all rights reserved</p>
+                <p className='ff_Book fs_sm white opacity_7'><span className=' ff_arial'>@</span> 2023 ANNOTAB. all rights reserved</p>
             </div>
         </Container >
     )

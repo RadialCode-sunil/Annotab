@@ -3,45 +3,75 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Slider from "react-slick";
 import Team_boy_img_1 from '../assets/img/png/Team_boy_img_1.png';
 import Team_boy_img_2 from '../assets/img/png/Team_boy_img_2.png';
-import Team_boy_img_3 from '../assets/img/png/Team_boy_img_3.png';  
+import Team_boy_img_3 from '../assets/img/png/Team_boy_img_3.png';
 const Team = () => {
     var Team_slider = {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 2.22,
+        slidesToShow: 2.30,
         slidesToScroll: 1,
         arrows: false,
         centerMode: true,
-        centerPadding: "100px",
+        centerPadding: "95px",
+        cssEase: 'linear',
+        autoplay: true,
+        autoplaySpeed: 3000,
+
         responsive: [
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 2.10,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false,
+                    centerMode: true,
+                    centerPadding: "0px",
+                }
+            },
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 2.22,
-                    slidesToScroll: 3,
+                    slidesToShow: 2.10,
+                    slidesToScroll: 1,
                     infinite: true,
                     dots: false,
+                    centerMode: true,
+                    centerPadding: "37px",
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 1.22,
-                    slidesToScroll: 2,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
                     dots: false,
+                    centerMode: false,
+                    centerPadding: "0px",
                 }
             },
             {
-                breakpoint: 768,
+                breakpoint: 760,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     dots: true,
-                    centerMode: false,
-                    centerPadding: "0px",
+                    centerMode: true,
+                    centerPadding: "-10px",
                 }
-            }]
+            },
+            {
+                breakpoint: 568,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: true,
+                    centerMode: true,
+                    centerPadding: "-0px",
+                }
+            }
+        ]
     };
     return (
         <section className='py-5 position-relative overflow-hidden'>
