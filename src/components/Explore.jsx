@@ -42,7 +42,7 @@ const Explore = () => {
             }]
     };
     return (
-        <div>
+        <div className='pb-5'>
             <Sliderprops heading="Explore Manufacturing Use Cases" para="Scelerisque integer egestas nunc egestas. Vestibulum nunc blandit ultrices sit sagittis rutrum sed felis in ullamcorper adipiscing." sliderimg={exploreimg1} sliderimg2={exploreimg2} sliderimg3={exploreimg3} smallheading1="Sit donec" smallheading2="Commodo" smallheading3="Tellus turpis" />
         </div>
     )
