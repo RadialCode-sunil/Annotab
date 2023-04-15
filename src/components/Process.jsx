@@ -20,7 +20,7 @@ const Process = () => {
                                 <img className='position-relative z_index_2  d-none d-sm-block' src={firstdisplay} alt="firstdisplay" />
                             </div>
                             <div className='seconddisplay_img2'>
-                                <img className='position-relative z_index_2  d-none d-sm-block' src={seconddisplay} alt="seconddisplay" />
+                                <img className='position-relative z_index_2  d-none d-sm-block' src={threddisplay} alt="seconddisplay" />
 
                             </div>
                             <div className='seconddisplay_img3'>
