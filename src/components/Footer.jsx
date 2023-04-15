@@ -24,7 +24,7 @@ const MyNew = () => {
                     <Col xl={9} xs={12} className='pt-4'>
                         <Row>
                             <Col md={3} sm={6} xs={12} className='d-flex justify-content-xl-center' id='ul_1'>
-                                <ul className=' pt-5 pt-5 pt-lg-0 ps-0  '>
+                                <ul className=' pt-3 pt-lg-0 ps-0  '>
                                     <li>
                                         <p className='ff_Book fs_sm white '>Products</p>
                                     </li>
@@ -34,7 +34,7 @@ const MyNew = () => {
                             <Col md={3} sm={6} xs={12} className='d-flex align-items-xl-end justify-content-xl-end' id='ul_2'>
                                 <ul className='ps-0 text-nowrap'>
                                     <li>
-                                        <p className='ff_Book fs_sm white pt-5 pt-lg-0'>Solutions</p>
+                                        <p className='ff_Book fs_sm white pt-3 pt-lg-0'>Solutions</p>
                                     </li>
                                     <li className='pt-lg-3 pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Healthcare <span className=' ff_arial'>&</span> Medicine</a></li>
                                     <li className='pt-2'>
@@ -95,7 +95,7 @@ const MyNew = () => {
                                 </ul></Col>
                             <Col md={3} sm={6} xs={12} className='d-flex flex-column align-items-sm-center align-items-xl-end' id='ul_3'>
                                 <ul className='ps-0 ps-sm-3'>
-                                    <li><p className='ff_Book fs_sm white pt-5 pt-lg-0'>Resources</p></li>
+                                    <li><p className='ff_Book fs_sm white pt-3 pt-lg-0'>Resources</p></li>
                                     <li className='pt-lg-3 pt-2'>
                                         <Link to="/Blogs">
                                             <a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Blogs</a>
@@ -105,7 +105,7 @@ const MyNew = () => {
                                 </ul></Col>
                             <Col md={3} sm={6} xs={12} className='d-flex flex-column align-items-sm-center align-items-lg-end' id='ul_4'>
                                 <ul className='ps-0 ps-lg-3'>
-                                    <li><p className='ff_Book fs_sm white pt-5 pt-lg-0'>Company</p></li>
+                                    <li><p className='ff_Book fs_sm white pt-3 pt-lg-0'>Company</p></li>
                                     <li className='pt-lg-3 pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">About us</a></li>
                                     <li className='pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">News</a></li>
                                     <li className='pt-2'><a className='ff_Book fs_sm white opacity_7 footer_hover' href="#">Data Security</a></li>
