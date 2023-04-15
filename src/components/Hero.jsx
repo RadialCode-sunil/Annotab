@@ -18,7 +18,7 @@ import AiTool4 from "../assets/img/png/hero_sm_circle4.png";
 const Hero = () => {
   return (
     <div>
-      <header className="bg_black_blue d-flex min-vh-100 flex-column dotted_bg position-relative linear_background Overflow_x_hidden">
+      <header className="bg_black_blue d-flex min_vh_100 flex-column dotted_bg position-relative linear_background Overflow_x_hidden">
         <NavBar />
         <section className="d-flex flex-column flex-grow-1 justify-content-end position-relative z-0">
           <Container className="pt-5">
@@ -37,19 +37,19 @@ const Hero = () => {
                   <Green_btn any_text="Explore" />
                 </Link>
               </div>
-              <div className="row d-xl-none justify-content-center  mb-5 ">
-                <Col sm={3} xs={5} className="text-center mb-4 mb-sm-0">
-                  <img src={AiTool1} alt="ai tools" />
-                </Col>
-                <Col sm={3} xs={5} className="text-center mb-4 mb-sm-0">
-                  <img src={AiTool2} alt="ai tools" />
-                </Col>
-                <Col sm={3} xs={5} className="text-center">
-                  <img src={AiTool3} alt="ai tools" />
-                </Col>
-                <Col sm={3} xs={5} className="text-center">
-                  <img src={AiTool4} alt="ai tools" />
-                </Col>
+              <div className="d-flex d-xl-none justify-content-center flex-row gap-md-5 gap-sm-4 gap-3 position-relative ai_tool_line    mb-5 ">
+                <span className="ai_tool_width position-relative z_index_2">
+                  <img className="w-100" src={AiTool1} alt="ai tools" />
+                </span>
+                <span className="ai_tool_width position-relative z_index_2">
+                  <img className="w-100" src={AiTool2} alt="ai tools" />
+                </span>
+                <span className="ai_tool_width position-relative z_index_2">
+                  <img className="w-100" src={AiTool3} alt="ai tools" />
+                </span>
+                <span className="ai_tool_width position-relative z_index_2">
+                  <img className="w-100" src={AiTool4} alt="ai tools" />
+                </span>
               </div>
               <div className="d-flex flex-sm-row flex-column w-100 justify-content-center pt-3 curly_line_bg gap_87 position-relative ">
                 <div className="max_width270 position-relative index_1">
@@ -70,7 +70,7 @@ const Hero = () => {
           <div className="blue_light  home_bluelight_position"></div>
           <div className="green_light  home_greenlight_position"></div>
           <div className="linear_hero_bottom">
-           <div className="w-100 h-100 linear_black_bg"></div>
+            <div className="w-100 h-100 linear_black_bg"></div>
           </div>
         </section>
       </header>
