@@ -5,7 +5,7 @@ export const Turpis = () => {
     return (
         <section className='py-3'>
             <Container>
-                <div className='turpis_img text-center py-5 my-5'>
+                <div className='turpis_img text-center py-2 py-md-4 py-lg-5 my-lg-5'>
                     <h3 className=' ff_Medium fs_3xl fw_400 white mt-4'>Turpis id consectetur</h3>
                     <p className=' ff_Book fs_sm fw_300 grey feauth_wdth mx-auto mt-3 p-1 p-xl-0'>Feugiat tempor sagittis vitae amet dis nisl est. Neque tristique tellus
                         etiam nascetur at adipiscing. Tellus morbi faucibus at aliquam venenatis. Suspendis

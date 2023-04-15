@@ -84,7 +84,7 @@ export const Pricing = () => {
                         <div className='pt -4 pt-md-0'>
                             <div className='normal_box normal_shadow p-5 z-3 ms-3'>
                                 <p className=' ff_Medium mb-0 fs_md text-white'>Rapid</p>
-                                <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span> 90</p>
+                                <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span>90</p>
                                 <p className=' ff_Medium fs_md text-white mx_280_md'>Vitae sollicitudin arcu pretium nec cras.</p>
                                 <hr className='normal_line' />
                                 <div className=' d-flex align-items-center pt-3'>
@@ -109,7 +109,7 @@ export const Pricing = () => {
                         <div className='pt -4 pt-lg-0'>
                             <div className='normal_box normal_shadow p-5 ms-3'>
                                 <p className=' ff_Medium mb-0 fs_md text-white'>Enterprise</p>
-                                <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span> 150</p>
+                                <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span>150</p>
                                 <p className=' ff_Medium fs_md text-white mx_300_md'>Interdum rhoncus nisl et rutrum tortor.</p>
                                 <hr className='normal_line' />
                                 <div className=' d-flex align-items-center pt-3'>
