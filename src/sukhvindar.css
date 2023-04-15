@@ -54,10 +54,10 @@
     border: 1px solid #FFFFFF;
 }
 
-.slick-slide {
+/* .slick-slide {
     justify-content: center !important;
     display: flex !important;
-}
+} */
 
 .opacity0_6 {
     opacity: 0.6;
