@@ -91,18 +91,7 @@ const Section_2_slider = () => {
                 <div>
                     <img className=' w-100' src={slider_img} alt="" />
                 </div>
-                <div>
-                    <img className=' w-100' src={slider_img} alt="" />
-                </div>
-                <div>
-                    <img className=' w-100' src={slider_img} alt="" />
-                </div>
-                <div>
-                    <img className=' w-100' src={slider_img} alt="" />
-                </div>
-                <div>
-                    <img className=' w-100' src={slider_img} alt="" />
-                </div>
+        
             </Slider>
         </section>
     )

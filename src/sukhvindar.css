@@ -117,6 +117,7 @@
 .latest_box {
     background: rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(10px);
+    padding: 40px 30px;
 }
 
 .shadow_back {
@@ -127,12 +128,13 @@
     height: 110px;
     transform: translate(-50% -50%);
     opacity: 0.5;
+    position: absolute;
 }
 
 .d_grid {
     display: grid;
     grid-column: auto;
-    grid-gap: 40px;
+    grid-gap: 39px;
 }
 
 .blog_1 {
@@ -222,9 +224,7 @@
 }
 
 @media (min-width:992px) {
-    .latest_shadow {
-        box-shadow: 0px 0px 40px rgba(0, 255, 204, 0.04);
-    }
+
 
     .normal_shadow {
         box-shadow: 0px 0px 40px rgba(0, 255, 204, 0.04);

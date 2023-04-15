@@ -1,11 +1,3 @@
-* {
-  box-sizing: border-box !important;
-  list-style-type: none !important;
-  text-decoration: none !important;
-  padding: 0;
-  margin: 0;
-}
-
 .outline_none {
   outline: none;
 }
@@ -379,9 +371,18 @@ input[type="checkbox"]:checked ~ .Menuicon .icon_span {
     background-size: contain;
   }
 }
-@media (min-width: 1401px) {
+@media (min-width: 1441px) {
   .dotted_bg {
     background-position-y: -22%;
     background-size: 100em;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px !important;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
