@@ -9,7 +9,7 @@ import aeroplane6 from '../assets/img/png/aeroplane_6.png';
 export const Defancegrid = () => {
     return (
         <div>
-            <Exploreaerospaces maxW="max_width_703 " Aerospace="Explore Aerospace" secondAero="&" ThirdAero="Defense Use Cases" gridimg1={aeroplane1} gridimg2={aeroplane2} gridimg3={aeroplane3} gridimg4={aeroplane4} gridimg5={aeroplane5} gridimg6={aeroplane6} />
+            <Exploreaerospaces max="max_width_703 " Aerospace="Explore Aerospace" secondAero="&" ThirdAero="Defense Use Cases" gridimg1={aeroplane1} gridimg2={aeroplane2} gridimg3={aeroplane3} gridimg4={aeroplane4} gridimg5={aeroplane5} gridimg6={aeroplane6} />
         </div>
     )
 }
