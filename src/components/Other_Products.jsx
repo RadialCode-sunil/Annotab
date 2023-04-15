@@ -8,7 +8,9 @@ import Other_products_big_img from '../assets/img/png/Other_products_big_img.png
 const Other_Products = () => {
     return (
 
-        <section className='py-5'>
+        <section className='py-5 position-relative'>
+            <div className=' Other_purple_light1'></div>
+            <div className=' Other_purple_light2'></div>
             <Container className='scroll-w'>
                 <h2 className=' ff_Medium fs_3xl fw_500 white text-center'>Other Products</h2>
                 <p className=' ff_Book fs_sm fw_300 grey Other_Products_p_Neque mx-auto text-center pt-3 pb-4'>
