@@ -19,17 +19,19 @@ import tortor_13 from '../assets/img/png/tortor_13.png';
 
 const Tortor = () => {
     return (
-        <div className=' position-relative'>
+        <div className=' position-relative py-5'>
 
             <div className='z_index_1 max_width_876  d-inline-block position-absolute top-50 start_50  translate_middle  transform_y__50  text-center'>
 
-                <div className=' '>
-                    <p className=' ff_Medium  fs_3xl fw_400 white  '>Tortor nisi amet aliquam fermentum. Elementum orci sit mi nunc ac. Aliquam eget cras felis id feugiat.</p>
-                    <p className=' fs_sm white ff_Book fw_300 pt-2'>Eget molestie purus molestie urna feugiat eget.</p>
-                    <div className=' mt-5 me-3'>
-                        <Green_btn any_text='Know More' />
+                <Container>
+                    <div>
+                        <p className=' ff_Medium  fs_3xl fw_400 white  '>Tortor nisi amet aliquam fermentum. Elementum orci sit mi nunc ac. Aliquam eget cras felis id feugiat.</p>
+                        <p className=' fs_sm white ff_Book fw_300 pt-2'>Eget molestie purus molestie urna feugiat eget.</p>
+                        <div className=' mt-5 me-3'>
+                            <Green_btn any_text='Know More' />
+                        </div>
                     </div>
-                </div>
+                </Container>
 
             </div>
             <marquee direction="right" height="100%" className=' w-100  d-flex'>
