@@ -1,11 +1,3 @@
-* {
-  box-sizing: border-box !important;
-  list-style-type: none !important;
-  text-decoration: none !important;
-  padding: 0;
-  margin: 0;
-}
-
 .outline_none {
   outline: none;
 }
