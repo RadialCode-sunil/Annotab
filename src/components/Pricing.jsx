@@ -64,15 +64,15 @@ export const Pricing = () => {
                             <p className=' ff_Medium fs_md text-white mx_280_md'>Quis commodo viverra elementum duis.</p>
                             <hr className='normal_line' />
                             <div className=' d-flex align-items-center pt-3'>
-                                <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                <span className='d-flex align-items-center'><img src={tick} alt="tick" /></span>
                                 <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Video Annotation</p>
                             </div>
                             <div className=' d-flex align-items-center pt-3'>
-                                <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                <span className='d-flex align-items-center'><img src={tick} alt="tick" /></span>
                                 <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>image Annotation</p>
                             </div>
                             <div className=' d-flex align-items-center pt-3 pb-3'>
-                                <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                <span className='d-flex align-items-center'><img src={tick} alt="tick" /></span>
                                 <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Text Annotation</p>
                             </div>
                             <hr className='normal_line mt-4' />
@@ -84,19 +84,19 @@ export const Pricing = () => {
                         <div className='pt -4 pt-md-0'>
                             <div className='normal_box normal_shadow p-5 z-3 ms-3'>
                                 <p className=' ff_Medium mb-0 fs_md text-white'>Rapid</p>
-                                <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span> 90</p>
+                                <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span>90</p>
                                 <p className=' ff_Medium fs_md text-white mx_280_md'>Vitae sollicitudin arcu pretium nec cras.</p>
                                 <hr className='normal_line' />
                                 <div className=' d-flex align-items-center pt-3'>
-                                    <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                    <span className='d-flex align-items-center'><img src={tick} alt="tick" /></span>
                                     <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Video Annotation</p>
                                 </div>
                                 <div className=' d-flex align-items-center pt-3'>
-                                    <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                    <span className='d-flex align-items-center'><img src={tick} alt="tick" /></span>
                                     <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>image Annotation</p>
                                 </div>
                                 <div className=' d-flex align-items-center pt-3 pb-3'>
-                                    <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                    <span className='d-flex align-items-center'><img src={tick} alt="tick" /></span>
                                     <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Text Annotation</p>
                                 </div>
                                 <hr className='normal_line mt-4' />
@@ -109,7 +109,7 @@ export const Pricing = () => {
                         <div className='pt -4 pt-lg-0'>
                             <div className='normal_box normal_shadow p-5 ms-3'>
                                 <p className=' ff_Medium mb-0 fs_md text-white'>Enterprise</p>
-                                <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span> 150</p>
+                                <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span>150</p>
                                 <p className=' ff_Medium fs_md text-white mx_300_md'>Interdum rhoncus nisl et rutrum tortor.</p>
                                 <hr className='normal_line' />
                                 <div className=' d-flex align-items-center pt-3'>

@@ -111,7 +111,7 @@ export const Classes = () => {
                         </div>
 
                     </div>
-                    <div className='class_box class_width p-3 position_absolute_sm_n class_position'>
+                    <div className='class_box class_box_color class_width p-3 position_absolute_sm_n class_position'>
                         <div className=' d-flex align-items-center flex-column flex-sm-row justify-content-center'>
                             <div className=' pe-sm-4'>
                                 <img src={plus} />
@@ -124,6 +124,7 @@ export const Classes = () => {
                     </div>
                 </Col>
             </Row>
+            <div className='Classes_div_w'></div>
         </Container>
     )
 }

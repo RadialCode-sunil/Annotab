@@ -57,10 +57,10 @@ export const Latest = () => {
                 </div></div >
             <Slider {...price_sv}>
                 {/* 1 */}
-                <div className='latest_box latest_shadow  p-4 ms-3 text-center'>
+                <div className='latest_box latest_shadow  p-4 mx-lg-2 mx-xl-0 text-center'>
                     <p className=' ff_Medium mb-0 fs_md text-white opacity_7'>Normal</p>
                     <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span>50</p>
-                    <p className=' ff_Medium fs_md text-white mx_280_md mt-2 opacity_7'>Quis commodo viverra elementum duis.</p>
+                    <p className=' ff_Medium fs_md text-white mx_280_md mt-2 mb-4 opacity_7'>Quis commodo viverra elementum duis.</p>
                     <Green_btn_2 Green_btn_2text="Buy now" />
                     <p className=' ff_Bold fs_sm text-white mt-4 opacity_7'>Buy Later</p>
                     <hr className='normal_line' />
@@ -109,66 +109,67 @@ export const Latest = () => {
                         </div>
                     </div>
                 </div>
+               
+                    <div className='latest_box latest_shadow  p-4 mx-lg-2 mx-xl-0  text-center'>
+                        <p className=' ff_Medium mb-0 fs_md text-white opacity_7'>Rapid</p>
+                        <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span>90</p>
+                    <p className=' ff_Medium fs_md text-white mx_280_md opacity_7  mt-2 mb-4'>Vitae sollicitudin arcu pretium nec cras.</p>
+                        <Green_btn_2 Green_btn_2text="Buy now" />
 
-                <div className='latest_box latest_shadow  p-4 ms-3 text-center'>
-                    <p className=' ff_Medium mb-0 fs_md text-white opacity_7'>Rapid</p>
-                    <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span>90</p>
-                    <p className=' ff_Medium fs_md text-white mx_280_md opacity_7'>Vitae sollicitudin arcu pretium nec cras.</p>
-                    <Green_btn_2 Green_btn_2text="Buy now" />
-
-                    <p className=' ff_Bold fs_sm text-white mt-4 opacity_7'>Buy Later</p>
-                    <hr className='normal_line mt-4' />
-                    <div className='d-flex justify-content-center'>
-                        <div>
-                            <div className=' d-flex align-items-center   pt-3'>
-                                <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
-                                <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Video Annotation</p>
-                            </div>
-                            <div className=' d-flex align-items-center   pt-3'>
-                                <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
-                                <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>image Annotation</p>
-                            </div>
-                            <div className=' d-flex align-items-center   pt-3'>
-                                <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
-                                <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Text Annotation</p>
-                            </div>
-                            <div className=' d-flex align-items-center   pt-3'>
-                                <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
-                                <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Praesent</p>
-                            </div>
-                            <div className=' d-flex align-items-center   pt-3'>
-                                <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
-                                <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Elit urna</p>
-                            </div>
-                            <div className=' d-flex align-items-center   pt-3'>
-                                <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
-                                <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Massa nec in in</p>
-                            </div>
-                            <div className=' d-flex align-items-center   pt-3'>
-                                <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
-                                <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Lorem feugiat</p>
-                            </div>
-                            <div className=' d-flex align-items-center   pt-3'>
-                                <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
-                                <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>At scelerisque</p>
-                            </div>
-                            <div className=' d-flex align-items-center   pt-3'>
-                                <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
-                                <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Justo est</p>
-                            </div>
-                            <div className=' d-flex align-items-center   pt-3 pb-5'>
-                                <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
-                                <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Egestas</p>
+                        <p className=' ff_Bold fs_sm text-white mt-4 opacity_7'>Buy Later</p>
+                        <hr className='normal_line mt-4' />
+                        <div className='d-flex justify-content-center'>
+                            <div>
+                                <div className=' d-flex align-items-center   pt-3'>
+                                    <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                    <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Video Annotation</p>
+                                </div>
+                                <div className=' d-flex align-items-center   pt-3'>
+                                    <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                    <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>image Annotation</p>
+                                </div>
+                                <div className=' d-flex align-items-center   pt-3'>
+                                    <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                    <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Text Annotation</p>
+                                </div>
+                                <div className=' d-flex align-items-center   pt-3'>
+                                    <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                    <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Praesent</p>
+                                </div>
+                                <div className=' d-flex align-items-center   pt-3'>
+                                    <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                    <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Elit urna</p>
+                                </div>
+                                <div className=' d-flex align-items-center   pt-3'>
+                                    <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                    <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Massa nec in in</p>
+                                </div>
+                                <div className=' d-flex align-items-center   pt-3'>
+                                    <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                    <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Lorem feugiat</p>
+                                </div>
+                                <div className=' d-flex align-items-center   pt-3'>
+                                    <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                    <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>At scelerisque</p>
+                                </div>
+                                <div className=' d-flex align-items-center   pt-3'>
+                                    <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                    <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Justo est</p>
+                                </div>
+                                <div className=' d-flex align-items-center   pt-3 pb-5'>
+                                    <span className='d-flex align-items-center'><img src={tick} alt="" /></span>
+                                    <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Egestas</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+               
 
                 {/* 3 */}
-                <div className=' latest_shadow latest_box text-center  p-4 ms-3'>
+                <div className=' latest_shadow latest_box text-center  p-4 mx-lg-2 mx-xl-0 '>
                     <p className=' ff_Medium mb-0 fs_md text-white opacity_7'>Enterprise</p>
                     <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span>150</p>
-                    <p className=' ff_Medium fs_md text-white mx_280_md opacity_7'>Interdum rhoncus nisl et rutrum tortor lectus.</p>
+                    <p className=' ff_Medium fs_md text-white mx_280_md opacity_7  mt-2 mb-4'>Interdum rhoncus nisl et rutrum tortor lectus.</p>
                     <Green_btn_2 Green_btn_2text="Buy now" />
 
                     <p className=' ff_Bold fs_sm text-white mt-4 opacity_7'>Buy Later</p>

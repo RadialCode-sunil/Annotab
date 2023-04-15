@@ -8,6 +8,9 @@
         box-sizing: border-box;
     }
 
+    .Accordion_padding{
+        padding: 32px;
+    }
     .know_more_btn {
         background: #00FFCC;
         padding: 18px 32px;
@@ -194,6 +197,7 @@
         justify-content: center;
         text-align: start;
         padding-left: 20px;
+        padding: 30px;
         transition: all 0.5s linear;
     }
 
@@ -282,6 +286,12 @@
         .agri_6 {
             grid-row: 3/4;
             grid-column: 2/3;
+        }
+    }
+
+    @media (max-width:768px) {
+        .explore_sec {
+            padding: 15px;
         }
     }
 

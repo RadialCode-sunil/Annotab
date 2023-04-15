@@ -2,8 +2,6 @@
 import React from 'react'
 import Slider from "react-slick";
 import { Container, Row, Col } from 'react-bootstrap';
-import bigcrowed from '../assets/img/png/bigcrowed.png'
-import Green_btn from './Green_btn';
 import Green_btn_2 from './Green_btn_2';
 const Challenges = (props) => {
     var Team_slider = {
@@ -56,7 +54,7 @@ const Challenges = (props) => {
                             <div className=' h-100  d-flex justify-content-between flex-column'>
                                 <div>
                                     <div className='overflow-hidden'>
-                                        <img className=' w-100 h_lg_450 explore_img_hover' src={props.sliderimg} alt="" />
+                                        <img className=' w-100 h_lg_450 explore_img_hover' src={props.sliderimg} alt="sliderimg1" />
                                     </div>
                                     <p className=' ff_Medium fs_lg text-white fw_400 pt-3'>{props.smallheading1} </p>
                                     <ul className='pb-3'>
@@ -74,7 +72,7 @@ const Challenges = (props) => {
                             <div className=' h-100 d-flex justify-content-between flex-column'>
                                 <div>
                                     <div className='overflow-hidden'>
-                                        <img className=' w-100 h_lg_450 explore_img_hover' src={props.sliderimg2} alt="" /></div>
+                                        <img className=' w-100 h_lg_450 explore_img_hover' src={props.sliderimg2} alt="sliderimg2" /></div>
                                     <p className=' ff_Medium fs_lg text-white pt-3'>{props.smallheading2} </p>
                                     <ul className='pb-3'>
                                         <li className='list_style whitelight_clr ff_Book fs_sm min_w_324'>Rutrum velit erat nulla dolor amet tellus</li>
@@ -92,7 +90,7 @@ const Challenges = (props) => {
                             <div className=' h-100  d-flex justify-content-between flex-column'>
                                 <div>
                                     <div className='overflow-hidden'>
-                                        <img className=' w-100 h_lg_450 explore_img_hover' src={props.sliderimg3} alt="" /></div>
+                                        <img className=' w-100 h_lg_450 explore_img_hover' src={props.sliderimg3} alt="sliderimg3" /></div>
                                     <p className=' ff_Medium fs_lg text-white pt-3'>{props.smallheading3}</p>
                                     <ul className='pb-3'>
                                         <li className='list_style whitelight_clr ff_Book fs_sm min_w_324 '>Risus hendrerit risus</li>
