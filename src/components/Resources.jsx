@@ -41,7 +41,7 @@ const Resources = () => {
             }]
     };
     return (
-        <section className='py-5 overflow-hidden'>
+        <section className='py-3 py-lg-5 my-lg-5 overflow-hidden'>
             <Container className=''>
                 <div className=' d-flex flex-column flex-lg-row align-items-lg-center'>
                     <div>
