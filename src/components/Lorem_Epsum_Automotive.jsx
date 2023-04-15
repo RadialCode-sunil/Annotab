@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const Lorem_Epsum_Automotive = (props) => {
     return (
-        <section className='py-5 mb-5 position-relative'>
+        <section className='pb-5 position-relative'>
             <div className='Lorem_Automotive_light_black'></div>
             <Container>
                 <h2 className=' ff_Medium fw_600 fs_3xl white text-center pb-5 position-relative z_index_2'>
