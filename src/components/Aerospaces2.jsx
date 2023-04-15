@@ -24,7 +24,7 @@ const Aerospaces2 = () => {
                 </Col>
                 <Col lg={4} sm={6} xs={12} className='d-flex align-items-center justify-content-center'>
                     <div className=' overflow-hidden'>
-                    <img className='w-100 footer_img img_hover' src={star_light} alt="star_light" />
+                        <img className='w-100 footer_img img_hover' src={star_light} alt="star_light" />
                     </div>
                 </Col>
                 <Col lg={4} sm={6} xs={12} className=' mt-4 mt-lg-0'>
@@ -39,17 +39,17 @@ const Aerospaces2 = () => {
                 </Col>
                 <Col lg={4} sm={6} xs={12} className='d-flex align-items-center justify-content-center mt-4'>
                     <div className=' overflow-hidden'>
-                    <img className='w-100 footer_img img_hover' src={aerospace1} alt="aerospace1" />
+                        <img className='w-100 footer_img img_hover' src={aerospace1} alt="aerospace1" />
                     </div>
                 </Col>
                 <Col lg={4} sm={6} xs={12} className='d-flex align-items-center justify-content-center mt-4'>
                     <div className=' overflow-hidden'>
-                    <img className='w-100 footer_img img_hover' src={aerospaces2} alt="aerospace2" />
+                        <img className='w-100 footer_img img_hover' src={aerospaces2} alt="aerospace2" />
                     </div>
                 </Col>
                 <Col lg={4} sm={6} xs={12} className='d-flex align-items-center justify-content-center mt-4'>
                     <div className=' overflow-hidden'>
-                    <img className='w-100 footer_img img_hover' src={aerospace3} alt="aerospace1" />
+                        <img className='w-100 footer_img img_hover' src={aerospace3} alt="aerospace1" />
                     </div>
                 </Col>
             </Row>
