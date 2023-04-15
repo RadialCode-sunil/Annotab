@@ -127,7 +127,7 @@ export const Latest = () => {
                             <Green_btn_2 Green_btn_2text="Buy now" />
 
                             <p className=' ff_Bold fs_sm text-white mt-4 opacity_7'>Buy Later</p>
-                            <hr className='normal_line mt-4' />
+                            <hr className='normal_line mt-3' />
                             <div className='d-flex justify-content-center'>
                                 <div>
                                     <div className=' d-flex align-items-center   pt-3'>
@@ -185,7 +185,7 @@ export const Latest = () => {
                             <Green_btn_2 Green_btn_2text="Buy now" />
 
                             <p className=' ff_Bold fs_sm text-white mt-4 opacity_7'>Buy Later</p>
-                            <hr className='normal_line mt-4' />
+                            <hr className='normal_line mt-3' />
                             <div className=' d-flex justify-content-center'>
                                 <div>
                                     <div className=' d-flex align-items-center   pt-3'>
