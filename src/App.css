@@ -6,3 +6,7 @@
 @import url(./sukhvindar.css);
 @import url(./ashok.css);
 @import url(./ankit.css);
+
+.overflow_hidden {
+    overflow: hidden;
+}

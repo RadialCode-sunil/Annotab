@@ -6,11 +6,11 @@ const Lorem_Epsum_Automotive = (props) => {
         <section className='pb-5 position-relative'>
             <div className='Lorem_Automotive_light_black'></div>
             <Container>
-                <h2 className=' ff_Medium fw_600 fs_3xl white text-center pb-5 position-relative z_index_2'>
+                <h2 className=' ff_Medium fw_600 fs_3xl white text-center pb-lg-5 position-relative z_index_2'>
                     Lorem Epsum Dolar Sit emit
                 </h2>
 
-                <div className=' d-flex flex-column-reverse flex-lg-row justify-content-between align_items_center_xs pt-5'>
+                <div className=' d-flex flex-column-reverse flex-lg-row justify-content-between align_items_center_xs pt-3 pt-lg-5'>
 
                     <div className='py-4 my-4 my-sm-0 py-lg-0'>
                         <ul className=' list-unstyled ms-lg-4 ps-lg-2'>

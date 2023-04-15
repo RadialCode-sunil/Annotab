@@ -68,11 +68,11 @@ const Team = () => {
             <div className='Team_green_light position-absolute'></div>
             <Container>
                 <h2 className=' ff_Medium fw_500 fs_3xl white text-center'>Team</h2>
-                <p className=' ff_Book fw_300 fs_sm white text-center Team_p_w mx-auto pt-3'>
+                <p className=' ff_Book fw_300 fs_sm grey text-center Team_p_w mx-auto pt-3'>
                     Risus suspendisse mauris sit placerat et interdum. Mauris tellus et visssg. Urna diam massa varius orci porta.
                 </p>
                 <div className='Team_slider_visible'>
-                    <Slider {...Team_slider} className='pt-5'>
+                    <Slider {...Team_slider} className='pt-3 pt-md-5'>
                         <div className=' py-1'>
                             <div className='Team_slider_box position-relative mx-3 overflow-hidden'>
                                 <img className=' w-100 Team_slider_box_img' src={Team_boy_img_2} alt="Boy" />

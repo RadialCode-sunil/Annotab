@@ -25,108 +25,121 @@ const Other_Products = () => {
                     <Tab eventKey="home" title="Annotab Studio">
                         <Row className=' align-items-center pt-5'>
                             <Col xs={12} md={6}>
-                                <div className=' d-flex align-items-center'>
-                                    <img src={right_click} alt="image" />
+                                <div className=' d-flex align-items-start'>
+                                    <img className=' pt-2' src={right_click} alt="image" />
                                     <p className=' ff_Book fw_300 fs_sm white mb-0 ps-3 Other_Products_p_w'>
                                         Velit aliquam tortor semper at nibh urna. Etiam pellentesque duis fames nam Ac lectus at amet augue. Ultrices aenean cras in iaculis.
                                     </p>
                                 </div>
-                                <div className=' d-flex align-items-center pt-4'>
-                                    <img src={right_click} alt="image" />
+                                <div className=' d-flex align-items-start pt-4'>
+                                    <img className=' pt-2' src={right_click} alt="image" />
                                     <p className=' ff_Book fw_300 fs_sm white mb-0 ps-3 Other_Products_p_w'>
                                         Velit aliquam tortor semper at nibh urna. Etiam pellentesque duis fames nam Ac lectus at amet augue. Ultrices aenean cras in iaculis.
                                     </p>
                                 </div>
-                                <div className=' d-flex align-items-center pt-4'>
-                                    <img src={right_click} alt="image" />
+                                <div className=' d-flex align-items-start pt-4'>
+                                    <img className=' pt-2' src={right_click} alt="image" />
                                     <p className=' ff_Book fw_300 fs_sm white mb-0 ps-3 Other_Products_p_w'>
                                         Velit aliquam tortor semper at nibh urna. Etiam pellentesque duis fames nam Ac lectus at amet augue. Ultrices aenean cras in iaculis.
                                     </p>
                                 </div>
                             </Col>
                             <Col xs={12} md={6}>
-                                <img className=' w-100 pt-5 pt-lg-0' src={Other_products_big_img} alt="image" />
+                                <div className='position-relative'>
+                                    <div className='Other_purple_light_green'></div>
+                                    <img className=' w-100 pt-5 pt-lg-0' src={Other_products_big_img} alt="image" />
+                                </div>
+
                             </Col>
                         </Row>
                     </Tab>
                     <Tab eventKey="profile" title="Video Annotation">
                         <Row className=' align-items-center pt-5'>
                             <Col xs={12} md={6}>
-                                <div className=' d-flex align-items-center'>
-                                    <img src={right_click} alt="image" />
+                                <div className=' d-flex align-items-start'>
+                                    <img className=' pt-2' src={right_click} alt="image" />
                                     <p className=' ff_Book fw_300 fs_sm white mb-0 ps-3 Other_Products_p_w'>
                                         Velit aliquam tortor semper at nibh urna. Etiam pellentesque duis fames nam Ac lectus at amet augue. Ultrices aenean cras in iaculis.
                                     </p>
                                 </div>
-                                <div className=' d-flex align-items-center pt-4'>
-                                    <img src={right_click} alt="image" />
+                                <div className=' d-flex align-items-start pt-4'>
+                                    <img className=' pt-2' src={right_click} alt="image" />
                                     <p className=' ff_Book fw_300 fs_sm white mb-0 ps-3 Other_Products_p_w'>
                                         Velit aliquam tortor semper at nibh urna. Etiam pellentesque duis fames nam Ac lectus at amet augue. Ultrices aenean cras in iaculis.
                                     </p>
                                 </div>
-                                <div className=' d-flex align-items-center pt-4'>
-                                    <img src={right_click} alt="image" />
+                                <div className=' d-flex align-items-start pt-4'>
+                                    <img className=' pt-2' src={right_click} alt="image" />
                                     <p className=' ff_Book fw_300 fs_sm white mb-0 ps-3 Other_Products_p_w'>
                                         Velit aliquam tortor semper at nibh urna. Etiam pellentesque duis fames nam Ac lectus at amet augue. Ultrices aenean cras in iaculis.
                                     </p>
                                 </div>
                             </Col>
                             <Col xs={12} md={6}>
-                                <img className=' w-100 pt-5 pt-lg-0' src={Other_products_big_img} alt="image" />
+                                <div className='position-relative'>
+                                    <div className='Other_purple_light_green'></div>
+                                    <img className=' w-100 pt-5 pt-lg-0' src={Other_products_big_img} alt="image" />
+                                </div>
                             </Col>
                         </Row>
                     </Tab>
                     <Tab eventKey="contact" title="Images Annotation" >
                         <Row className=' align-items-center pt-5'>
                             <Col xs={12} md={6}>
-                                <div className=' d-flex align-items-center'>
-                                    <img src={right_click} alt="image" />
+                                <div className=' d-flex align-items-start'>
+                                    <img className=' pt-2' src={right_click} alt="image" />
                                     <p className=' ff_Book fw_300 fs_sm white mb-0 ps-3 Other_Products_p_w'>
                                         Velit aliquam tortor semper at nibh urna. Etiam pellentesque duis fames nam Ac lectus at amet augue. Ultrices aenean cras in iaculis.
                                     </p>
                                 </div>
-                                <div className=' d-flex align-items-center pt-4'>
-                                    <img src={right_click} alt="image" />
+                                <div className=' d-flex align-items-start pt-4'>
+                                    <img className=' pt-2' src={right_click} alt="image" />
                                     <p className=' ff_Book fw_300 fs_sm white mb-0 ps-3 Other_Products_p_w'>
                                         Velit aliquam tortor semper at nibh urna. Etiam pellentesque duis fames nam Ac lectus at amet augue. Ultrices aenean cras in iaculis.
                                     </p>
                                 </div>
-                                <div className=' d-flex align-items-center pt-4'>
-                                    <img src={right_click} alt="image" />
+                                <div className=' d-flex align-items-start pt-4'>
+                                    <img className=' pt-2' src={right_click} alt="image" />
                                     <p className=' ff_Book fw_300 fs_sm white mb-0 ps-3 Other_Products_p_w'>
                                         Velit aliquam tortor semper at nibh urna. Etiam pellentesque duis fames nam Ac lectus at amet augue. Ultrices aenean cras in iaculis.
                                     </p>
                                 </div>
                             </Col>
                             <Col xs={12} md={6}>
-                                <img className=' w-100 pt-5 pt-lg-0' src={Other_products_big_img} alt="image" />
+                                <div className='position-relative'>
+                                    <div className='Other_purple_light_green'></div>
+                                    <img className=' w-100 pt-5 pt-lg-0' src={Other_products_big_img} alt="image" />
+                                </div>
                             </Col>
                         </Row>
                     </Tab>
                     <Tab eventKey="Annoations" title="Annoations" >
                         <Row className=' align-items-center pt-5'>
                             <Col xs={12} md={6}>
-                                <div className=' d-flex align-items-center'>
-                                    <img src={right_click} alt="image" />
+                                <div className=' d-flex align-items-start'>
+                                    <img className=' pt-2' src={right_click} alt="image" />
                                     <p className=' ff_Book fw_300 fs_sm white mb-0 ps-3 Other_Products_p_w'>
                                         Velit aliquam tortor semper at nibh urna. Etiam pellentesque duis fames nam Ac lectus at amet augue. Ultrices aenean cras in iaculis.
                                     </p>
                                 </div>
-                                <div className=' d-flex align-items-center pt-4'>
-                                    <img src={right_click} alt="image" />
+                                <div className=' d-flex align-items-start pt-4'>
+                                    <img className=' pt-2' src={right_click} alt="image" />
                                     <p className=' ff_Book fw_300 fs_sm white mb-0 ps-3 Other_Products_p_w'>
                                         Velit aliquam tortor semper at nibh urna. Etiam pellentesque duis fames nam Ac lectus at amet augue. Ultrices aenean cras in iaculis.
                                     </p>
                                 </div>
-                                <div className=' d-flex align-items-center pt-4'>
-                                    <img src={right_click} alt="image" />
+                                <div className=' d-flex align-items-start pt-4'>
+                                    <img className=' pt-2' src={right_click} alt="image" />
                                     <p className=' ff_Book fw_300 fs_sm white mb-0 ps-3 Other_Products_p_w'>
                                         Velit aliquam tortor semper at nibh urna. Etiam pellentesque duis fames nam Ac lectus at amet augue. Ultrices aenean cras in iaculis.
                                     </p>
                                 </div>
                             </Col>
                             <Col xs={12} md={6}>
-                                <img className=' w-100 pt-5 pt-lg-0' src={Other_products_big_img} alt="image" />
+                                <div className='position-relative'>
+                                    <div className='Other_purple_light_green'></div>
+                                    <img className=' w-100 pt-5 pt-lg-0' src={Other_products_big_img} alt="image" />
+                                </div>
                             </Col>
                         </Row>
                     </Tab>

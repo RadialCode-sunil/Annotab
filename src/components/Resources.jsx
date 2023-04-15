@@ -41,14 +41,14 @@ const Resources = () => {
             }]
     };
     return (
-        <section className='mt-3 py-lg-5 my-lg-5 overflow-hidden'>
+        <section className='mt-lg-5 py-lg-5 my-lg-5 overflow-hidden'>
             <Container className=''>
                 <div className=' d-flex flex-column flex-lg-row align-items-lg-center'>
                     <div>
                         <h2 className=' ff_Medium fw_400 fs_3xl white'>
                             Resources
                         </h2>
-                        <p className=' ff_Book fw_400 fs_sm white w-75 pt-2'>
+                        <p className=' ff_Book fw_400 fs_sm grey w-75 pt-2'>
                             Magna scelerisque amet adipiscing diam ac justo. Elementum mattis aenean malesuada mauris eget platea id. Ullamcorper.
                         </p>
                     </div>
@@ -65,7 +65,7 @@ const Resources = () => {
                     </div>
                 </div>
             </Container>
-            <Slider {...Resources_slider} className=' pt-5 mt-3'>
+            <Slider {...Resources_slider} className=' pt-3 pt-sm-5 mt-3'>
                 {/* 1 */}
                 <div className=''>
                     <div className='Resources_slider_box mx-2 h-100 d-flex flex-column justify-content-between'>

@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './App.css';
@@ -20,9 +21,22 @@ import Blogs from "./components/Blogs";
 import Pricingnav from "./components/Pricingnav";
 import Banking from "./components/Banking";
 
+import Preloader from "./components/Preloader";
+
 function App() {
+  const [loading, setLoading] = useState(true);
+  // useEffect(() => {
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+      document.body.classList.remove("overflow_hidden");
+    }, 2400);
+  }, [])
+
+
   return (
     <div className='bg_darkblue '>
+      {loading && <Preloader />}
 
       <Routes>
         <Route exact path="/" element={<Home />}>
@@ -70,7 +84,7 @@ function App() {
         <Route exact path="/Banking" element={<Banking />}>
 
         </Route>
-       
+
 
 
       </Routes>
