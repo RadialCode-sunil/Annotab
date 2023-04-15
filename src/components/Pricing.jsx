@@ -51,11 +51,11 @@ export const Pricing = () => {
                 <div className='shadow_back start-0 top-0'></div>
                 <div className=' d-flex flex-column align-items-center pt-5'>
                     <p className=' ff_Medium text-center fs_3xl grey '>Pricing</p>
-                    <p className=' ff_Book fs_sm grey text-center min_w_524 pb-5'>Ultricies in integer semper pharetra. vestibulum.Ultricies in integer semper pharetra. vestibulum.</p>
+                    <p className=' ff_Book fs_sm grey text-center min_w_524 pb-5 opacity_0_7'>Ultricies in integer semper pharetra. vestibulum.Ultricies in integer semper pharetra. vestibulum.</p>
                 </div>
 
                 <Slider {...price_as} className=' '>
-                    
+
                     <div className=' pb -5 px-3'>
                         <div className='normal_box normal_shadow p-5 '>
                             <p className=' ff_Medium mb-0 fs_md text-white'>Normal</p>
