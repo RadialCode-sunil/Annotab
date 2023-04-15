@@ -49,7 +49,7 @@ const Solutions = () => {
         <Row/>
         <Col/>
         
-        <section className='bg_darkblue py-5 overflow-hidden'>
+        <section className='bg_darkblue py-5 overflow-hidden mb-4'>
             <Container>
                 <div className='d-lg-flex text-center text-lg-start justify-content-between align-items-center pb-5'>
                     <div>
