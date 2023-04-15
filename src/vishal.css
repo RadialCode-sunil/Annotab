@@ -8,9 +8,10 @@
         box-sizing: border-box;
     }
 
-    .Accordion_padding{
+    .Accordion_padding {
         padding: 32px;
     }
+
     .know_more_btn {
         background: #00FFCC;
         padding: 18px 32px;
@@ -209,6 +210,8 @@
         list-style-type: circle !important;
     }
 
+
+
     @media (max-width:1200px) {
         .w_100 {
             width: 100%;
@@ -217,6 +220,10 @@
         .transform_y__50 {
             transform: translate(0%, -50%);
         }
+    }
+
+    #max_width_703 {
+        max-width: 703px !important;
     }
 
     @media (min-width:1200px) {
@@ -240,9 +247,6 @@
             max-width: 291px;
         }
 
-        #max_width_704 {
-            max-width: 703px;
-        }
 
         #max_width_480 {
             max-width: 480px !important;
@@ -254,6 +258,16 @@
 
         .start_50 {
             left: 50% !important;
+        }
+
+        .blur_image {
+            top: 54%;
+            left: 17%;
+            position: absolute;
+            width: 191px;
+            height: 381px;
+            background: #4A119E;
+            filter: blur(230px);
         }
     }
 

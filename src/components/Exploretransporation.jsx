@@ -10,7 +10,7 @@ import Exploreaerospaces from './Exploreaerospaces';
 
 const Exploretransporation = () => {
     return (
-        <div>      <Exploreaerospaces max="max_width_704" Aerospace="Explore Transportation Use Cases" gridimg1={teransporation_1} gridimg2={teransporation_2} gridimg3={teransporation_3} gridimg4={teransporation_4} gridimg5={teransporation_5} gridimg6={teransporation_6} /></div>
+        <div>      <Exploreaerospaces max="max_width_703" Aerospace="Explore Transportation Use Cases" gridimg1={teransporation_1} gridimg2={teransporation_2} gridimg3={teransporation_3} gridimg4={teransporation_4} gridimg5={teransporation_5} gridimg6={teransporation_6} /></div>
 
     )
 }

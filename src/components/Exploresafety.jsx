@@ -7,7 +7,7 @@ import exploreimg12 from '../assets/img/png/exploreimg12.png'
 import Green_btn from './Green_btn'
 export const Exploresafety = () => {
     return (
-        <Container>
+        <Container className='pb-5 mb-lg-5'>
             <div>
                 <Sliderprops heading="Explore Safety" secondhalf="&" thirdHalf="Security Use Cases" para="Scelerisque integer egestas nunc egestas. Vestibulum nunc blandit ultrices sit sagittis rutrum sed felis in ullamcorper adipiscing." sliderimg={exploreimg10} sliderimg2={exploreimg11} sliderimg3={exploreimg12} smallheading1="Venenatis ullamcorper" smallheading2="Quis" smallheading3="Nec eu" />
             </div>

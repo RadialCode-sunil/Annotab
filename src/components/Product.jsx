@@ -9,7 +9,7 @@ import AccordionAnno from './AccordionAnno';
 
 const Product = () => {
     return (
-        <section className=' py-3 py-lg-5'>
+        <section className=' py-5 py-lg-5 my-4'>
             <Container className=' position-relative'>
 
                 <div className=' text-center justify-content-center d-flex align-items-center flex-column'>

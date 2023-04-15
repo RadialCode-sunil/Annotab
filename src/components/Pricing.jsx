@@ -53,12 +53,8 @@ export const Pricing = () => {
             </div>
             <Container>
                 <Slider {...price_as}>
-
-
-                    <div className=' pb -5 position-relative '>
-                        {/* <div className=' position-absolute shadow_back'></div> */}
-
-                        <div className='normal_box normal_shadow p-5 ms-3'>
+                    <div className=' pb -5 position-relative px-3'>
+                        <div className='normal_box normal_shadow p-5 '>
                             <p className=' ff_Medium mb-0 fs_md text-white'>Normal</p>
                             <p className='mb-0 ff_Medium fs_2xl text-white'><span className=' font-monospace'>&#x24;</span>50</p>
                             <p className=' ff_Medium fs_md text-white mx_280_md'>Quis commodo viverra elementum duis.</p>
@@ -76,13 +72,12 @@ export const Pricing = () => {
                                 <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Text Annotation</p>
                             </div>
                             <hr className='normal_line mt-4' />
-                            {/* <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky mt-3' href="#">Interested</a> */}
                             <Green_btn_2 Green_btn_2text="Interested" />
                         </div>
                     </div>
                     <div>
-                        <div className='pt -4 pt-md-0'>
-                            <div className='normal_box normal_shadow p-5 z-3 ms-3'>
+                        <div className='pt -4 pt-md-0 px-3'>
+                            <div className='normal_box normal_shadow p-5 z-3 '>
                                 <p className=' ff_Medium mb-0 fs_md text-white'>Rapid</p>
                                 <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span>90</p>
                                 <p className=' ff_Medium fs_md text-white mx_280_md'>Vitae sollicitudin arcu pretium nec cras.</p>
@@ -100,14 +95,13 @@ export const Pricing = () => {
                                     <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Text Annotation</p>
                                 </div>
                                 <hr className='normal_line mt-4' />
-                                {/* <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky mt-3' href="#">Interested</a> */}
                                 <Green_btn_2 Green_btn_2text="Interested" />
                             </div>
                         </div>
                     </div>
                     <div>
-                        <div className='pt -4 pt-lg-0'>
-                            <div className='normal_box normal_shadow p-5 ms-3'>
+                        <div className='pt -4 pt-lg-0 px-3'>
+                            <div className='normal_box normal_shadow p-5 '>
                                 <p className=' ff_Medium mb-0 fs_md text-white'>Enterprise</p>
                                 <p className='mb-0 ff_Medium fs_2xl text-white'><span className='font-monospace'>$</span>150</p>
                                 <p className=' ff_Medium fs_md text-white mx_300_md'>Interdum rhoncus nisl et rutrum tortor.</p>
@@ -125,7 +119,6 @@ export const Pricing = () => {
                                     <p className='mb-0 ps-2 ff_Medium text-white  fs_sm opacity0_6'>Text Annotation</p>
                                 </div>
                                 <hr className='normal_line mt-4' />
-                                {/* <a className=' intersted_btn d-inline-block ff_Bold fs_sm sky mt-3' href="#">Interested</a> */}
                                 <Green_btn_2 Green_btn_2text="Interested" />
                             </div>
                         </div>
