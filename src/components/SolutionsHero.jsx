@@ -6,7 +6,7 @@ import Green_btn from "./Green_btn";
 
 const SolutionsHero = (props) => {
   return (
-    <div>
+    <>
       <header className="bg_black_blue d-flex min-vh-100 flex-column Overflow_x_hidden ">
         <NavBar />
         <section className="d-flex flex-column flex-grow-1 justify-content-center position-relative z-0">
@@ -38,7 +38,7 @@ const SolutionsHero = (props) => {
           <div className="green_light solution_greenlight_position"></div>
         </section>
       </header>
-    </div>
+    </>
   );
 };
 

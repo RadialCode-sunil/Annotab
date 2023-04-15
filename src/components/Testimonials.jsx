@@ -50,7 +50,7 @@ const Testimonials = () => {
                     <p className='ff_Medium fs_3xl grey'>Testimonials</p>
                     <p className='ff_Medium fs_sm grey opacity_7 max_w'>Libero mus sagittis pretium felis in. Mi cursus mi nullam urna donec placerat quis vitae. Quis pellentesque massa integer arcu cras. Purus dictum in gravida arcu orci enim fringilla.</p>
                 </div>
-                <Slider {...Test_slider} className=' pt-4 mt-3'>
+                <Slider {...Test_slider} className=' pt-4 mt-2 mt-lg-4'>
                     {/* 1 */}
                     <div className='d-flex flex-column align-items-center justify-content-between text-center px-lg-5 p-3 h-100 '>
 
