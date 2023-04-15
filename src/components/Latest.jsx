@@ -54,7 +54,7 @@ export const Latest = () => {
             <div className='linear_gradient'></div>
             <Container>
                 <div className='pt-5 text-center justify-content-center d-flex align-items-center flex-column'>
-                    <p className=' ff_Medium  fs_3xl grey fw_400 pt-5'>Latest Plans </p>
+                    <p className=' ff_Medium  fs_3xl grey position-relative fw_400 pt-5'>Latest Plans </p>
                     <p className=' ff_Book  fs_sm grey fw_400 mx_700_md pb -5 opacity_7'>Scelerisque integer egestas nunc egestas. Vestibulum nunc blandit ultrices sit sagittis rutrum sed felis in ullamcorper adipiscing.</p>
                 </div>
                 <div className=' text-center justify-content-center d-flex align-items-center flex-column pt-3 pt-lg-5'>
