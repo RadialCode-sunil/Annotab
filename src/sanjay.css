@@ -378,12 +378,4 @@ input[type="checkbox"]:checked ~ .Menuicon .icon_span {
     background-size: 100em;
   }
 }
-@media (min-width: 1400px) {
-  .container {
-    max-width: 1140px !important;
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
+
