@@ -54,7 +54,7 @@ const Challenges = (props) => {
                             <div className=' h-100  d-flex justify-content-between flex-column'>
                                 <div className='zomeimg'>
                                     <div className='overflow-hidden'>
-                                        <img className=' w-100 h_lg_450 explore_img_hover' src={props.sliderimg} alt="sliderimg1" />
+                                        <img className=' w-100 explore_img_hover' src={props.sliderimg} alt="sliderimg1" />
                                     </div>
                                     <p className=' ff_Medium fs_lg text-white fw_400 pt-3'>{props.smallheading1} </p>
                                     <ul className='pb-3'>
@@ -72,7 +72,7 @@ const Challenges = (props) => {
                             <div className=' h-100 d-flex justify-content-between flex-column'>
                                 <div className='zomeimg'>
                                     <div className='overflow-hidden'>
-                                        <img className=' w-100 h_lg_450 explore_img_hover' src={props.sliderimg2} alt="sliderimg2" /></div>
+                                        <img className=' w-100  explore_img_hover' src={props.sliderimg2} alt="sliderimg2" /></div>
                                     <p className=' ff_Medium fs_lg text-white pt-3'>{props.smallheading2} </p>
                                     <ul className='pb-3'>
                                         <li className='list_style whitelight_clr ff_Book fs_sm min_w_324'>{props.smallline4 }</li>
@@ -90,7 +90,7 @@ const Challenges = (props) => {
                             <div className=' h-100  d-flex justify-content-between flex-column'>
                                 <div className='zomeimg'>
                                     <div className='overflow-hidden'>
-                                        <img className=' w-100 h_lg_450 explore_img_hover' src={props.sliderimg3} alt="sliderimg3" /></div>
+                                        <img className=' w-100  explore_img_hover' src={props.sliderimg3} alt="sliderimg3" /></div>
                                     <p className=' ff_Medium fs_lg text-white pt-3'>{props.smallheading3}</p>
                                     <ul className='pb-3'>
                                         <li className='list_style whitelight_clr ff_Book fs_sm min_w_324'>{props.smallline7}</li>
