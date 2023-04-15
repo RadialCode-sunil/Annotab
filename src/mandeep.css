@@ -49,7 +49,7 @@
     transition: all 0.5s linear;
 }
 
-.explore_img_hover:hover {
+.zomeimg:hover .explore_img_hover {
     transform: scale(1.1);
 }
 
