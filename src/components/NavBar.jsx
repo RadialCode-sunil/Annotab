@@ -18,9 +18,9 @@ const NavBar = () => {
     document.body.classList.remove("overflow-hidden");
   }
   return (
-    <div>
+    <>
       <div className="bg_blur position-relative  z_index_10">
-        <Container className="py-3  ">
+        <Container className="py-3  Containerxxxl">
           <div className="d-flex justify-content-lg-around justify-content-between align-items-center py-0">
             <Link to="/">
               <img className="p-0" src={annotab} alt="annotab logo" />
@@ -565,7 +565,7 @@ const NavBar = () => {
           </div>
         </Container>
       </div>
-    </div>
+    </>
   );
 };
 

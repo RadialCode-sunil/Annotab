@@ -17,11 +17,11 @@ import AiTool4 from "../assets/img/png/hero_sm_circle4.png";
 
 const Hero = () => {
   return (
-    <div>
-      <header className="bg_black_blue d-flex min_vh_100 flex-column dotted_bg position-relative linear_background Overflow_x_hidden">
+    <>
+      <header className="bg_black_blue d-flex min_vh_100 flex-column dotted_bg position-relative linear_background Overflow-hidden">
         <NavBar />
         <section className="d-flex flex-column flex-grow-1 justify-content-end position-relative z-0">
-          <Container className="pt-5">
+          <Container className="pt-5 Containerxxxl">
             <div className="d-flex flex-column align-items-center pt-5">
               <h2 className="text-center fs_4xl ff_Bold white pb-3">
                 One place to build deploy{" "}
@@ -74,7 +74,7 @@ const Hero = () => {
           </div>
         </section>
       </header>
-    </div>
+    </>
   );
 };
 

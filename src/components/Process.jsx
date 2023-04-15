@@ -20,7 +20,7 @@ const Process = () => {
                                 <img className='position-relative z_index_2  d-none d-sm-block' src={firstdisplay} alt="firstdisplay" />
                             </div>
                             <div className='seconddisplay_img2'>
-                                <img className='position-relative z_index_2  d-none d-sm-block' src={seconddisplay} alt="seconddisplay" />
+                                <img className='position-relative z_index_2  d-none d-sm-block' src={threddisplay} alt="seconddisplay" />
 
                             </div>
                             <div className='seconddisplay_img3'>
@@ -32,7 +32,7 @@ const Process = () => {
                     <Col xs={12} xl={6}>
                         <p className=' white fs_3xl fw_400 min_w_524 ff_Medium'>Process of Annotation
                             video</p>
-                        <p className=' white fs_sm fw_400 min_w_524 pb-4 ff_Book'>Scelerisque integer egestas nunc egestas. Vestibulum nunc blandit ultrices sit sagittis rutrum sed felis in ullamcorper adipiscing.</p>
+                        <p className=' white fs_sm opacity_0_7 fw_400 min_w_524 pb-4 ff_Book'>Scelerisque integer egestas nunc egestas. Vestibulum nunc blandit ultrices sit sagittis rutrum sed felis in ullamcorper adipiscing.</p>
                         <Green_btn any_text="Interested" />
                     </Col>
                 </Row>
