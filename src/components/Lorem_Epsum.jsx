@@ -5,8 +5,9 @@ import Manufacturing_Lorem_img2 from '../assets/img/png/Manufacturing_Lorem_img2
 import Manufacturing_Lorem_img3 from '../assets/img/png/Manufacturing_Lorem_img3.png';
 const Lorem_Epsum = () => {
     return (
-        <section className=' py-5 position-relative'>
+        <section className=' py-5 position-relative overflow-hidden'>
             <div className='Lorem_Automotive_light_black'></div>
+            <div className='purple_light purple_light_Lorem'></div>
             <Container>
                 <h2 className=' ff_Medium fw_600 fs_3xl white text-center position-relative z_index_2'>
                     Lorem Epsum Dolar Sit emit
@@ -29,7 +30,7 @@ const Lorem_Epsum = () => {
                 <div className=' d-flex flex-column flex-xl-row align-items-xl-end pt-5 mt-5 mt-lg-0'>
 
                     <div className=' d-flex flex-column flex-lg-row pt-3 pt-lg-0'>
-                        <img className=' img-fluid' src={Manufacturing_Lorem_img2} alt="image" />
+                        <img className=' img-fluid z_index_2 position-relative' src={Manufacturing_Lorem_img2} alt="image" />
                         <div className=''>
                             <ul className=''>
                                 <li className=' ff_Book fw_300 fs_sm white opacity_7 pt-3 pt-lg-0 list_dot Lorem_Epsum_p_w284'>
