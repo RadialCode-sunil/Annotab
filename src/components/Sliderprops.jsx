@@ -50,7 +50,7 @@ const Challenges = (props) => {
 
                 <div >
                     <Slider {...Team_slider}>
-                        <div className='  p-3 '>
+                        <div className='p-3'>
                             <div className=' h-100  d-flex justify-content-between flex-column'>
                                 <div>
                                     <div className='overflow-hidden'>
