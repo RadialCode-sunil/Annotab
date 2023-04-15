@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Green_btn from './Green_btn';
 export const Turpis = () => {
     return (
-        <section className='py-3'>
+        <section className='py-5'>
             <Container>
                 <div className='turpis_img text-center py-2 py-md-4 py-lg-5 my-lg-5'>
                     <h3 className=' ff_Medium fs_3xl fw_400 white mt-4'>Turpis id consectetur</h3>

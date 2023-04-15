@@ -13,7 +13,7 @@ const Challenges = () => {
             <div className='bg_blur_chalange'> 
                 
             </div>
-            <Sliderprops heading="Challenges with Implementing Generative AI" para="Scelerisque integer egestas nunc egestas. Vestibulum nunc blandit ultrices sit sagittis rutrum sed felis in ullamcorper adipiscing." sliderimg={bigcrowed} sliderimg2={crowedcar} sliderimg3={cyclecar} smallheading1="Sit donec" smallheading2="Commodo" smallheading3="Tellus turpis" />
+            <Sliderprops heading="Challenges with Implementing Generative AI" para="Scelerisque integer egestas nunc egestas. Vestibulum nunc blandit ultrices sit sagittis rutrum sed felis in ullamcorper adipiscing." sliderimg={bigcrowed} sliderimg2={crowedcar} sliderimg3={cyclecar} smallheading1="Sit donec" smallheading2="Commodo" smallheading3="Tellus turpis" smallline1="Volutpat ipsum nunc non e molestie  swssa volutpat mauris." smallline2="Volutpat ipsum nunc non e molestie  swssa." smallline3="Ut lacinia quam nascetur vestibulum dui." smallline4="Rutrum velit erat nulla dolor amet tellus" smallline5="Rutrum velit erat nulla dolor amet tellus" smallline6="Viverra lacus imperdiet sed ut est. Neque venenati." smallline7="Risus hendrerit risus" smallline8="Risus hendrerit risus" smallline9="Laoreet vulputate amet semper lectus est sagittis ac. Ultrices enim volutpat " />
         </div>
     )
 }
