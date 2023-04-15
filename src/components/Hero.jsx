@@ -4,12 +4,16 @@ import pcImg1 from "../assets/img/png/pc_img1.png";
 import pcImg2 from "../assets/img/png/pc_img2.png";
 import pcImg3 from "../assets/img/png/pc_img3.png";
 import curlyLine from "../assets/img/png/curly_line.png";
-import { Container } from "react-bootstrap";
+import { Col, Container } from "react-bootstrap";
 import purplelight from "../assets/img/png/purple_light.png";
 import herogreenLight from "../assets/img/png/hero_green_light.png";
 import Green_btn from "./Green_btn";
 import { Link } from "react-router-dom";
-import linear_bg from "../assets/img/png/linear_bg_black.png"
+import linear_bg from "../assets/img/png/linear_bg_black.png";
+import AiTool1 from "../assets/img/png/hero_sm_circle1.png";
+import AiTool2 from "../assets/img/png/hero_sm_circle2.png";
+import AiTool3 from "../assets/img/png/hero_sm_circle3.png";
+import AiTool4 from "../assets/img/png/hero_sm_circle4.png";
 
 const Hero = () => {
   return (
@@ -33,6 +37,20 @@ const Hero = () => {
                   <Green_btn any_text="Explore" />
                 </Link>
               </div>
+              <div className="row d-xl-none justify-content-center  mb-5 ">
+                <Col sm={3} xs={5} className="text-center mb-4 mb-sm-0">
+                  <img src={AiTool1} alt="ai tools" />
+                </Col>
+                <Col sm={3} xs={5} className="text-center mb-4 mb-sm-0">
+                  <img src={AiTool2} alt="ai tools" />
+                </Col>
+                <Col sm={3} xs={5} className="text-center">
+                  <img src={AiTool3} alt="ai tools" />
+                </Col>
+                <Col sm={3} xs={5} className="text-center">
+                  <img src={AiTool4} alt="ai tools" />
+                </Col>
+              </div>
               <div className="d-flex flex-sm-row flex-column w-100 justify-content-center pt-3 curly_line_bg gap_87 position-relative ">
                 <div className="max_width270 position-relative index_1">
                   <img className="w-100 px-5 px-sm-0" src={pcImg1} alt="img" />
@@ -52,7 +70,7 @@ const Hero = () => {
           <div className="blue_light  home_bluelight_position"></div>
           <div className="green_light  home_greenlight_position"></div>
           <div className="linear_hero_bottom">
-            <img className="w-100 h-100" src={linear_bg} alt="bg" />
+           <div className="w-100 h-100 linear_black_bg"></div>
           </div>
         </section>
       </header>
