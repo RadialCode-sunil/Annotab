@@ -225,32 +225,7 @@
 
 }
 
-.Team_slider_visible .slick-list {
-  overflow: visible;
-  position: relative;
-}
 
-.Team_slider_visible .slick-list::after {
-  content: ' ';
-  position: absolute;
-  top: -5px;
-  bottom: 0px;
-  width: 4000px;
-  padding: 20px;
-  right: 100%;
-  background-color: var(--color-darkblue);
-}
-
-.Team_slider_visible .slick-list::before {
-  content: ' ';
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  width: 4000px;
-  left: 105%;
-  background-color: var(--color-darkblue);
-  z-index: 1;
-}
 
 /* Lorem_Epsum */
 
@@ -656,6 +631,36 @@
 
 
 @media (min-width:1200px) {
+
+  /* Team_slider_visible */
+  
+  .Team_slider_visible .slick-list {
+    overflow: visible;
+    position: relative;
+  }
+
+  .Team_slider_visible .slick-list::after {
+    content: ' ';
+    position: absolute;
+    top: -5px;
+    bottom: 0px;
+    width: 4000px;
+    padding: 20px;
+    right: 100%;
+    background-color: var(--color-darkblue);
+  }
+
+  .Team_slider_visible .slick-list::before {
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 4000px;
+    left: 105%;
+    background-color: var(--color-darkblue);
+    z-index: 1;
+  }
+
   .Lorem_Epsum_Amet::after {
     content: '';
     position: absolute;
