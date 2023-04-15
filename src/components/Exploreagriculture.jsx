@@ -22,11 +22,11 @@ const Exploreagriculture = (props) => {
                             <p className=' ff_Medium fs_lg text-white fw_400'>Commodo</p>
                             <ul className='ps-0' >
                                 <ul className='list_style_circle'>
-                                    <li className=' grey ff_Book  fs_sm fw_300 max_width_291  list_style'>Rutrum velit erat nulla dolor amet tellus</li>
+                                    <li className=' grey ff_Book  fs_sm fw_300 max_width_291  list_style whitelight_clr'>Rutrum velit erat nulla dolor amet tellus</li>
 
                                 </ul>
                                 <ul>
-                                    <li className='grey ff_Book  fs_sm fw_300 max_width_291 list_style'>Viverra lacus imperdiet sed ut est. Neque venenati.</li>
+                                    <li className='grey ff_Book  fs_sm fw_300 max_width_291 list_style whitelight_clr'>Viverra lacus imperdiet sed ut est. Neque venenati.</li>
                                 </ul>
                             </ul>
                         </div>
@@ -35,40 +35,75 @@ const Exploreagriculture = (props) => {
                         <img className=' w-100' src={agri2} alt="" />
                         <div className=' explore_sec position-absolute top-50  start-50'>
                             <p className=' ff_Medium fs_lg text-white fw_400'>Commodo</p>
-                            <p className=' grey ff_Book  fs_sm fw_300 max_width_291'>Rutrum velit erat nulla dolor amet tellus</p>
-                            <p className='grey ff_Book  fs_sm fw_300 max_width_291'>Viverra lacus imperdiet sed ut est. Neque venenati.</p>
+                            <ul className='ps-0' >
+                                <ul className='list_style_circle'>
+                                    <li className=' grey ff_Book  fs_sm fw_300 max_width_291  list_style whitelight_clr'>Rutrum velit erat nulla dolor amet tellus</li>
+
+                                </ul>
+                                <ul>
+                                    <li className='grey ff_Book  fs_sm fw_300 max_width_291 list_style whitelight_clr'>Viverra lacus imperdiet sed ut est. Neque venenati.</li>
+                                </ul>
+                            </ul>
                         </div>
                     </div>
                     <div className='agri_3 command_box position-relative'>
                         <img className=' w-100' src={agri3} alt="" />
                         <div className=' explore_sec position-absolute top-50  start-50'>
                             <p className=' ff_Medium fs_lg text-white fw_400'>Commodo</p>
-                            <p className=' grey ff_Book  fs_sm fw_300 max_width_291'>Rutrum velit erat nulla dolor amet tellus</p>
-                            <p className='grey ff_Book  fs_sm fw_300 max_width_291'>Viverra lacus imperdiet sed ut est. Neque venenati.</p>
+                            <ul className='ps-0' >
+                                <ul className='list_style_circle'>
+                                    <li className=' grey ff_Book  fs_sm fw_300 max_width_291  list_style whitelight_clr'>Rutrum velit erat nulla dolor amet tellus</li>
+
+                                </ul>
+                                <ul>
+                                    <li className='grey ff_Book  fs_sm fw_300 max_width_291 list_style whitelight_clr'>Viverra lacus imperdiet sed ut est. Neque venenati.</li>
+                                </ul>
+                            </ul>
                         </div>
                     </div>
                     <div className='agri_4 command_box position-relative'>
                         <img className=' w-100' src={agri4} alt="" />
                         <div className=' explore_sec position-absolute top-50  start-50'>
                             <p className=' ff_Medium fs_lg text-white fw_400'>Commodo</p>
-                            <p className=' grey ff_Book  fs_sm fw_300 max_width_291'>Rutrum velit erat nulla dolor amet tellus</p>
-                            <p className='grey ff_Book  fs_sm fw_300 max_width_291'>Viverra lacus imperdiet sed ut est. Neque venenati.</p>
+                            <ul className='ps-0' >
+                                <ul className='list_style_circle'>
+                                    <li className=' grey ff_Book  fs_sm fw_300 max_width_291  list_style whitelight_clr'>Rutrum velit erat nulla dolor amet tellus</li>
+
+                                </ul>
+                                <ul>
+                                    <li className='grey ff_Book  fs_sm fw_300 max_width_291 list_style whitelight_clr'>Viverra lacus imperdiet sed ut est. Neque venenati.</li>
+                                </ul>
+                            </ul>
                         </div>
                     </div>
                     <div className='agri_5 command_box position-relative'>
                         <img className=' w-100' src={agri5} alt="" />
                         <div className=' explore_sec position-absolute top-50  start-50'>
                             <p className=' ff_Medium fs_lg text-white fw_400'>Commodo</p>
-                            <p className=' grey ff_Book  fs_sm fw_300 max_width_291'>Rutrum velit erat nulla dolor amet tellus</p>
-                            <p className='grey ff_Book  fs_sm fw_300 max_width_291'>Viverra lacus imperdiet sed ut est. Neque venenati.</p>
+                            <ul className='ps-0' >
+                                <ul className='list_style_circle'>
+                                    <li className=' grey ff_Book  fs_sm fw_300 max_width_291  list_style whitelight_clr'>Rutrum velit erat nulla dolor amet tellus</li>
+
+                                </ul>
+                                <ul>
+                                    <li className='grey ff_Book  fs_sm fw_300 max_width_291 list_style whitelight_clr'>Viverra lacus imperdiet sed ut est. Neque venenati.</li>
+                                </ul>
+                            </ul>
                         </div>
                     </div>
                     <div className='agri_6 command_box position-relative'>
                         <img className=' w-100' src={agri6} alt="" />
                         <div className=' explore_sec position-absolute top-50  start-50'>
                             <p className=' ff_Medium fs_lg text-white fw_400'>Commodo</p>
-                            <p className=' grey ff_Book  fs_sm fw_300 max_width_291'>Rutrum velit erat nulla dolor amet tellus</p>
-                            <p className='grey ff_Book  fs_sm fw_300 max_width_291'>Viverra lacus imperdiet sed ut est. Neque venenati.</p>
+                            <ul className='ps-0' >
+                                <ul className='list_style_circle'>
+                                    <li className=' grey ff_Book  fs_sm fw_300 max_width_291  list_style whitelight_clr'>Rutrum velit erat nulla dolor amet tellus</li>
+
+                                </ul>
+                                <ul>
+                                    <li className='grey ff_Book  fs_sm fw_300 max_width_291 list_style whitelight_clr' >Viverra lacus imperdiet sed ut est. Neque venenati.</li>
+                                </ul>
+                            </ul>
                         </div>
                     </div>
 
