@@ -9,11 +9,11 @@ import threddisplay from '../assets/img/png/threddisplay.png'
 
 const Process = () => {
     return (
-        <div className='darkblue position-relative pt-5 pb-5 '>
+        <div className='darkblue position-relative pt-5 pb-0 pb-xl-5 '>
             <img className=' position-absolute Team_green_light' src={greenboll} alt="greenboll" />
-            <Container>
-                <Row className=' align-items-center'>
-                    <Col xs={12} xl={6}>
+            <Container className='pb-5 pt-5'>
+                <Row className=' align-items-center flex-column-reverse flex-xl-row'>
+                    <Col xs={12} xl={6} className='pt-5 pt-xl-0'>
                         <img className=' img-fluid d-sm-none pb-4' src={threedisplay} alt="threedisplay" />
                         <div className=' position-relative w-100 '>
                             <div className=' seconddisplay_img1 '>

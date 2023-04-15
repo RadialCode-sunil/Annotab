@@ -32,17 +32,6 @@
   -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(10px) !important;
 }
-.dotted_bg {
-  background-image: url(./assets/img/png/dotted-background.png);
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: top;
-}
-@media (min-width: 1200px) {
-  .dotted_bg {
-    background-position-y: -4%;
-  }
-}
 
 select option {
   margin: 40px;
@@ -74,34 +63,15 @@ select option {
 .gap_87 {
   gap: 20px;
 }
-@media (min-width: 768px) {
-  .gap_87 {
-    gap: 87px;
-  }
-  .px_md_100 {
-    padding-left: 100px !important;
-    padding-right: 100px !important;
-  }
-  .end_sm_n70 {
-    right: -250px;
-  }
-  .dotted_bg {
-    background-position-y: -105%;
-  }
+.dotted_bg {
+  background-image: url(./assets/img/png/bg_dotted_2.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
 }
-@media (min-width: 992px) {
-  .end_sm_n70 {
-    right: -70px;
-  }
-  .dotted_bg {
-    background-position-y: -4%;
-  }
-}
-@media (min-width: 1401px) {
-  .dotted_bg {
-    background-position-y: -22%;
-    background-size: 100em;
-  }
+
+.linear_black_bg {
+  background: linear-gradient(180deg, #020202 0%, rgba(2, 2, 2, 0) 100%);
 }
 
 .top_47p {
@@ -140,20 +110,6 @@ select option {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-@media (max-width: 992px) {
-  .sm_view {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: fixed;
-    left: -100%;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: #110721;
-    transition: all 0.5s linear;
-  }
 }
 
 .accordion-button:focus {
@@ -213,34 +169,6 @@ input[type="checkbox"]:checked ~ .Menuicon .icon_span {
   background-position-x: left;
   background-position-y: top;
   background-repeat: no-repeat;
-}
-@media (max-width: 768px) {
-  .gif_img {
-    width: 100%;
-    transform: scale(1.5);
-  }
-}
-@media (min-width: 768px) {
-  .gif_img {
-    position: absolute;
-    left: 211px;
-    top: -175px;
-  }
-}
-@media (min-width: 992px) {
-  .gif_img {
-    position: absolute;
-    left: 311px;
-    top: -175px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .gif_img {
-    position: absolute;
-    left: 548px;
-    top: -175px;
-  }
 }
 
 .linear_hero_bottom {
@@ -346,15 +274,114 @@ input[type="checkbox"]:checked ~ .Menuicon .icon_span {
 .z_index_10 {
   z-index: 10;
 }
-.links_opacity_70
-{
+.links_opacity_70 {
   opacity: 75%;
 }
-.accordion-button:not(.collapsed){
+.accordion-button:not(.collapsed) {
   color: #00ffcc !important;
 }
-.accordion-body{
+.accordion-body {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   line-height: inherit;
+}
+.bg_circle_position {
+  background-position: center;
+  bottom: 203px;
+}
+.max_w_1558 {
+  max-width: 1558px;
+}
+.linear-shade_black {
+  background: linear-gradient(180deg, #020202 0%, rgba(2, 2, 2, 0) 100%);
+}
+
+.ai_tool_width {
+  max-width: 77px;
+}
+.ai_tool_line::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-top: 2px dashed white;
+  top: 50%;
+}
+
+@media (max-width: 768px) {
+  .linear_hero_bottom {
+    height: 90px;
+  }
+  .gif_img {
+    width: 100%;
+    transform: scale(1.5);
+  }
+}
+@media (max-width: 992px) {
+  .sm_view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #110721;
+    transition: all 0.5s linear;
+  }
+}
+
+@media (min-width: 768px) {
+  .gif_img {
+    position: absolute;
+    left: 211px;
+    top: -175px;
+  }
+  .gap_87 {
+    gap: 87px;
+  }
+  .px_md_100 {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+  .end_sm_n70 {
+    right: -250px;
+  }
+}
+@media (min-width: 992px) {
+  .gif_img {
+    position: absolute;
+    left: 311px;
+    top: -175px;
+  }
+  .end_sm_n70 {
+    right: -70px;
+  }
+}
+@media (min-width: 1100px) {
+  .min_vh_100 {
+    min-height: 100vh !important;
+  }
+}
+@media (min-width: 1200px) {
+  .gif_img {
+    position: absolute;
+    left: 548px;
+    top: -175px;
+  }
+  .dotted_bg {
+    background-image: url(./assets/img/png/dotted-background.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+  }
+  .dotted_bg {
+    background-position-y: 19%;
+    background-size: contain;
+  }
+}
+@media (min-width: 1401px) {
+  .dotted_bg {
+    background-position-y: -22%;
+    background-size: 100em;
+  }
 }
