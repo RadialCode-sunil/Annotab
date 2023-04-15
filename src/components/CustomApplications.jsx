@@ -4,7 +4,7 @@ import design from '../assets/img/png/designimage.png'
 import Green_btn from './Green_btn';
 export const CustomApplication = () => {
     return (
-        <Container>
+        <Container className=' py-3 py-lg-5'>
             <Row className='py-5'>
                 <Col xs={12} xl={6} className=' d-flex flex-column pb-5 pb-xl-0 justify-content-center align-items-center align-items-xl-start text-center text-xl-start'>
                     <p className='mb-0 ff_Medium grey fs_3xl lh_140p mx_480_xl'>Custom Applications
