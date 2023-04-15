@@ -11,7 +11,7 @@ const Process = () => {
     return (
         <div className='darkblue position-relative pt-5 pb-5 '>
             <img className=' position-absolute Team_green_light' src={greenboll} alt="greenboll" />
-            <Container>
+            <Container className='pb-5 pt-5'>
                 <Row className=' align-items-center'>
                     <Col xs={12} xl={6}>
                         <img className=' img-fluid d-sm-none pb-4' src={threedisplay} alt="threedisplay" />
