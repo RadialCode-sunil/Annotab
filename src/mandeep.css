@@ -53,7 +53,9 @@
     transform: scale(1.1);
 }
 
-
+.pt_30{
+    padding-top: 30px !important;
+}
 @media (min-width:576px) {
     .seconddisplay_img1 {
         position: absolute;
