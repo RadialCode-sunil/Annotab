@@ -9,28 +9,29 @@ import AccordionAnno from './AccordionAnno';
 
 const Product = () => {
     return (
-        <Container className=' position-relative'>
+        <section className=' py-5 py-lg-5 my-4'>
+            <Container className=' position-relative'>
 
-            <div className=' text-center justify-content-center d-flex align-items-center flex-column'>
-                <p className=' ff_Medium  fs_3xl grey fw_400'>Product</p>
-                <p className=' ff_Book  fs_sm grey fw_400 max_width_459'>Ultricies in integer semper pharetra. vestibulum.Ultricies in integer semper pharetra. vestibulum.</p>
-            </div>
-            <div className='blur_image'></div>
-            <Row className='mt-5 pt-5 align-items-center'>
-                <Col xs={12} lg={6}>
-                    <div className=' '>
-                        {/* <img className=' position-absolute blue_img' src={bluelihgt} alt="" /> */}
-                        <AccordionAnno />
+                <div className=' text-center justify-content-center d-flex align-items-center flex-column'>
+                    <p className=' ff_Medium  fs_3xl grey fw_400'>Product</p>
+                    <p className=' ff_Book  fs_sm grey fw_400 max_width_459'>Ultricies in integer semper pharetra. vestibulum.Ultricies in integer semper pharetra. vestibulum.</p>
+                </div>
+                <Row className='mt-lg-5 pt-3 pt-lg-5'>
+                    <Col xs={12} lg={6}>
+                        <div>
+                            <img className=' position-absolute blue_img' src={bluelihgt} alt="" />
+                            <AccordionAnno />
 
-                    </div>
-                </Col>
-                <Col xs={12} lg={6} className='text-end'>
-                    <img className='img-fluid w_100  h-100 mt-3 mt-lg-0' src={person} alt="" />
+                        </div>
+                    </Col>
+                    <Col xs={12} lg={6} className='text-end'>
+                        <img className='img-fluid w_100  h-100 mt-3 mt-lg-0' src={person} alt="" />
 
-                </Col>
+                    </Col>
 
-            </Row>
-        </Container>
+                </Row>
+            </Container>
+        </section>
     )
 }
 

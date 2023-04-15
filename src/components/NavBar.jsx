@@ -338,7 +338,7 @@ const NavBar = () => {
                   </div>
                 </li>
               </ul>
-              <Green_btn any_text="Sign&nbsp;up" />
+              <Green_btn any_text="Sign&nbsp;Up" />
             </div>
             <div className="d-flex align-items-start  d-lg-none sm_view nav_left0 px_md_100 px-sm-5 ">
               <div className="ps_20 pb-1">
@@ -357,7 +357,7 @@ const NavBar = () => {
                         className="fs_sm text-white ff_Book p-0 links_opacity_70"
                         href="#"
                       >
-                        Annotab<span className="ff_arial">&</span>nbsp;Studio
+                        Annotab&nbsp;Studio
                       </a>
                     </Link>
                     <Link className="hover_green py-0">
@@ -365,7 +365,7 @@ const NavBar = () => {
                         className="fs_sm text-white ff_Book p-0 links_opacity_70"
                         href="#"
                       >
-                        Video<span className="ff_arial">&</span>nbsp;Annotab{" "}
+                        Video&nbsp;Annotab{" "}
                       </a>
                     </Link>
                     <Link className="hover_green py-0">
@@ -373,7 +373,7 @@ const NavBar = () => {
                         className="fs_sm text-white ff_Book p-0 links_opacity_70"
                         href="#"
                       >
-                        Images<span className="ff_arial">&</span>nbsp;Annotab{" "}
+                        Images&nbsp;Annotab{" "}
                       </a>
                     </Link>
                     <Link className="hover_green py-0">
@@ -559,7 +559,7 @@ const NavBar = () => {
                 </Accordion.Item>
               </Accordion>
               <div className="ps_20">
-                <Green_btn any_text="Sign up" />
+                <Green_btn any_text="Sign Up" />
               </div>
             </div>
           </div>

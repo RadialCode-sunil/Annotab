@@ -9,7 +9,7 @@ const Team = () => {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 2.30,
+        slidesToShow: 2.22,
         slidesToScroll: 1,
         arrows: false,
         centerMode: true,
@@ -22,12 +22,12 @@ const Team = () => {
             {
                 breakpoint: 1400,
                 settings: {
-                    slidesToShow: 2.10,
+                    slidesToShow: 2.22,
                     slidesToScroll: 1,
                     infinite: true,
                     dots: false,
-                    centerMode: true,
-                    centerPadding: "0px",
+                    // centerMode: true,
+                    // centerPadding: "0px",
                 }
             },
             {
@@ -38,7 +38,7 @@ const Team = () => {
                     infinite: true,
                     dots: false,
                     centerMode: true,
-                    centerPadding: "37px",
+                    centerPadding: "50px",
                 }
             },
             {
@@ -57,20 +57,10 @@ const Team = () => {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     dots: true,
-                    centerMode: true,
-                    centerPadding: "-10px",
+                    centerMode: false, 
+                    centerPadding: "0px",
                 }
             },
-            {
-                breakpoint: 568,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    dots: true,
-                    centerMode: true,
-                    centerPadding: "-0px",
-                }
-            }
         ]
     };
     return (

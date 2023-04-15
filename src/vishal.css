@@ -222,6 +222,10 @@
         }
     }
 
+    #max_width_703 {
+        max-width: 703px !important;
+    }
+
     @media (min-width:1200px) {
         .max_width_876 {
             width: 876px;
@@ -243,9 +247,6 @@
             max-width: 291px;
         }
 
-        #max_width_704 {
-            max-width: 703px;
-        }
 
         #max_width_480 {
             max-width: 480px !important;

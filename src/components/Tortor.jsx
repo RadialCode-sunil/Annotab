@@ -19,7 +19,7 @@ import tortor_13 from '../assets/img/png/tortor_13.png';
 
 const Tortor = () => {
     return (
-        <div className=' position-relative'>
+        <div className=' position-relative py-5'>
 
             <div className='z_index_1 max_width_876  d-inline-block position-absolute top-50 start_50  translate_middle  transform_y__50  text-center'>
 
