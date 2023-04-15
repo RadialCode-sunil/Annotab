@@ -20,13 +20,13 @@ const Exploreagriculture = (props) => {
                         <img className=' w-100' src={agri} alt="" />
                         <div className=' explore_sec position-absolute top-50  start-50'>
                             <p className=' ff_Medium fs_lg text-white fw_400'>Commodo</p>
-                            <ul className='ps-0' >
+                            <ul className='ps-0 mb-0' >
                                 <li className='list_style_circle'>
                                     <p className=' grey ff_Book  fs_sm fw_300 max_width_291 '>Rutrum velit erat nulla dolor amet tellus</p>
 
                                 </li>
                                 <li>
-                                    <p className='grey ff_Book  fs_sm fw_300 max_width_291'>Viverra lacus imperdiet sed ut est. Neque venenati.</p>
+                                    <p className='grey ff_Book  fs_sm fw_300 max_width_291 mb-0'>Viverra lacus imperdiet sed ut est. Neque venenati.</p>
                                 </li>
                             </ul>
                         </div>
@@ -36,7 +36,7 @@ const Exploreagriculture = (props) => {
                         <div className=' explore_sec position-absolute top-50  start-50'>
                             <p className=' ff_Medium fs_lg text-white fw_400'>Commodo</p>
                             <p className=' grey ff_Book  fs_sm fw_300 max_width_291'>Rutrum velit erat nulla dolor amet tellus</p>
-                            <p className='grey ff_Book  fs_sm fw_300 max_width_291'>Viverra lacus imperdiet sed ut est. Neque venenati.</p>
+                            <p className='grey ff_Book  fs_sm fw_300 max_width_291 mb-0'>Viverra lacus imperdiet sed ut est. Neque venenati.</p>
                         </div>
                     </div>
                     <div className='agri_3 command_box position-relative'>
@@ -44,7 +44,7 @@ const Exploreagriculture = (props) => {
                         <div className=' explore_sec position-absolute top-50  start-50'>
                             <p className=' ff_Medium fs_lg text-white fw_400'>Commodo</p>
                             <p className=' grey ff_Book  fs_sm fw_300 max_width_291'>Rutrum velit erat nulla dolor amet tellus</p>
-                            <p className='grey ff_Book  fs_sm fw_300 max_width_291'>Viverra lacus imperdiet sed ut est. Neque venenati.</p>
+                            <p className='grey ff_Book  fs_sm fw_300 max_width_291 mb-0'>Viverra lacus imperdiet sed ut est. Neque venenati.</p>
                         </div>
                     </div>
                     <div className='agri_4 command_box position-relative'>
@@ -52,7 +52,7 @@ const Exploreagriculture = (props) => {
                         <div className=' explore_sec position-absolute top-50  start-50'>
                             <p className=' ff_Medium fs_lg text-white fw_400'>Commodo</p>
                             <p className=' grey ff_Book  fs_sm fw_300 max_width_291'>Rutrum velit erat nulla dolor amet tellus</p>
-                            <p className='grey ff_Book  fs_sm fw_300 max_width_291'>Viverra lacus imperdiet sed ut est. Neque venenati.</p>
+                            <p className='grey ff_Book  fs_sm fw_300 max_width_291 mb-0'>Viverra lacus imperdiet sed ut est. Neque venenati.</p>
                         </div>
                     </div>
                     <div className='agri_5 command_box position-relative'>
@@ -60,7 +60,7 @@ const Exploreagriculture = (props) => {
                         <div className=' explore_sec position-absolute top-50  start-50'>
                             <p className=' ff_Medium fs_lg text-white fw_400'>Commodo</p>
                             <p className=' grey ff_Book  fs_sm fw_300 max_width_291'>Rutrum velit erat nulla dolor amet tellus</p>
-                            <p className='grey ff_Book  fs_sm fw_300 max_width_291'>Viverra lacus imperdiet sed ut est. Neque venenati.</p>
+                            <p className='grey ff_Book  fs_sm fw_300 max_width_291 mb-0'>Viverra lacus imperdiet sed ut est. Neque venenati.</p>
                         </div>
                     </div>
                     <div className='agri_6 command_box position-relative'>
@@ -68,7 +68,7 @@ const Exploreagriculture = (props) => {
                         <div className=' explore_sec position-absolute top-50  start-50'>
                             <p className=' ff_Medium fs_lg text-white fw_400'>Commodo</p>
                             <p className=' grey ff_Book  fs_sm fw_300 max_width_291'>Rutrum velit erat nulla dolor amet tellus</p>
-                            <p className='grey ff_Book  fs_sm fw_300 max_width_291'>Viverra lacus imperdiet sed ut est. Neque venenati.</p>
+                            <p className='grey ff_Book  fs_sm fw_300 max_width_291 mb-0'>Viverra lacus imperdiet sed ut est. Neque venenati.</p>
                         </div>
                     </div>
 
